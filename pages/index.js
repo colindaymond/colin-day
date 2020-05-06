@@ -12,7 +12,7 @@ const Home = () => (
       </h2>
 
       <p className="description">
-        <code>words and pictures</code>
+        words and pictures
       </p>
 
       <div className="grid">
@@ -126,7 +126,7 @@ const Home = () => (
 
       .description {
         line-height: 1.5;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
       }
 
       code {
@@ -174,7 +174,7 @@ const Home = () => (
 
       .card p {
         margin: 0;
-        font-size: 1.25rem;
+        font-size: 1.1rem;
         line-height: 1.5;
       }
 
