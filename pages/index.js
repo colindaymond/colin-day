@@ -3,14 +3,13 @@ import Head from 'next/head'
 const Home = () => (
   <div className="container">
     <Head>
-      <title>Create Next App</title>
-      <link rel="icon" href="/favicon.ico" />
+      <title>c01in &#129305;&#127996;</title>
     </Head>
 
     <main>
-      <h1 className="title">
+      <h2 className="title">
         c01in
-      </h1>
+      </h2>
 
       <p className="description">
         <code>words and pictures</code>
@@ -114,7 +113,7 @@ const Home = () => (
       .title {
         margin: 0;
         line-height: 1.15;
-        font-size: 4rem;
+        font-size: 3rem;
       }
 
       .title,
