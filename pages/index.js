@@ -32,7 +32,7 @@ const Home = () => (
           className="card"
         >
           <h3>moving pictures &rarr;</h3>
-          <p>on air: south china 2001, age 11a</p>
+          <p>on air: south china 2001, age 11</p>
         </a>
 
         <a
@@ -53,7 +53,7 @@ const Home = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by &#129305;&#127996;
+        powered by &#129305;&#127996;
       </a>
     </footer>
 
