@@ -48,13 +48,7 @@ const Home = () => (
     </main>
 
     <footer>
-      <a
-        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        powered by &#129305;&#127996;
-      </a>
+        &#129305;&#127996;
     </footer>
 
     <style jsx>{`
