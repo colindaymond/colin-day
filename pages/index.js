@@ -3,7 +3,7 @@ import Head from 'next/head'
 const Home = () => (
   <div className="container">
     <Head>
-      <title>c01in &#129305;&#127996;</title>
+      <title>&#129305;&#127996;</title>
     </Head>
 
     <main>
