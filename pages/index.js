@@ -9,11 +9,11 @@ const Home = () => (
 
     <main>
       <h1 className="title">
-        hi, i'm c01in
+        c01in
       </h1>
 
       <p className="description">
-        <code>pictures and words</code>
+        <code>words and pictures</code>
       </p>
 
       <div className="grid">
@@ -53,7 +53,7 @@ const Home = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by <p>&#129305;&#127996;</p>
+        Powered by &#129305
       </a>
     </footer>
 
