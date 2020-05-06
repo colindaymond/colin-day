@@ -17,7 +17,7 @@ const Home = () => (
       </p>
 
       <div className="grid">
-        <a href="https://venturing.io" className="card">
+        <a href="https://www.venturing.io" className="card">
           <h3>words &rarr;</h3>
           <p>words from my blog, venturing</p>
         </a>
