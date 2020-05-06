@@ -9,7 +9,7 @@ const Home = () => (
 
     <main>
       <h2 className="title">
-        c01in
+        c01in & m4x
       </h2>
 
       <p className="description">
