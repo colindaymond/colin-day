@@ -9,39 +9,39 @@ const Home = () => (
 
     <main>
       <h1 className="title">
-        Welcome to 11.37 May 6 <a href="https://nextjs.org">Next.js!</a>
+        hi, i'm c01in
       </h1>
 
       <p className="description">
-        Get started by editing <code>pages/index.js</code>
+        <code>pictures and words</code>
       </p>
 
       <div className="grid">
-        <a href="https://nextjs.org/docs" className="card">
-          <h3>Documentation &rarr;</h3>
-          <p>Find in-depth information about Next.js features and API.</p>
+        <a href="https://venturing.io" className="card">
+          <h3>words &rarr;</h3>
+          <p>words from my blog, venturing</p>
         </a>
 
-        <a href="https://nextjs.org/learn" className="card">
-          <h3>Learn &rarr;</h3>
-          <p>Learn about Next.js in an interactive course with quizzes!</p>
-        </a>
-
-        <a
-          href="https://github.com/zeit/next.js/tree/master/examples"
-          className="card"
-        >
-          <h3>Examples &rarr;</h3>
-          <p>Discover and deploy boilerplate example Next.js projects.</p>
+        <a href="https://venturing.io/photographs/" className="card">
+          <h3>pictures &rarr;</h3>
+          <p>souvenirs from the journey</p>
         </a>
 
         <a
-          href="https://vercel.com/new?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://www.youtube.com/watch?v=z9mjK8DYE3A&t=213s"
           className="card"
         >
-          <h3>Deploy &rarr;</h3>
+          <h3>moving pictures &rarr;</h3>
+          <p>my first documentary, age 11 in southern china</p>
+        </a>
+
+        <a
+          href="https://soundcloud.com/coldaymond"
+          className="card"
+        >
+          <h3>tunes &rarr;</h3>
           <p>
-            Instantly deploy your Next.js site to a public URL with Vercel.
+            music i like maybe you like too
           </p>
         </a>
       </div>
@@ -53,7 +53,7 @@ const Home = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by <img src="/vercel.svg" alt="Vercel Logo" />
+        Powered by &#129305;&#127996
       </a>
     </footer>
 
