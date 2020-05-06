@@ -68,7 +68,6 @@ const Home = () => (
 
       main {
         padding: 5rem 0;
-        color: #212121;
         flex: 1;
         display: flex;
         flex-direction: column;
@@ -158,7 +157,7 @@ const Home = () => (
         text-align: left;
         color: inherit;
         text-decoration: none;
-        border: 1px solid #eaeaea;
+        border: 1px solid #333333;
         border-radius: 10px;
         transition: color 0.15s ease, border-color 0.15s ease;
       }
@@ -166,8 +165,8 @@ const Home = () => (
       .card:hover,
       .card:focus,
       .card:active {
-        color: #05c0ff;
-        border-color: #05c0ff;
+        color: #007dfa;
+        border-color: #007dfa;
       }
 
       .card h3 {
