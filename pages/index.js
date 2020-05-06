@@ -100,7 +100,7 @@ const Home = () => (
       }
 
       .title a {
-        color: #0070f3;
+        color: #ff00e7;
         text-decoration: none;
       }
 
@@ -111,9 +111,12 @@ const Home = () => (
       }
 
       .title {
+        color: #ff00e7;
         margin: 0;
         line-height: 1.15;
         font-size: 3rem;
+        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
 
       .title,
