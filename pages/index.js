@@ -174,7 +174,7 @@ const Home = () => (
 
       .card p {
         margin: 0;
-        font-size: 1.1rem;
+        font-size: 1.0rem;
         line-height: 1.5;
       }
 
