@@ -22,7 +22,7 @@ const Home = () => (
           <p>words from my blog, venturing</p>
         </a>
 
-        <a href="https://venturing.io/photographs/" className="card">
+        <a href="https://www.venturing.io/photographs/" className="card">
           <h3>pictures &rarr;</h3>
           <p>souvenirs from the journey</p>
         </a>
