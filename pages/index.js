@@ -9,7 +9,7 @@ const Home = () => (
 
     <main>
       <h1 className="title">
-        <code>c01in</code>
+        c01in
       </h1>
 
       <p className="description">
@@ -79,7 +79,7 @@ const Home = () => (
       footer {
         width: 100%;
         height: 100px;
-        border-top: 1px solid #eaeaea;
+        border-top: 1px solid #ff00e7;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -189,8 +189,8 @@ const Home = () => (
       body {
         padding: 0;
         margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        font-family: -apple-system, Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
 
       * {
