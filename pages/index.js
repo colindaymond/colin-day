@@ -68,7 +68,7 @@ const Home = () => (
 
       main {
         padding: 5rem 0;
-        color: #333333;
+        color: #212121;
         flex: 1;
         display: flex;
         flex-direction: column;
