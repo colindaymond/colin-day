@@ -53,7 +53,7 @@ const Home = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by &#129305
+        Powered by &#129305;&#127996;
       </a>
     </footer>
 
