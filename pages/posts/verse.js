@@ -12,8 +12,6 @@ const Home = () => (
 export default function verse() {
   return (
     <>
-    <main>
-
       <p className="description">
         verse
       </p>
@@ -27,9 +25,6 @@ export default function verse() {
           up above, birdsong.
           </p>
 
-
-    </main>
-
     <h2>
     <Link href="/">
     <a> take me home </a>
@@ -39,9 +34,8 @@ export default function verse() {
     <footer>
         &#129305;&#127996;
     </footer>
-</>
-)
-
+    </>
+  )
 }
 
 
