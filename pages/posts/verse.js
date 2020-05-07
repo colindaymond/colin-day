@@ -22,7 +22,7 @@ export default function verse() {
 
     <h2>
     <Link href="/">
-    <a> take me home </a>
+    <a> $#127962;</a>
     </Link>
     </h2>
 
@@ -177,7 +177,7 @@ export default function verse() {
         box-sizing: border-box;
       }
     `}</style>
-    
+
     </>
   )
 }
