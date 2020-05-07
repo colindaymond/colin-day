@@ -44,7 +44,19 @@ const Home = () => (
             music i like maybe you like too
           </p>
         </a>
+
+        <a
+        href="/pages/posts/verse.js" target="_blank"
+        className="card"
+
+        >
+
+        <h3>verse &rarr;</h3>
+
+        </a>
+
       </div>
+
     </main>
 
     <footer>
