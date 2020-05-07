@@ -1,6 +1,6 @@
-import Head from 'next/head'
-
 import Link from 'next/link'
+
+import Head from 'next/head'
 
 const Home = () => (
   <div className="container">
@@ -48,7 +48,7 @@ const Home = () => (
         </a>
 
         <Link
-        href="/posts/verse.js" target="_blank"
+        href="/posts/verse" target="_blank"
         className="card"
 
         >
