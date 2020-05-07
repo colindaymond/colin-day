@@ -32,7 +32,7 @@ const Home = () => (
           className="card"
         >
           <h3>moving pictures &rarr;</h3>
-          <p>on air: south china 2001, age 11</p>
+          <p>on air: yangshuo, china, 2001</p>
         </a>
 
         <a
