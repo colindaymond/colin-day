@@ -8,42 +8,22 @@ const Home = () => (
     </Head>
 
     <main>
-      <h2 className="title">
-        c01in
-      </h2>
 
       <p className="description">
-        words and pictures
+        verse
       </p>
 
-      <div className="grid">
-        <a href="https://www.venturing.io" target="_blank" className="card">
-          <h3>words &rarr;</h3>
-          <p>words from my blog, venturing</p>
-        </a>
 
-        <a href="https://www.venturing.io/photographs/" target="_blank" className="card">
-          <h3>pictures &rarr;</h3>
-          <p>souvenirs from the journey</p>
-        </a>
-
-        <a
-          href="https://www.youtube.com/watch?v=z9mjK8DYE3A&t=213s" target="_blank"
-          className="card"
-        >
-          <h3>moving pictures &rarr;</h3>
-          <p>on air: yangshuo, china, 2001</p>
-        </a>
-
-        <a
-          href="https://soundcloud.com/coldaymond" target="_blank"
-          className="card"
-        >
-          <h3>tunes &rarr;</h3>
+          <h3>spring</h3>
           <p>
-            music i like maybe you like too
+          the snow melts.
+          water rushing between the trees.
+          pollen on the glass.
+          up above, birdsong.
           </p>
-        </a>
+
+
+
       </div>
     </main>
 
