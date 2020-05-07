@@ -55,8 +55,8 @@ const Home = () => (
         <a>
         <h3>verse &rarr;</h3>
         <p>
-        words, new arrangements
-        <p/>
+          words, new arrangements
+        </p>
         </a>
         </Link>
 
