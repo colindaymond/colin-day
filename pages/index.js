@@ -48,14 +48,14 @@ const Home = () => (
         </a>
 
         <Link
-        href="/posts/verse" target="_blank"
-        className="card"
-
+          href="/posts/verse" target="_blank"
+          className="card"
         >
 
         <a>
         <h3>verse &rarr;</h3>
-
+        <p>
+        words, new arrangements
         </a>
         </Link>
 

@@ -1,16 +1,9 @@
-import Head from 'next/head'
-
 import Link from 'next/link'
 
 export default function verse() {
   return (
 <>
-  <h1>verse</h1>
-<h2>
-<Link href="/">
-<a> take me home </a>
-</Link>
-</h2>
+
 </>
 )
 
@@ -42,6 +35,12 @@ const Home = () => (
 
 
     </main>
+
+    <h2>
+    <Link href="/">
+    <a> take me home </a>
+    </Link>
+    </h2>
 
     <footer>
         &#129305;&#127996;
