@@ -1,13 +1,5 @@
 import Link from 'next/link'
 
-export default function verse() {
-  return (
-<>
-
-</>
-)
-
-}
 
 const Home = () => (
   <div className="container">
@@ -17,7 +9,9 @@ const Home = () => (
     </Head>
 
 
-
+export default function verse() {
+  return (
+    <>
     <main>
 
       <p className="description">
@@ -45,6 +39,11 @@ const Home = () => (
     <footer>
         &#129305;&#127996;
     </footer>
+</>
+)
+
+}
+
 
     <style jsx>{`
       .container {
