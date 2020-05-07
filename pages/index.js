@@ -29,29 +29,21 @@ const Home = () => (
           <p>souvenirs from the journey</p>
         </a>
 
-        <a
-          href="https://www.youtube.com/watch?v=z9mjK8DYE3A&t=213s" target="_blank"
-          className="card"
-        >
+        <a href="https://www.youtube.com/watch?v=z9mjK8DYE3A&t=213s" target="_blank"
+          className="card">
           <h3>moving pictures &rarr;</h3>
           <p>on air: yangshuo, china, 2001</p>
         </a>
 
-        <a
-          href="https://soundcloud.com/coldaymond" target="_blank"
-          className="card"
-        >
+        <a href="https://soundcloud.com/coldaymond" target="_blank"
+          className="card">
           <h3>tunes &rarr;</h3>
           <p>
             music i like maybe you like too
           </p>
         </a>
 
-        <Link
-          href="/posts/verse" target="_blank"
-          className="card"
-        >
-
+        <Link href="/posts/verse" target="_blank" className="card">
         <a>
         <h3>verse &rarr;</h3>
         <p>
