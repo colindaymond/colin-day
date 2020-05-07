@@ -46,7 +46,7 @@ const Home = () => (
         </a>
 
         <a
-        href="/pages/posts/verse.js" target="_blank"
+        href="/posts/verse.js" target="_blank"
         className="card"
 
         >
