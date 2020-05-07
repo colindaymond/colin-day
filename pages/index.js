@@ -1,5 +1,7 @@
 import Head from 'next/head'
 
+import Link from 'next/link'
+
 const Home = () => (
   <div className="container">
     <Head>
@@ -45,15 +47,17 @@ const Home = () => (
           </p>
         </a>
 
-        <a
+        <Link
         href="/posts/verse.js" target="_blank"
         className="card"
 
         >
 
+        <a>
         <h3>verse &rarr;</h3>
 
         </a>
+        </Link>
 
       </div>
 
