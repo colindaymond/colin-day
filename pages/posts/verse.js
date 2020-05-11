@@ -7,7 +7,7 @@ export default function verse() {
   return (
     <>
     <main>
-      <p className="description">
+      <p className="poem-title">
         verse
       </p>
 
@@ -40,6 +40,14 @@ export default function verse() {
           Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
         font-size: 1.0rem;
         text-align: left;
+      }
+
+      .poem-title {
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        font-size: 1.0rem;
+        text-align: left;
+        font-weight: bold;
       }
 
       .container {
