@@ -43,14 +43,12 @@ const Home = () => (
           </p>
         </a>
 
-        <Link href="/posts/verse" target="_blank" className="card">
-        <a>
+        <a href="/posts/verse" target="_blank" className="card">
         <h3>verse &rarr;</h3>
         <p>
           words, new arrangements
         </p>
         </a>
-        </Link>
 
       </div>
 
@@ -161,7 +159,7 @@ const Home = () => (
         text-align: left;
         color: inherit;
         text-decoration: none;
-        border: 1px solid #333333;
+        border: 0px solid #333333;
         border-radius: 10px;
         transition: color 0.15s ease, border-color 0.15s ease;
       }
