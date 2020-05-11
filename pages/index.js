@@ -20,34 +20,42 @@ const Home = () => (
 
       <div className="grid">
         <a href="https://www.venturing.io" target="_blank" className="card">
-          <h3>words &rarr;</h3>
+          <h3>words;</h3>
           <p>words from my blog, venturing</p>
         </a>
 
+        <a href="/posts/verse" target="_blank" className="card">
+        <h3>verse;</h3>
+        <p>
+          words, new arrangements
+        </p>
+        </a>
+
         <a href="https://www.venturing.io/photographs/" target="_blank" className="card">
-          <h3>pictures &rarr;</h3>
+          <h3>pictures;</h3>
           <p>souvenirs from the journey</p>
         </a>
 
         <a href="https://www.youtube.com/watch?v=z9mjK8DYE3A&t=213s" target="_blank"
           className="card">
-          <h3>moving pictures &rarr;</h3>
+          <h3>moving pictures;</h3>
           <p>on air: yangshuo, china, 2001</p>
         </a>
 
         <a href="https://soundcloud.com/coldaymond" target="_blank"
           className="card">
-          <h3>tunes &rarr;</h3>
+          <h3>tunes;</h3>
           <p>
             music i like maybe you like too
           </p>
         </a>
 
-        <a href="/posts/verse" target="_blank" className="card">
-        <h3>verse &rarr;</h3>
-        <p>
-          words, new arrangements
-        </p>
+        <a href="https:vanmoof.com" target="_blank"
+          className="card">
+          <h3>random;</h3>
+          <p>
+            random things i like maybe you like too
+          </p>
         </a>
 
       </div>
@@ -156,7 +164,7 @@ const Home = () => (
         margin: 1rem;
         flex-basis: 45%;
         padding: 1.5rem;
-        text-align: left;
+        text-align: center;
         color: inherit;
         text-decoration: none;
         border: 0px solid #333333;
