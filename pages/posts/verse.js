@@ -14,9 +14,9 @@ export default function verse() {
 
           <h3>spring</h3>
           <p>
-          the snow melts<br>
-          water rushing between the trees<br>
-          pollen on the glass<br>
+          the snow melts \n
+          water rushing between the trees \n
+          pollen on the glass \n
           up above, birdsong.
           </p>
 
