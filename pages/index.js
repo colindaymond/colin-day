@@ -50,7 +50,7 @@ const Home = () => (
           </p>
         </a>
 
-        <a href="https:vanmoof.com" target="_blank"
+        <a href="https:www.vanmoof.com" target="_blank"
           className="card">
           <h3>random ;</h3>
           <p>
@@ -77,7 +77,7 @@ const Home = () => (
       }
 
       main {
-        padding: 5rem 0;
+        padding: 2rem 0;
         flex: 1;
         display: flex;
         flex-direction: column;
@@ -157,7 +157,7 @@ const Home = () => (
         flex-wrap: wrap;
 
         max-width: 800px;
-        margin-top: 3rem;
+        margin-top: 2rem;
       }
 
       .card {
