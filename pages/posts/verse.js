@@ -13,12 +13,12 @@ export default function verse() {
 
 
           <h3>spring</h3>
-          <Text>{`
+          <p>{`
           the snow melts
           water rushing between the trees
           pollen on the glass
           up above, birdsong.
-          `}</Text>
+          `}</p>
 
     <h2>
     <Link href="/">
