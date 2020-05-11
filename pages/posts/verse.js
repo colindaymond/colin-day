@@ -12,7 +12,10 @@ export default function verse() {
       </p>
 
 
-          <p className="poem-title">spring</p>
+          <p className="poem-title">
+          spring
+          </p>
+
           <p className="poem">
           the snow melts  <br />
           water rushing between the trees <br />
