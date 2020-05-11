@@ -12,7 +12,7 @@ export default function verse() {
       </p>
 
 
-          <h3 className="poem-title">spring</h3>
+          <p className="poem-title">spring</p>
           <p className="poem">
           the snow melts  <br />
           water rushing between the trees <br />
