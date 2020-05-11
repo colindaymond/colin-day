@@ -7,12 +7,12 @@ export default function verse() {
   return (
     <>
     <main>
-      <p className="poem-title">
+      <p className="description">
         verse
       </p>
 
 
-          <h3>spring</h3>
+          <h3 className="poem-title">spring</h3>
           <p className="poem">
           the snow melts  <br />
           water rushing between the trees <br />
