@@ -13,10 +13,11 @@ export default function verse() {
 
 
           <h3>spring</h3>
-          <p style={{ align-items: left}}>
-          the snow melts
-          water rushing between the trees
+          <p className="poem">
+          the snow melts `/n`
+          water rushing between the trees <br />
           pollen on the glass
+          {'\n'}
           up above, birdsong.
           </p>
 
@@ -35,6 +36,13 @@ export default function verse() {
     </main>
 
     <style jsx>{`
+      .poem {
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        font-size: 1.0rem;
+        text-align: left;
+      }
+
       .container {
         min-height: 100vh;
         padding: 0 0.5rem;
