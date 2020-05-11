@@ -50,7 +50,7 @@ const Home = () => (
           </p>
         </a>
 
-        <a href="https:www.vanmoof.com" target="_blank"
+        <a href="https://www.vanmoof.com" target="_blank"
           className="card">
           <h3>grab bag</h3>
           <p>
