@@ -11,7 +11,11 @@ export default function verse() {
         verse
       </p>
 
-    <div classname="container">
+<View>
+<Scrollview
+horizontal={true}>
+
+<div classname="container">
 
       <p className="poem">
         <b> balearic </b> <br />
@@ -97,6 +101,9 @@ export default function verse() {
             </p>
 
     </div>
+
+</Scrollview>
+</View>
 
     <h2>
     <Link href="/">
