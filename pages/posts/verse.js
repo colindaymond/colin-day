@@ -96,6 +96,10 @@ export default function verse() {
 
             </p>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 76019ce2dfe30fb1e7ae6ccd84adefc5731912a5
 </div>
 
     <h2>
