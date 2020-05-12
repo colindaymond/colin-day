@@ -284,5 +284,8 @@ export default function verse() {
     `}</style>
 
 </>
+
+</div>
+
   )
 }
