@@ -138,9 +138,9 @@ const Home = () => (
 
       .title {
         color: #ff00e7;
-        margin: 0;
+        margin: 1rem;
         line-height: 1.15;
-        font-size: 3rem;
+        font-size: 4rem;
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
