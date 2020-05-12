@@ -106,7 +106,6 @@ const Home = () => (
         height: 100px;
         border-top: 1px solid #ff00e7;
         display: flex;
-        background: #ff00e7;
         justify-content: center;
         align-items: center;
       }
