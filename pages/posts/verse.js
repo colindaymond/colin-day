@@ -5,7 +5,7 @@ import Head from 'next/head'
 export default function verse() {
   return (
 <>
-const Home = () => (
+
   <div className="container">
     <Head>
       <title>c01in</title>
@@ -113,11 +113,14 @@ const Home = () => (
     </Link>
     </h2>
 
+</div>
+
     <footer>
     &#129305;&#127996;
     </footer>
 
     </main>
+
 
     <style jsx>{`
       .poem {
@@ -142,7 +145,7 @@ const Home = () => (
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: left;
       }
 
       main {
@@ -281,7 +284,7 @@ const Home = () => (
         box-sizing: border-box;
       }
     `}</style>
-</div>
+
 </>
   )
 }
