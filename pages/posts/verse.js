@@ -11,7 +11,7 @@ export default function verse() {
         verse
       </p>
 
-    <div classname="container">
+<div className="container">
 
       <p className="poem">
         <b> balearic </b> <br />
@@ -96,7 +96,8 @@ export default function verse() {
 
             </p>
 
-    </div>
+
+</div>
 
     <h2>
     <Link href="/">
