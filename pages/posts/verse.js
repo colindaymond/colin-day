@@ -11,11 +11,13 @@ export default function verse() {
         verse
       </p>
 
+<div>
+
 <View>
 <Scrollview
 horizontal={true}>
 
-<div classname="container">
+
 
       <p className="poem">
         <b> balearic </b> <br />
@@ -100,10 +102,12 @@ horizontal={true}>
 
             </p>
 
-    </div>
+
 
 </Scrollview>
 </View>
+
+</div>
 
     <h2>
     <Link href="/">
