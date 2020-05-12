@@ -4,8 +4,7 @@ import Head from 'next/head'
 
 export default function verse() {
   return (
-    <>
-    
+
 const Home = () => (
   <div className="container">
     <Head>
@@ -283,6 +282,5 @@ const Home = () => (
       }
     `}</style>
 
-    </>
   )
 }
