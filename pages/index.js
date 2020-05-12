@@ -54,7 +54,7 @@ const Home = () => (
           className="card">
           <h3>grab bag</h3>
           <p>
-            random things i like maybe you like too
+            random makes me smile
           </p>
         </a>
 
@@ -62,7 +62,7 @@ const Home = () => (
 
     </main>
 
-    <footer background: #ff00e7 >
+    <footer>
         &#129305;&#127996;
     </footer>
 
@@ -106,6 +106,7 @@ const Home = () => (
         height: 100px;
         border-top: 1px solid #ff00e7;
         display: flex;
+        background: #ff00e7;
         justify-content: center;
         align-items: center;
       }
