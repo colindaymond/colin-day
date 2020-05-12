@@ -4,7 +4,7 @@ import Head from 'next/head'
 
 export default function verse() {
   return (
-<>
+
 
   <div className="container">
     <Head>
@@ -282,8 +282,6 @@ export default function verse() {
         box-sizing: border-box;
       }
     `}</style>
-
-</>
 
 </div>
 
