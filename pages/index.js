@@ -62,7 +62,7 @@ const Home = () => (
 
     </main>
 
-    <footer>
+    <footer background: #ff00e7 >
         &#129305;&#127996;
     </footer>
 
