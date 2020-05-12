@@ -30,13 +30,14 @@ export default function verse() {
         </p>
 
       <p className="poem">
-        <b> spring </b> <br />
+        <b> poem for max </b> <br />
         <br />
         the snow melts  <br />
         water rushing between the trees <br />
         pollen on the glass  <br />
         up above, birdsong.
         </p>
+
 
     </div>
 
@@ -60,7 +61,7 @@ export default function verse() {
           Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
         font-size: 1.0rem;
         text-align: left;
-        padding: 3rem;
+        padding: 2rem;
       }
 
       .poem-title {

@@ -72,6 +72,7 @@ const Home = () => (
           Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
         font-size: 1.0rem;
         text-align: left;
+        padding: 2rem;
       }
 
       .poem-title {
