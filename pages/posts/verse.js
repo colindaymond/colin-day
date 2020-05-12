@@ -68,9 +68,9 @@ export default function verse() {
 
           </p>
 
-          <p className="poem">
-            <b> u-bahn </b> <br />
-            <br />
+  <p className="poem">
+  <b> u-bahn </b> <br />
+  <br />
   I.<br />
   It’s not as if the silence frightens me<br />
   with its quiet pregnancies,<br />
@@ -95,13 +95,6 @@ export default function verse() {
   without contradiction
 
             </p>
-
-<<<<<<< current
-=======
-
->>>>>>> before discard
-
-</div>
 
 </div>
 

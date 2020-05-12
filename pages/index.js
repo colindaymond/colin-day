@@ -54,7 +54,7 @@ const Home = () => (
           className="card">
           <h3>grab bag</h3>
           <p>
-            random things i like maybe you like too
+            random makes me smile
           </p>
         </a>
 
@@ -111,7 +111,7 @@ const Home = () => (
       }
 
       footer img {
-        margin-left: 0.5rem;
+        margin-left: 0rem;
       }
 
       footer a {
