@@ -30,7 +30,7 @@ export default function verse() {
         </p>
 
       <p className="poem">
-        <b> poem for max </b> <br />
+        <b> spring </b> <br />
         <br />
         the snow melts  <br />
         water rushing between the trees <br />
@@ -38,6 +38,14 @@ export default function verse() {
         up above, birdsong.
         </p>
 
+        <p className="poem">
+          <b> poem for max </b> <br />
+          <br />
+        max is a dude  <br />
+          like to eat food <br />
+          dont get dark and brood  <br />
+          just be in the mood
+          </p>
 
     </div>
 
