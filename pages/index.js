@@ -140,7 +140,7 @@ const Home = () => (
         color: #ff00e7;
         margin: 0;
         line-height: 1.15;
-        font-size: 4rem;
+        font-size: 3.5rem;
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
