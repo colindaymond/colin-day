@@ -138,7 +138,7 @@ const Home = () => (
 
       .title {
         color: #ff00e7;
-        margin: 1rem;
+        margin: 0;
         line-height: 1.15;
         font-size: 4rem;
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
@@ -152,7 +152,7 @@ const Home = () => (
 
       .description {
         line-height: 1.5;
-        font-size: 1.1rem;
+        font-size: 0.8rem;
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
