@@ -113,8 +113,6 @@ export default function verse() {
     </Link>
     </h2>
 
-</div>
-
     <footer>
     &#129305;&#127996;
     </footer>
