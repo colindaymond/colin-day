@@ -198,6 +198,8 @@ const Home = () => (
       .card h3 {
         margin: 0 0 1rem 0;
         font-size: 1.5rem;
+        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
 
       .card p {
