@@ -11,6 +11,22 @@ export default function verse() {
         verse
       </p>
 
+      <p className="poem">
+      <b> balearic </b> <br />
+       <br />
+      and in between light and dark is small  <br />
+      it explodes upon the rest of a gaze <br />
+       <br />
+      to find in oneself that very space  <br />
+      to allow it to unfold into the umpteenth dimension <br />
+       <br />
+      and in its edges and corners, flowers blossom <br />
+      speaking in terms all can hear but only the winds listen to<br />
+       <br />
+      the rush of the world. all at once, <br />
+      the soft bake of the sun
+      </p>
+
           <p className="poem">
           <b> spring </b> <br />
            <br />
