@@ -39,13 +39,62 @@ export default function verse() {
         </p>
 
         <p className="poem">
-          <b> poem for max </b> <br />
+          <b> pagi </b> <br />
           <br />
-        max is a dude  <br />
-          like to eat food <br />
-          dont get dark and brood  <br />
-          just be in the mood
+    A man awakes stuck in sticky morning to the sound of a tokay gecko   <br />
+    clinging to the wicker wall above. Through the mosquito net the gecko appears   <br />
+    Sketched onto parchment, all messy and smudged, and the man reaches  <br />
+    up but cannot reach and blinks and it is gone.  <br />
+  <br />
+    He opens his mouth to breathe the Sumatran air  <br />
+    tasting salty like sweat oozing thick like honey  <br />
+    in between the man’s teeth, around his tongue.  <br />
+    His cheeks are so filled with it he expects to choke but does not.  <br />
+  <br />
+    His thoughts skip as stones on a lake without ripples,  <br />
+    clenched anchors clutch the bunched damp sheets.  <br />
+    He fears a wind will soon lift him away yet the air is quiet and still.  <br />
+    In that silence the fear becomes an acceptance and the acceptance a longing.  <br />
+  <br />
+    Next to him lies a silhouette of sweat, of raindrops on paper.  <br />
+    A whisper of someone he once might have known, known completely  <br />
+    without hesitation and without doubt and without fear or restraint.  <br />
+    As the sweat dries beside him the silhouette fades.  <br />
+  <br />
+    He has forgotten why the moon pulls at the ocean tides  <br />
+    or why the stars scream bright only to be swallowed by the yellowing blue of the sun  <br />
+    or why he wakes in the morning or falls to sleep at night.   <br />
+    He knows only that they do and that he does and there is no coincidence in that.
+
           </p>
+
+          <p className="poem">
+            <b> u-bahn </b> <br />
+            <br />
+  I.<br />
+  It’s not as if the silence frightens me<br />
+  with its quiet pregnancies,<br />
+  with its memories of sun-stained mornings,<br />
+  its heavy snowy regrets.<br />
+  No, it’s not as if the silence frightens me<br />
+<br />
+  II.<br />
+  Sometimes when the air is still<br />
+  I remember the wind,<br />
+  the crinkle of it between leaves,<br />
+  the high whisper of it in my ears.<br />
+  Then the white door slams shut<br />
+  all on its own<br />
+<br />
+  III.<br />
+  I envy the bees that dive and float,<br />
+  hovering still and now darting away<br />
+  It’s like they’ve managed to solve<br />
+  how to hold in their tiny minds both <br />
+  purpose and contentment<br />
+  without contradiction
+
+            </p>
 
     </div>
 
