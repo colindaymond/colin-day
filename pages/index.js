@@ -152,7 +152,7 @@ const Home = () => (
 
       .description {
         line-height: 1.5;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
