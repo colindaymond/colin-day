@@ -18,6 +18,14 @@ export default function verse() {
         verse
       </p>
 
+      <h2>
+      <Link href="/">
+      <a>
+      &#127962;&#65039;
+      </a>
+      </Link>
+      </h2>
+
 <div className="container">
 
       <p className="poem">
@@ -105,13 +113,7 @@ export default function verse() {
 
 </div>
 
-    <h2>
-    <Link href="/">
-    <a>
-    &#127962;&#65039;
-    </a>
-    </Link>
-    </h2>
+
 
     <footer>
     &#129305;&#127996;
@@ -218,6 +220,10 @@ export default function verse() {
         font-size: 1.1rem;
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+      }
+
+      .h2 {
+        text-align: right;
       }
 
       .grid {
