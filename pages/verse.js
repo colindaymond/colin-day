@@ -104,18 +104,15 @@ export default function verse() {
 
             </p>
 
-
-                  <h2>
-                  <Link href="/">
-                  <a>
-                  &#127962;&#65039;
-                  </a>
-                  </Link>
-                  </h2>
-
 </div>
 
-
+<h2>
+<Link href="/">
+<a>
+&#127962;&#65039;
+</a>
+</Link>
+</h2>
 
     <footer>
     &#129305;&#127996;
