@@ -18,13 +18,6 @@ export default function verse() {
         verse
       </p>
 
-      <h2>
-      <Link href="/">
-      <a>
-      &#127962;&#65039;
-      </a>
-      </Link>
-      </h2>
 
 <div className="container">
 
@@ -110,6 +103,15 @@ export default function verse() {
   without contradiction
 
             </p>
+
+
+                  <h2>
+                  <Link href="/">
+                  <a>
+                  &#127962;&#65039;
+                  </a>
+                  </Link>
+                  </h2>
 
 </div>
 
