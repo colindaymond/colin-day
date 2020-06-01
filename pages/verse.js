@@ -22,7 +22,7 @@ export default function verse() {
 <div className="container">
 
       <p className="poem">
-        <b> balearic </b> <br />
+        <b> akdeniz </b> <br />
         <br />
         and in between light and dark is small  <br />
         it explodes upon the rest of a gaze <br />
@@ -31,7 +31,7 @@ export default function verse() {
         to allow it to unfold into the umpteenth dimension <br />
         <br />
         and in its edges and corners, flowers blossom <br />
-        speaking a language all can hear but only the wind listens <br />
+        speaking in words we hear but don't listen<br />
         <br />
         the rush of the world. all at once, <br />
         the soft bake of the sun
