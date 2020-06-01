@@ -24,7 +24,7 @@ const Home = () => (
           <p>words from my blog, venturing</p>
         </a>
 
-        <a href="/verse" target="_blank" className="card">
+        <a href="/verse" className="card">
         <h3>verse</h3>
         <p>
           words, new arrangements
