@@ -40,15 +40,9 @@ export default function verse() {
       <p className="poem">
         <b> spring </b> <br />
         <br />
-        the snow   melts  <br />
-        water g
-                u
-                  s
-                    h
-                      i
-                        n
-                          g between the trees <br />
-
+        the snow"   "melts  <br />
+        water rushing between the trees <br />
+        <br />
         pollen on the glass  <br />
         up above: birdsong
         </p>
