@@ -25,7 +25,7 @@ export default function verse() {
   <b> u-bahn </b> <br />
   <br />
   It’s not as if the silence frightens me<br />
-  with its complicated pregnancies,<br />
+  with its milky pregnancies,<br />
   with its memories of sun-stained mornings,<br />
   its heavy snowy regrets.<br />
   It’s not as if the silence frightens me<br />
@@ -106,12 +106,15 @@ export default function verse() {
                 <p className="poem">
                   <b> the virus is a portal </b> <br />
                   <br />
+                  all the numbers we use to measure human behaviour<br />
+                  like GROSS DOMESTIC PRODUCT, GRADE POINT AVERAGES, and SALARIES<br />
+                  are ideas defined by other people<br />
+                  to turn us into numbers<br />
                   <br />
-                  water rushing between the trees <br />
-                  <br />
-                  pollen on the glass  <br />
-                  up above: birdsong
+                  you don't count the hugs and smiles
+                  maybe now we remember
                   </p>
+
 </div>
 
 <h2>
