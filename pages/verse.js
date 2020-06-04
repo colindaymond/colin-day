@@ -40,7 +40,7 @@ export default function verse() {
       <p className="poem">
         <b> spring </b> <br />
         <br />
-        the snow"   "melts  <br />
+        the snow melts  <br />
         water rushing between the trees <br />
         <br />
         pollen on the glass  <br />
@@ -58,16 +58,16 @@ export default function verse() {
     He opens his mouth to breathe the Sumatran air  <br />
     tasting salty like sweat oozing thick like honey  <br />
     in between the man’s teeth, around his tongue.  <br />
-    His cheeks are so filled with it he expects to choke but does not.  <br />
+    His cheeks are so filled with it he almost expects to choke but does not.  <br />
   <br />
     His thoughts skip as stones on a lake without ripples,  <br />
     clenched anchors clutch the bunched damp sheets.  <br />
-    He fears a wind will soon lift him away yet the air is quiet and still.  <br />
+    He fears a wind will soon lift him away yet the air is quiet.  <br />
     In that silence the fear becomes an acceptance and the acceptance a longing.  <br />
   <br />
     Next to him lies a silhouette of sweat, of raindrops on paper.  <br />
     A whisper of someone he once might have known, known completely  <br />
-    without hesitation and without doubt and without fear or restraint.  <br />
+    without hesitation and without doubt and without restraint.  <br />
     As the sweat dries beside him the silhouette fades.  <br />
   <br />
     He has forgotten why the moon pulls at the ocean tides  <br />
@@ -82,18 +82,18 @@ export default function verse() {
   <br />
   I.<br />
   It’s not as if the silence frightens me<br />
-  with its quiet pregnancies,<br />
+  with its complicated pregnancies,<br />
   with its memories of sun-stained mornings,<br />
   its heavy snowy regrets.<br />
-  No, it’s not as if the silence frightens me<br />
+  It’s not as if the silence frightens me<br />
 <br />
   II.<br />
   Sometimes when the air is still<br />
   I remember the wind,<br />
   the crinkle of it between leaves,<br />
   the high whisper of it in my ears.<br />
-  Then the white door slams shut<br />
-  all on its own<br />
+  And the white door slams shut<br />
+  slowly but quickly and all on its own<br />
 <br />
   III.<br />
   I envy the bees that dive and float,<br />
