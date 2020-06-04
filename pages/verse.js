@@ -59,7 +59,7 @@ export default function verse() {
         to allow it to unfold into the umpteenth dimension <br />
         <br />
         and in its edges and corners, flowers blossom <br />
-        speaking in words we hear but don't listen<br />
+        speaking in tongues we hear but don't listen<br />
         <br />
         the rush of the world. all at once, <br />
         the soft bake of the sun
