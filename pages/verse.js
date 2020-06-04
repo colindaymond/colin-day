@@ -113,12 +113,14 @@ export default function verse() {
                   <br />
                   how can they be real when <br />
                   8 <br />
+                  <br />
                   hours of knee-bleeding toilet cleaning gets you <br />
                   58<br />
+                  <br />
                   but white men in suits can unilaterally create <br />
                   2300000000000 <br />
                   <br />
-                  you don't count hugs and smiles<br />
+                  you don't count hugs and smiles and tears<br />
                   maybe now we remember why
                   </p>
 
