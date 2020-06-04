@@ -24,14 +24,12 @@ export default function verse() {
   <p className="poem">
   <b> u-bahn </b> <br />
   <br />
-  I.<br />
   It’s not as if the silence frightens me<br />
   with its complicated pregnancies,<br />
   with its memories of sun-stained mornings,<br />
   its heavy snowy regrets.<br />
   It’s not as if the silence frightens me<br />
 <br />
-  II.<br />
   Sometimes when the air is still<br />
   I remember the wind,<br />
   the crinkle of it between leaves,<br />
@@ -39,7 +37,6 @@ export default function verse() {
   And the white door slams shut<br />
   slowly but quickly and all on its own<br />
 <br />
-  III.<br />
   I envy the bees that dive and float,<br />
   hovering still and now darting away<br />
   It’s like they’ve managed to solve<br />
@@ -105,6 +102,16 @@ export default function verse() {
 
           </p>
 
+
+                <p className="poem">
+                  <b> the virus is a portal </b> <br />
+                  <br />
+                  <br />
+                  water rushing between the trees <br />
+                  <br />
+                  pollen on the glass  <br />
+                  up above: birdsong
+                  </p>
 </div>
 
 <h2>
