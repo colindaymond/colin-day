@@ -107,12 +107,19 @@ export default function verse() {
                   <b> the virus is a portal </b> <br />
                   <br />
                   all the numbers we use to measure human behaviour<br />
-                  like GROSS DOMESTIC PRODUCT, GRADE POINT AVERAGES, and SALARIES<br />
-                  are ideas defined by other people<br />
+                  like gross domestic product, share prices and paychecks<br />
+                  are just ideas defined by other people<br />
                   to turn us into numbers<br />
                   <br />
-                  you don't count the hugs and smiles
-                  maybe now we remember
+                  how can they be real when <br />
+                  8 <br />
+                  hours of knee-bleeding toilet cleaning gets you <br />
+                  58<br />
+                  but white men in suits can unilaterally create <br />
+                  2300000000000 <br />
+                  <br />
+                  you don't count hugs and smiles<br />
+                  maybe now we remember why
                   </p>
 
 </div>
