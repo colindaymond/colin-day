@@ -21,6 +21,34 @@ export default function verse() {
 
 <div className="container">
 
+  <p className="poem">
+  <b> u-bahn </b> <br />
+  <br />
+  I.<br />
+  It’s not as if the silence frightens me<br />
+  with its complicated pregnancies,<br />
+  with its memories of sun-stained mornings,<br />
+  its heavy snowy regrets.<br />
+  It’s not as if the silence frightens me<br />
+<br />
+  II.<br />
+  Sometimes when the air is still<br />
+  I remember the wind,<br />
+  the crinkle of it between leaves,<br />
+  the high whisper of it in my ears.<br />
+  And the white door slams shut<br />
+  slowly but quickly and all on its own<br />
+<br />
+  III.<br />
+  I envy the bees that dive and float,<br />
+  hovering still and now darting away<br />
+  It’s like they’ve managed to solve<br />
+  how to hold in their tiny minds both <br />
+  purpose and contentment<br />
+  without contradiction
+
+            </p>
+
       <p className="poem">
         <b> akdeniz </b> <br />
         <br />
@@ -76,34 +104,6 @@ export default function verse() {
     He knows only that they do and that he does and there is no coincidence in that.
 
           </p>
-
-  <p className="poem">
-  <b> u-bahn </b> <br />
-  <br />
-  I.<br />
-  It’s not as if the silence frightens me<br />
-  with its complicated pregnancies,<br />
-  with its memories of sun-stained mornings,<br />
-  its heavy snowy regrets.<br />
-  It’s not as if the silence frightens me<br />
-<br />
-  II.<br />
-  Sometimes when the air is still<br />
-  I remember the wind,<br />
-  the crinkle of it between leaves,<br />
-  the high whisper of it in my ears.<br />
-  And the white door slams shut<br />
-  slowly but quickly and all on its own<br />
-<br />
-  III.<br />
-  I envy the bees that dive and float,<br />
-  hovering still and now darting away<br />
-  It’s like they’ve managed to solve<br />
-  how to hold in their tiny minds both <br />
-  purpose and contentment<br />
-  without contradiction
-
-            </p>
 
 </div>
 
