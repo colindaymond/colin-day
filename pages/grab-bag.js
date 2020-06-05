@@ -2,6 +2,9 @@ import Link from 'next/link'
 
 import Head from 'next/head'
 
+export default function verse() {
+  return (
+
   <div className="container">
     <Head>
       <title>c01in</title>
@@ -210,5 +213,5 @@ This moment humanity is going through can now be seen as a portal and as a hole.
 
 </div>
 
-  )
+)
 }
