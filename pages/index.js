@@ -191,8 +191,8 @@ const Home = () => (
       .card:hover,
       .card:focus,
       .card:active {
-        color: #007dfa;
-        border-color: #007dfa;
+        color: #7EA6F8;
+        border-color: #7EA6F8;
       }
 
       .card h3 {
