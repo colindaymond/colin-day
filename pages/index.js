@@ -84,7 +84,7 @@ const Home = () => (
       }
 
       .container {
-        min-height: 70vh;
+        min-height: 100vh;
         padding: 0 0.5rem;
         display: flex;
         flex-direction: column;
