@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 import Head from 'next/head'
 
-export default function verse() {
+export default function grab-bag() {
   return (
 
   <div className="container">
