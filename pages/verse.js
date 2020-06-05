@@ -24,12 +24,14 @@ export default function verse() {
   <p className="poem">
   <b> u-bahn </b> <br />
   <br />
+  I. <br />
   It’s not as if the silence frightens me<br />
   with its milky pregnancies,<br />
   with its memories of sun-stained mornings,<br />
   its heavy snowy regrets.<br />
   It’s not as if the silence frightens me<br />
 <br />
+  II. <br />
   Sometimes when the air is still<br />
   I remember the wind,<br />
   the crinkle of it between leaves,<br />
@@ -37,6 +39,7 @@ export default function verse() {
   And the white door slams shut<br />
   slowly but quickly and all on its own<br />
 <br />
+  III. <br />
   I envy the bees that dive and float,<br />
   hovering still and now darting away<br />
   It’s like they’ve managed to solve<br />
@@ -118,7 +121,7 @@ export default function verse() {
                   58<br />
                   <br />
                   but white men in suits can unilaterally create <br />
-                  2300000000000 <br />
+                  2,300,000,000,000 <br />
                   <br />
                   you don't count hugs and smiles and tears<br />
                   maybe now we remember why
