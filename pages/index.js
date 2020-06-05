@@ -15,7 +15,7 @@ const Home = () => (
       </h2>
 
       <p className="description">
-        words and pictures
+        words and photographs
       </p>
 
       <div className="grid">
@@ -32,7 +32,7 @@ const Home = () => (
         </a>
 
         <a href="https://www.venturing.io/photographs/" target="_blank" className="card">
-          <h3>pictures</h3>
+          <h3>photographs</h3>
           <p>souvenirs from the journey</p>
         </a>
 
