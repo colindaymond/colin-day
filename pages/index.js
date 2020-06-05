@@ -42,7 +42,7 @@ const Home = () => (
           <p>on air: yangshuo, china, 2001</p>
         </a>
 
-        <a href="https://soundcloud.com/coldaymond" target="_blank"
+        <a href="https://soundcloud.com/coldaymond/likes" target="_blank"
           className="card">
           <h3>tunes</h3>
           <p>
