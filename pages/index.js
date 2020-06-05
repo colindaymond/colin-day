@@ -104,7 +104,7 @@ const Home = () => (
       footer {
         width: 100%;
         height: 100px;
-        border-top: 1px solid #ff00e7;
+        border-top: 1px solid #ffc2f7;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -126,7 +126,7 @@ const Home = () => (
       }
 
       .title a {
-        color: #ff00e7;
+        color: #ffc2f7;
         text-decoration: none;
       }
 
@@ -137,7 +137,7 @@ const Home = () => (
       }
 
       .title {
-        color: #ff00e7;
+        color: #ffc2f7;
         margin: 0;
         line-height: 1.15;
         font-size: 3.5rem;
