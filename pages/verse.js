@@ -111,8 +111,7 @@ export default function verse() {
                   <br />
                   all the numbers we use to measure human behaviour<br />
                   like gross domestic product, share prices and paychecks<br />
-                  are just ideas defined by other people<br />
-                  to turn us into numbers<br />
+                  are just ideas defined by other people to turn us into numbers<br />
                   <br />
                   how can they be real when <br />
                   8 <br />
