@@ -123,7 +123,7 @@ export default function verse() {
                   but white men in suits can unilaterally create <br />
                   2,300,000,000,000 <br />
                   <br />
-                  you don't count hugs and smiles and tears<br />
+                  you don't count hugs laughs or tears<br />
                   maybe now we remember why
                   </p>
 
