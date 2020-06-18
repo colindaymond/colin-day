@@ -119,7 +119,7 @@ export default function verse() {
                   hours of knee-bleeding toilet cleaning gets you <br />
                   58<br />
                   <br />
-                  but white men in suits can unilaterally create <br />
+                  but men in suits can unilaterally create <br />
                   2,300,000,000,000 <br />
                   <br />
                   instantly and out of nothing <br />
