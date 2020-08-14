@@ -128,6 +128,17 @@ export default function verse() {
                   maybe now we remember why
                   </p>
 
+                  <p className="poem">
+                    <b> mecklenburg </b> <br />
+                    <br />
+                    wine and sunshine<br />
+                    don't fry the fish<br />
+                    when old friends together again<br />
+                    that's the perfect dish
+                    <br />
+
+                    </p>
+
 </div>
 
 <h2>
