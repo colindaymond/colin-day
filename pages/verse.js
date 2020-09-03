@@ -139,6 +139,17 @@ export default function verse() {
 
                     </p>
 
+
+                    <p className="poem">
+                      <b> düsseldorf </b> <br />
+                      <br />
+                      a rainy day on the rhine<br />
+                      streets empty, of the time<br />
+                      perhaps we meet another day<br />
+                      where and when i cannot say
+                      <br />
+
+                      </p>
 </div>
 
 <h2>
