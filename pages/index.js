@@ -108,6 +108,8 @@ const Home = () => (
         display: flex;
         justify-content: center;
         align-items: center;
+        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
 
       footer img {
@@ -123,8 +125,6 @@ const Home = () => (
       a {
         color: inherit;
         text-decoration: none;
-        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
         color: #7EA6F8
       }
 
