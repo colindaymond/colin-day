@@ -104,11 +104,10 @@ const Home = () => (
       footer {
         width: 100%;
         height: 100px;
-        border-top: 1px solid #ffc2f7;
+        border-top: 2px solid #ffc2f7;
         display: flex;
-        color: #7EA6F8
         justify-content: center;
-        align-items: left;
+        align-items: center;
       }
 
       footer img {
@@ -118,12 +117,15 @@ const Home = () => (
       footer a {
         display: flex;
         justify-content: center;
-        align-items: left;
+        align-items: center;
       }
 
       a {
         color: inherit;
         text-decoration: none;
+        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+        color: #7EA6F8
       }
 
       .title a {
@@ -148,7 +150,7 @@ const Home = () => (
 
       .title,
       .description {
-        text-align: left;
+        text-align: center;
       }
 
       .description {
@@ -169,7 +171,7 @@ const Home = () => (
 
       .grid {
         display: flex;
-        align-items: left;
+        align-items: center;
         justify-content: center;
         flex-wrap: wrap;
 
