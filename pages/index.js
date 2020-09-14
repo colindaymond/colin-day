@@ -108,7 +108,7 @@ const Home = () => (
         display: flex;
         color: #7EA6F8
         justify-content: center;
-        align-items: center;
+        align-items: left;
       }
 
       footer img {
@@ -118,7 +118,7 @@ const Home = () => (
       footer a {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: left;
       }
 
       a {
@@ -148,7 +148,7 @@ const Home = () => (
 
       .title,
       .description {
-        text-align: center;
+        text-align: left;
       }
 
       .description {
@@ -169,7 +169,7 @@ const Home = () => (
 
       .grid {
         display: flex;
-        align-items: center;
+        align-items: left;
         justify-content: center;
         flex-wrap: wrap;
 
