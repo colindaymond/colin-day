@@ -15,7 +15,7 @@ const Home = () => (
       </h2>
 
       <p className="description">
-        "it's all grist for the mill"
+        it's all grist for the mill
       </p>
 
       <div className="grid">
@@ -63,7 +63,7 @@ const Home = () => (
     </main>
 
     <footer>
-        made with &#129305;&#127996; and Jamstack
+        made with &#129305;&#127996; and jamstack
     </footer>
 
     <style jsx>{`
@@ -106,6 +106,7 @@ const Home = () => (
         height: 100px;
         border-top: 1px solid #ffc2f7;
         display: flex;
+        color: #7EA6F8
         justify-content: center;
         align-items: center;
       }
