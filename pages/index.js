@@ -63,7 +63,7 @@ const Home = () => (
     </main>
 
     <footer>
-        &#129305;&#127996;
+        made with &#129305;&#127996 and Jamstack;
     </footer>
 
     <style jsx>{`
