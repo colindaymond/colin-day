@@ -26,8 +26,8 @@ export default function verse() {
       <p className="poem">
         <b> akdeniz </b> <br />
         <br />
-        and in between light and dark is small  <br />
-        it explodes upon the rest of a gaze <br />
+        and though in between light and dark is small  <br />
+        it explodes, upon the rest of a gaze <br />
         <br />
         to find in oneself that very space  <br />
         to allow it to unfold into the umpteenth dimension <br />
@@ -35,8 +35,8 @@ export default function verse() {
         and in its edges and corners, peonies blossom <br />
         stamens whispering in words we hear but cannot listen<br />
         <br />
-        take your life into your own hands.<br />
-        this is all anything will ever need from you
+        this is all anything will ever need from you:<br />
+        take your life into your own hands.
         </p>
 
       <p className="poem">
