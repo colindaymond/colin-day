@@ -35,8 +35,9 @@ export default function verse() {
         and in its edges and corners, peonies blossom <br />
         stamens whispering in words we hear but cannot listen<br />
         <br />
-        this is all anything will ever need from you:<br />
-        take your life into your own hands.
+        take your life into your own hands <br />
+        this is all anything will ever need from you.
+
         </p>
 
       <p className="poem">
