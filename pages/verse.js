@@ -44,9 +44,9 @@ export default function verse() {
         <b> spring </b> <br />
         <br />
         the snow melts  <br />
-        water rushing between the trees <br />
+        water rushing between conifers <br />
         <br />
-        pollen on the glass  <br />
+        pollen on the glass of a liquid crystal display  <br />
         up above: birdsong
         </p>
 
