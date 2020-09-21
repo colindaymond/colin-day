@@ -36,7 +36,7 @@ export default function verse() {
         stamina whispering words we hear but cannot listen<br />
         <br />
         take your life into your own hands. <br />
-        this is all anything will ever need from you
+        this is all any of us will ever need from you
 
         </p>
 
