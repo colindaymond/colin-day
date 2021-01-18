@@ -10,15 +10,7 @@ const Home = () => (
     </Head>
 
     <main>
-      <Image
-      src=""
-      </h2>
 
-      import Image from 'next/image'
-
-function Home() {
-  return (
-    <>
       <Image
         src="https://64.media.tumblr.com/371f0a9debc6c688734eb5f66132addb/tumblr_inline_oya47gfQwG1sss5ih_500.png"
         alt="thinking hobbes"
@@ -28,11 +20,6 @@ function Home() {
       />
       <p>copyright bill waterson</p>
     </>
-  )
-}
-
-export default Home
-
 
 
       <p className="description">
