@@ -19,8 +19,6 @@ const Home = () => (
         layout="fixed"
       />
       <p>copyright bill waterson</p>
-    </>
-
 
       <p className="description">
         it's all grist for the mill
