@@ -10,9 +10,30 @@ const Home = () => (
     </Head>
 
     <main>
-      <h2 className="title">
-        c01in
+      <Image
+      src=""
       </h2>
+
+      import Image from 'next/image'
+
+function Home() {
+  return (
+    <>
+      <Image
+        src="https://64.media.tumblr.com/371f0a9debc6c688734eb5f66132addb/tumblr_inline_oya47gfQwG1sss5ih_500.png"
+        alt="thinking hobbes"
+        width={100}
+        height={500}
+        layout="fixed"
+      />
+      <p>copyright bill waterson</p>
+    </>
+  )
+}
+
+export default Home
+
+
 
       <p className="description">
         it's all grist for the mill
