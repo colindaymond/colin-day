@@ -50,17 +50,8 @@ export default function photographs() {
 
               <Image
                 src="/images/000044210006.jpg"
-                alt="wien1"
+                alt="wien2"
                 width={480}
-                height={720}
-                layout='intrinsic'
-                quality={100}
-                      />
-
-              <Image
-                src="/images/000044210019.jpg"
-                alt="wien1"
-                width={1080}
                 height={720}
                 layout='intrinsic'
                 quality={100}
