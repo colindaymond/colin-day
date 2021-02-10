@@ -57,6 +57,21 @@ export default function photographs() {
                 quality={100}
                       />
 
+                      <h2>
+                      <Link href="/">
+                      <a>
+                      &#127962;&#65039;
+                      </a>
+                      </Link>
+                      </h2>
+
+
+                            </main>
+                            
+                      <footer>
+                      &#129305;&#127996;
+                      </footer>
+
 
 <style jsx>{`
   .poem {
@@ -225,7 +240,6 @@ export default function photographs() {
   }
 `}</style>
 
-      </main>
 
       </div>
 )
