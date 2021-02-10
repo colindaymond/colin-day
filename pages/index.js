@@ -11,8 +11,15 @@ const Home = () => (
 
   <main>
 
+  <Image
+        src="/images/hobbes-thinking1.jpg"
+        alt="thinkinghobbes"
+        width={150}
+        height={258}
+        />
+
       <p className="description">
-        it's all for the mill
+        it's all grist for the mill
       </p>
 
 
