@@ -18,6 +18,7 @@ const Home = () => (
         alt="thinkinghobbes"
         width={150}
         height={258}
+        loading='eager'
         />
 
       <p className="description">

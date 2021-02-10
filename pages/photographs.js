@@ -23,6 +23,7 @@ export default function photographs() {
         height={720}
         layout='intrinsic'
         quality={100}
+        priority='true'
         />
 
     <Image
@@ -54,16 +55,16 @@ export default function photographs() {
                 height={720}
                 layout='intrinsic'
                 quality={100}
-                            />
+                      />
 
               <Image
-                              src="/images/000044210019.jpg"
-                              alt="wien1"
-                              width={1080}
-                              height={720}
-                              layout='intrinsic'
-                              quality={100}
-                                          />
+                src="/images/000044210019.jpg"
+                alt="wien1"
+                width={1080}
+                height={720}
+                layout='intrinsic'
+                quality={100}
+                      />
 
 
 <style jsx>{`
