@@ -13,7 +13,6 @@ const Home = () => (
 
   <main>
 
-
   <Image
       src="/images/hobbes-thinking1.jpg"
       alt="thinkinghobbes"
