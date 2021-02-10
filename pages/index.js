@@ -1,9 +1,6 @@
 import Link from 'next/link'
-
-import Head from 'next/head'
-
 import Image from 'next/image'
-
+import Head from 'next/head'
 
 const Home = () => (
   <div className="container">
@@ -13,13 +10,12 @@ const Home = () => (
     </Head>
 
   <main>
-  
-      <image
+
+      <Image
       src="/hobbessmall.gif"
       alt="thinkinghobbes"
       width={320}
       height={200}
-
       />
 
 
