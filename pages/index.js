@@ -178,7 +178,7 @@ const Home = () => (
 
       .grid {
         display: flex;
-        align-items: center;
+        align-items: left;
         justify-content: center;
         flex-wrap: wrap;
 
