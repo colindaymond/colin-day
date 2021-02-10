@@ -19,7 +19,6 @@ const Home = () => (
 
       />
 
-      <p>copyright bill watterson</p>
 
       <p className="description">
         it's all grist for the mill
