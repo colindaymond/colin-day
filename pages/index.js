@@ -11,6 +11,16 @@ const Home = () => (
 
     <main>
 
+      <image
+      src="/hobbessmall.gif"
+      alt="thinkinghobbes"
+      width={500}
+      height={500}
+      layout="fixed"
+      />
+
+      <p>copyright bill watterson</p>
+
       <p className="description">
         it's all grist for the mill
       </p>
@@ -60,7 +70,7 @@ const Home = () => (
     </main>
 
     <footer>
-        made with &#129305;&#127996; and jamstack
+        made with &#129305;&#127996; and jamstack in berlin
     </footer>
 
     <style jsx>{`
