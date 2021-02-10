@@ -2,6 +2,8 @@ import Link from 'next/link'
 
 import Head from 'next/head'
 
+import Image from 'next/image'
+
 const Home = () => (
   <div className="container">
     <Head>
@@ -12,7 +14,7 @@ const Home = () => (
   <main>
 
 
-  <Image
+  <images
       src="/images/hobbes-thinking1.jpg"
       alt="thinkinghobbes"
       width={150}
