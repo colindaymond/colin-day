@@ -14,7 +14,7 @@ const Home = () => (
   <main>
 
 
-  <images
+  <Image
       src="/images/hobbes-thinking1.jpg"
       alt="thinkinghobbes"
       width={150}
