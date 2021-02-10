@@ -178,7 +178,7 @@ export default function verse() {
       }
 
       .title a {
-        color: #ff00e7;
+        color: #ffc2f7;
         text-decoration: none;
       }
 
@@ -189,7 +189,7 @@ export default function verse() {
       }
 
       .title {
-        color: #ff00e7;
+        color: #ffc2f7;
         margin: 0;
         line-height: 1.15;
         font-size: 3rem;
