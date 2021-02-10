@@ -1,5 +1,7 @@
 import GhostContentAPI from "@tryghost/content-api";
 
+import Image from 'next/image'
+
 // Create API instance with site credentials
 const api = new GhostContentAPI({
   url: 'https://venturing.ghost.io',
