@@ -33,7 +33,7 @@ const Home = () => (
         <h2>verse</h2>
         </a>
 
-        <a href="https://www.venturing.io/photographs/" target="_blank" className="card">
+        <a href="/photographs" target="_blank" className="card">
           <h2>photographs</h2>
         </a>
 
