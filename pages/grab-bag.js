@@ -31,17 +31,13 @@ These words were either written or spoken by White Eagle from the Hopi on March 
 </p>
 </div>
 
-<h2>
+<footer>
 <Link href="/">
 <a>
 &#127962;&#65039;
 </a>
 </Link>
-</h2>
-
-    <footer>
-    &#129305;&#127996;
-    </footer>
+</footer>
 
     </main>
 
@@ -84,10 +80,12 @@ These words were either written or spoken by White Eagle from the Hopi on March 
       footer {
         width: 100%;
         height: 100px;
-        border-top: 1px solid #ff00e7;
+        border-top: 1px solid #ffc2f7;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: bottom;
+        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
 
       footer img {
