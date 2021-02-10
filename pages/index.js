@@ -24,50 +24,43 @@ const Home = () => (
         it's all grist for the mill
       </p>
 
-
+<div className="container">
         <a href="https://www.venturing.io" target="_blank" className="card">
-          <h3>words</h3> | <p>words from my blog, venturing</p>
+          <h2>venturing</h2>
         </a>
 
         <a href="/verse" className="card">
-        <h3>verse</h3>
-        <p>
-          words, new arrangements
-        </p>
+        <h2>verse</h2>
         </a>
 
         <a href="https://www.venturing.io/photographs/" target="_blank" className="card">
-          <h3>photographs</h3>
-          <p>souvenirs from the journey</p>
+          <h2>photographs</h2>
         </a>
 
         <a href="https://www.youtube.com/watch?v=z9mjK8DYE3A&t=213s" target="_blank"
           className="card">
-          <h3>moving pictures</h3>
-          <p>on air: yangshuo, china, 2001</p>
+          <h2>moving pictures</h2>
         </a>
 
         <a href="https://soundcloud.com/coldaymond/likes" target="_blank"
           className="card">
-          <h3>tunes</h3>
-          <p>
-            music i like maybe you like too
-          </p>
+          <h2>tunes</h2>
+
         </a>
 
         <a href="/grab-bag"
           className="card">
-          <h3>grab bag</h3>
-          <p>
-            random makes me smile
-          </p>
+          <h2>grab bag</h2>
         </a>
 
+</div>
 
     </main>
 
     <footer>
-        made with &#129305;&#127996; and jamstack in berlin
+    <p className="description">
+    made with &#129305;&#127996; + jamstack in berlin
+    </p>
     </footer>
 
     <style jsx>{`
@@ -88,8 +81,9 @@ const Home = () => (
       }
 
       .container {
-        min-height: 100vh;
-        padding: 0 0.5rem;
+        min-height: 0vh;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -97,7 +91,7 @@ const Home = () => (
       }
 
       main {
-        padding: 2rem 0;
+        padding: 0 rem;
         flex: 1;
         display: flex;
         flex-direction: column;
@@ -108,10 +102,10 @@ const Home = () => (
       footer {
         width: 100%;
         height: 100px;
-        border-top: 2px solid #ffc2f7;
+        border-top: 1px solid #ffc2f7;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: bottom;
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
@@ -180,14 +174,14 @@ const Home = () => (
         flex-wrap: wrap;
 
         max-width: 800px;
-        margin-top: 2rem;
+        margin-top: 1rem;
       }
 
       .card {
-        margin: 1rem;
+        margin: 0rem;
         flex-basis: 45%;
-        padding: 1.5rem;
-        text-align: center;
+        padding: 0rem;
+        text-align: left;
         color: inherit;
         text-decoration: none;
         border: 0px solid #333333;
@@ -198,13 +192,13 @@ const Home = () => (
       .card:hover,
       .card:focus,
       .card:active {
-        color: #7EA6F8;
-        border-color: #7EA6F8;
+        color: #ffc2f7;
+        border-color: #ffc2f7;
       }
 
-      .card h3 {
-        margin: 0 0 1rem 0;
-        font-size: 1.25rem;
+      .card h2 {
+        margin: 0 0 0rem 0;
+        font-size: 0.95rem;
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
