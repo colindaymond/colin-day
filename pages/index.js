@@ -12,8 +12,9 @@ const Home = () => (
   <main>
 
       <p className="description">
-        it's all grist for the mill
+        it's all for the mill
       </p>
+
 
       <div className="grid">
         <a href="https://www.venturing.io" target="_blank" className="card">
