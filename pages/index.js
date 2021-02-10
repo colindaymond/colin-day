@@ -14,8 +14,7 @@ const Home = () => (
       <image
       src="/hobbessmall.gif"
       alt="thinkinghobbes"
-      width={200}
-      layout="fixed"
+      width={250}
 
       />
 
