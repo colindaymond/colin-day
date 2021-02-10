@@ -2,6 +2,8 @@ import Link from 'next/link'
 
 import Head from 'next/head'
 
+import Image from 'next/Image'
+
 const Home = () => (
   <div className="container">
     <Head>
