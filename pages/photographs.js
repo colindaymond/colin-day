@@ -57,19 +57,15 @@ export default function photographs() {
                 quality={100}
                       />
 
-                      <h2>
+
+                            </main>
+
+                      <footer>
                       <Link href="/">
                       <a>
                       &#127962;&#65039;
                       </a>
                       </Link>
-                      </h2>
-
-
-                            </main>
-                            
-                      <footer>
-                      &#129305;&#127996;
                       </footer>
 
 
@@ -113,7 +109,7 @@ export default function photographs() {
     border-top: 1px solid #ffc2f7;
     display: flex;
     justify-content: center;
-    align-items: bottom;
+    align-items: center;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
       DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
   }

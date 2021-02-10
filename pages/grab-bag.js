@@ -34,7 +34,7 @@ These words were either written or spoken by White Eagle from the Hopi on March 
 <footer>
 <Link href="/">
 <a>
-&#127962;&#65039;
+&#127962;
 </a>
 </Link>
 </footer>
@@ -83,7 +83,7 @@ These words were either written or spoken by White Eagle from the Hopi on March 
         border-top: 1px solid #ffc2f7;
         display: flex;
         justify-content: center;
-        align-items: bottom;
+        align-items: center;
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
