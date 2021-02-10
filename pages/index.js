@@ -20,7 +20,6 @@ const Home = () => (
         height={258}
         />
 
-
       <p className="description">
         it's all grist for the mill
       </p>
