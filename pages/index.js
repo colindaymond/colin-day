@@ -25,7 +25,6 @@ const Home = () => (
       </p>
 
 
-      <div className="grid">
         <a href="https://www.venturing.io" target="_blank" className="card">
           <h3>words</h3>
           <p>words from my blog, venturing</p>
@@ -65,7 +64,6 @@ const Home = () => (
           </p>
         </a>
 
-      </div>
 
     </main>
 
