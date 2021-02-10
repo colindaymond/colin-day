@@ -104,7 +104,7 @@ These words were either written or spoken by White Eagle from the Hopi on March 
       }
 
       .title a {
-        color: #ff00e7;
+        color: #ffc2f7;
         text-decoration: none;
       }
 
@@ -115,7 +115,7 @@ These words were either written or spoken by White Eagle from the Hopi on March 
       }
 
       .title {
-        color: #ff00e7;
+        color: #ffc2f7;
         margin: 0;
         line-height: 1.15;
         font-size: 3rem;
