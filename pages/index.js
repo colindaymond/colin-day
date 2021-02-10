@@ -2,8 +2,6 @@ import Link from 'next/link'
 
 import Head from 'next/head'
 
-import Image from 'next/image'
-
 const Home = () => (
   <div className="container">
     <Head>
@@ -12,13 +10,6 @@ const Home = () => (
     </Head>
 
   <main>
-
-    <Image
-        src="/images/hobbes-thinking1.jpg"
-        alt="thinkinghobbes"
-        width={150}
-        height={258}
-        />
 
       <p className="description">
         it's all grist for the mill
