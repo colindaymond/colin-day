@@ -2,9 +2,6 @@ import Link from 'next/link'
 
 import Head from 'next/head'
 
-import Image from 'next/image'
-
-
 export default function verse() {
   return (
 
@@ -20,13 +17,6 @@ export default function verse() {
       <p className="description">
         verse
       </p>
-
-      <Image
-          src="/images/hobbes-thinking1.jpg"
-          alt="thinkinghobbes"
-          width={150}
-          height={258}
-          />
 
 
 <div className="container">
