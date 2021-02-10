@@ -2,6 +2,8 @@ import Link from 'next/link'
 
 import Head from 'next/head'
 
+import Image from 'next/image'
+
 const Home = () => (
   <div className="container">
     <Head>
@@ -240,5 +242,9 @@ const Home = () => (
     `}</style>
   </div>
 )
+
+export default Home
+
+export default Home
 
 export default Home
