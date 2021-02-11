@@ -15,8 +15,8 @@ const Home = () => (
   <Image
         src="/images/hobbes-thinking1.jpg"
         alt="thinkinghobbes"
-        width={150}
-        height={258}
+        width={140}
+        height={240}
         loading='eager'
         />
 
