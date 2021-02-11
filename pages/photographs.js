@@ -58,16 +58,15 @@ export default function photographs() {
                       />
 
 
-                            </main>
+  <footer>
+  <Link href="/">
+  <a>&#127962;</a>
+  </Link>
+  </footer>
 
-                      <footer>
-                      <Link href="/">
-                      <a>
-                      &#127962;&#65039;
-                      </a>
-                      </Link>
-                      </footer>
 
+
+</main>
 
 <style jsx>{`
   .poem {
@@ -88,14 +87,15 @@ export default function photographs() {
 
   .container {
     min-height: 6vh;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
     display: intrinsic;
     flex-direction: row;
   }
 
   main {
-    padding: 3 rem;
+    padding: 2 rem;
+    padding-bottom: 2 rem;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -106,10 +106,11 @@ export default function photographs() {
   footer {
     width: 100%;
     height: 100px;
-    border-top: 1px solid #ffc2f7;
+    border-top: 0px solid #ffc2f7;
+    padding-top: 1rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
       DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
   }
@@ -236,7 +237,6 @@ export default function photographs() {
   }
 `}</style>
 
-
-      </div>
+</div>
 )
 }
