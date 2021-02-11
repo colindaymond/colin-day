@@ -49,7 +49,7 @@ const Home = () => (
 
         </a>
 
-        <a href="/grab-bag"
+        <a href="https://viewer.legacysurvey.org"
           className="card">
           <h2>grab bag</h2>
         </a>
