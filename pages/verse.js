@@ -9,7 +9,6 @@ export default function verse() {
   <div className="container">
     <Head>
       <title>c01in</title>
-      <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/call-me-hand_emoji-modifier-fitzpatrick-type-3_1f919-1f3fc_1f3fc.png"></link>
     </Head>
 
 
