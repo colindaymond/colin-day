@@ -199,8 +199,8 @@ const Home = () => (
       }
 
       .card h2 {
-        margin: 0 0 0rem 0;
-        font-size: 0.95rem;
+        margin: 0 0 0.5rem 0;
+        font-size: 1rem;
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
