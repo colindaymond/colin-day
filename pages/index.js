@@ -82,7 +82,7 @@ const Home = () => (
 
       .container {
         min-height: 0vh;
-        padding-top: 3rem;
+        padding-top: 2.5rem;
         padding-bottom: 3rem;
         display: flex;
         flex-direction: column;
