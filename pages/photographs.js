@@ -8,6 +8,10 @@ import Image from 'next/image'
 export default function photographs() {
   return (
 
+
+
+
+
 <div className="container">
 
 <main>
@@ -15,16 +19,6 @@ export default function photographs() {
 <p className="h3">
   iceland ↧
 </p>
-
-  <Image
-        src="/images/COBW3595-R1-02-3.JPG"
-        alt="iceland1"
-        width={480}
-        height={720}
-        layout='intrinsic'
-        quality={100}
-        priority='true'
-        />
 
     <Image
         src="/images/COBW3595-R1-03-4.JPG"
@@ -34,6 +28,21 @@ export default function photographs() {
         layout='intrinsic'
         quality={100}
             />
+
+
+            <br />
+            <br />
+            <br />
+
+            <Image
+                  src="/images/COBW3595-R1-02-3.JPG"
+                  alt="iceland1"
+                  width={480}
+                  height={720}
+                  layout='intrinsic'
+                  quality={100}
+                  priority='true'
+                  />
 
             <p className="h3">
               wien ↧
@@ -48,6 +57,10 @@ export default function photographs() {
                 quality={100}
                     />
 
+                    <br />
+                    <br />
+                    <br />
+
               <Image
                 src="/images/000044210006.jpg"
                 alt="wien2"
@@ -57,6 +70,20 @@ export default function photographs() {
                 quality={100}
                       />
 
+                      <br />
+                      <br />
+                      <br />
+                      
+                      <Image
+                        src="/images/000044210019.jpg"
+                        alt="wien2"
+                        width={960}
+                        height={636}
+                        layout='intrinsic'
+                        quality={100}
+                              />
+
+</main>
 
   <footer>
   <Link href="/">
@@ -66,7 +93,9 @@ export default function photographs() {
 
 
 
-</main>
+
+
+
 
 <style jsx>{`
   .poem {
@@ -179,7 +208,7 @@ export default function photographs() {
     flex-wrap: wrap;
 
     max-width: 800px;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
 
   .card {
@@ -203,7 +232,7 @@ export default function photographs() {
 
   .card h2 {
     margin: 0 0 0rem 0;
-    font-size: 0.95rem;
+    font-size: 0.90rem;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
       DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
   }
@@ -212,6 +241,19 @@ export default function photographs() {
     margin: 0;
     font-size: 1.0rem;
     line-height: 1.5;
+  }
+
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+      DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+
+  }
+
+  * {
+    box-sizing: border-box;
   }
 
   @media (max-width: 600px) {
@@ -227,8 +269,9 @@ export default function photographs() {
   body {
     padding: 0;
     margin: 0;
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-      DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+    font-size: 0.925rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
   }
 
@@ -236,7 +279,9 @@ export default function photographs() {
     box-sizing: border-box;
   }
 `}</style>
-
 </div>
+
+
+
 )
 }
