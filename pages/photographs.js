@@ -73,7 +73,7 @@ export default function photographs() {
                       <br />
                       <br />
                       <br />
-                      
+
                       <Image
                         src="/images/000044210019.jpg"
                         alt="wien2"
@@ -82,6 +82,86 @@ export default function photographs() {
                         layout='intrinsic'
                         quality={100}
                               />
+
+
+                                                    <br />
+                                                    <br />
+                                                    <br />
+
+                    <Image
+                      src="/images/000044210026.jpg"
+                      alt="wien2"
+                      width={960}
+                      height={636}
+                      layout='intrinsic'
+                      quality={100}
+                            />
+
+      <p className="h3">
+            atlas ↧
+                    </p>
+
+          <Image
+            src="/images/COBW3594-R1-18-19.jpeg"
+            alt="atlas1"
+            width={960}
+            height={636}
+            layout='intrinsic'
+            quality={100}
+                />
+
+                <br />
+                <br />
+                <br />
+
+          <Image
+            src="/images/COBW3594-R1-16-17 (1).jpeg"
+            alt="atlas1"
+            width={960}
+            height={636}
+            layout='intrinsic'
+            quality={100}
+                />
+
+                <p className="h3">
+                      albion ↧
+                              </p>
+
+                              <Image
+                                src="/images/COBW3595-R1-28-29.jpeg"
+                                alt="atlas1"
+                                width={960}
+                                height={636}
+                                layout='intrinsic'
+                                quality={100}
+                                    />
+
+                                    <br />
+                                    <br />
+                                    <br />
+
+                                    <Image
+                                      src="/images/COBW3593-R1-36-37.jpeg"
+                                      alt="atlas1"
+                                      width={960}
+                                      height={636}
+                                      layout='intrinsic'
+                                      quality={100}
+                                          />
+
+                                          <br />
+                                          <br />
+                                          <br />
+
+                                          <Image
+                                            src="/images/COBW3594-R1-05-6.jpeg"
+                                            alt="atlas1"
+                                            width={960}
+                                            height={636}
+                                            layout='intrinsic'
+                                            quality={100}
+                                                />
+
 
 </main>
 
