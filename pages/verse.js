@@ -70,11 +70,11 @@ export default function verse() {
     Next to him lies a silhouette of sweat, of raindrops on paper.  <br />
     A whisper of someone he once might have known, known completely  <br />
     without hesitation and without doubt and without restraint.  <br />
-    As the sweat dries beside him the silhouette fades.  <br />
+    Raindrops dry, silhouette fades, starch white alone.  <br />
   <br />
-    He has forgotten why the moon pulls at the ocean tides  <br />
-    or why the stars scream bright only to be swallowed by the yellowing blue of the sun  <br />
-    or why he wakes in the morning or falls to sleep at night.   <br />
+    He has forgotten how the moon pulls at the ocean<br />
+    How the stars scream bright only to be swallowed by the yellowing blue of the sun <br />
+    How he wakes in the morning or falls asleep at night <br />
     He knows only that they do and that he does and there is no coincidence in that.
 
           </p>
@@ -87,19 +87,21 @@ export default function verse() {
                   like gross domestic product, share prices and paychecks<br />
                   are just ideas defined by other people to turn us into numbers<br />
                   <br />
-                  how can they be real when <br />
-                  8 <br />
+                  how can they be real when &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8 <br />
                   <br />
-                  hours of knee-bleeding toilet cleaning gets you <br />
-                  58<br />
+                  hours of knee-bleeding <br />
+                  toilet cleaning gets you &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  58 (- taxes)<br />
                   <br />
-                  but men in suits can unilaterally create <br />
-                  2,300,000,000,000 <br />
+                  but men in suits can <br /> unilaterally create
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                   2,300,000,000,000 <br />
                   <br />
-                  instantly and out of nothing <br />
+                  instantly and out of nothing. <br />
                   <br />
-                  you don't count hugs laughs or tears<br />
-                  maybe now we remember why
+                  you don't count hugs laughs or tears, maybe now we remember why
                   </p>
 
 </div>
