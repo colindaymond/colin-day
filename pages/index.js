@@ -61,8 +61,6 @@ const Home = () => (
     <p className="description">
     made with &#129305;&#127996; + jamstack in berlin
     </p>
-    <br />
-    <p className="description">write me at 0 at c01.in</p>
     </footer>
 
     <style jsx>{`
