@@ -75,8 +75,22 @@ export default function photographs() {
                       <br />
 
                       <Image
+                        src="/images/000044210012 2.jpg"
+                        alt="banana"
+                        width={480}
+                        height={720}
+                        layout='intrinsic'
+                        quality={100}
+                              />
+
+                              <br />
+                              <br />
+                              <br />
+
+
+                                <Image
                         src="/images/000044210019.jpg"
-                        alt="wien2"
+                        alt="dots"
                         width={960}
                         height={636}
                         layout='intrinsic'
@@ -88,14 +102,7 @@ export default function photographs() {
                                                     <br />
                                                     <br />
 
-                    <Image
-                      src="/images/000044210026.jpg"
-                      alt="wien2"
-                      width={960}
-                      height={636}
-                      layout='intrinsic'
-                      quality={100}
-                            />
+
 
       <p className="h3">
             atlas ↧
@@ -155,14 +162,33 @@ export default function photographs() {
 
                                           <Image
                                             src="/images/COBW3594-R1-05-6.jpeg"
-                                            alt="atlas1"
+                                            alt="atlas2"
                                             width={960}
                                             height={636}
                                             layout='intrinsic'
                                             quality={100}
                                                 />
+                    <p className="h3">
+                            別處 ↧
+                          </p>
 
+                          <Image
+                            src="/images/COBW3593-R1-19-20.JPG"
+                            alt="bcn1"
+                            width={960}
+                            height={636}
+                            layout='intrinsic'
+                            quality={100}
+                                />
 
+                          <Image
+                            src="/images/COBW3593-R1-28-29.JPG"
+                            alt="bcn2"
+                            width={480}
+                            height={720}
+                            layout='intrinsic'
+                            quality={100}
+                                />
 </main>
 
   <footer>
