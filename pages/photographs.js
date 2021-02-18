@@ -105,7 +105,7 @@ export default function photographs() {
 
 
       <p className="h3">
-            atlas ↧
+            جِبَال ٱلْأَطْلَس ↧
                     </p>
 
           <Image
