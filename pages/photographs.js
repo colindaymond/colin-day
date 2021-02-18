@@ -17,7 +17,7 @@ export default function photographs() {
 <main>
 
 <p className="h3">
-  iceland ↧
+  ísland ↧
 </p>
 
     <Image
