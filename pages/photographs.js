@@ -180,7 +180,9 @@ export default function photographs() {
                             layout='intrinsic'
                             quality={100}
                                 />
-
+                                <br />
+                                <br />
+                                <br />
                           <Image
                             src="/images/COBW3593-R1-28-29.jpeg"
                             alt="bcn2"
