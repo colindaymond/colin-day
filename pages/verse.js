@@ -91,17 +91,18 @@ export default function verse() {
                   <br />
                   hours of knee-bleeding <br />
                   toilet cleaning gets you &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  58 (- taxes)<br />
+                  $58 (- taxes)<br />
                   <br />
                   but men in suits can <br /> unilaterally create
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-                   2,300,000,000,000 <br />
+                   $2,300,000,000,000 <br />
                   <br />
-                  instantly and out of nothing. <br />
+                  instantly and out of ;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;nothing <br />
                   <br />
-                  you don't count hugs laughs or tears, maybe now we remember why
+                  you don't count hugs laughs or tears<br />
+                  maybe now we remember why
                   </p>
 
 </div>
