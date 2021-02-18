@@ -32,7 +32,7 @@ const Home = () => (
         <a href="/photographs" target="_blank" className="card">
           <h2>photographs</h2>
         </a>
-        
+
         <a href="/verse" className="card">
         <h2>verse</h2>
         </a>
@@ -60,6 +60,8 @@ const Home = () => (
     <footer>
     <p className="description">
     made with &#129305;&#127996; + jamstack in berlin
+    <br />
+    慢走
     </p>
     </footer>
 
