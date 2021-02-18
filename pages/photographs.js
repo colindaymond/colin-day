@@ -182,7 +182,7 @@ export default function photographs() {
                                 />
 
                           <Image
-                            src="/images/COBW3593-R1-28-29.JPG"
+                            src="/images/COBW3593-R1-28-29.jpeg"
                             alt="bcn2"
                             width={480}
                             height={720}
