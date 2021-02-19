@@ -5,6 +5,13 @@ import Head from 'next/head'
 export default function verse() {
   return (
 
+export default function Protected({ hasReadPermission }) {
+  if (!hasReadPermission) {
+    return <div>Access denied.</div>
+  }
+
+  return (
+
 
   <div className="container">
     <Head>
@@ -14,32 +21,6 @@ export default function verse() {
 
     <main>
 
-    <SCRIPT>
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
-while (testV < 3) {
-if (!pass1)
-history.go(-1);
-if (pass1.toLowerCase() == "sparklingdinosaur") {
-alert('Bingo!');
-window.open('protectpage.html');
-break;
-}
-testV+=1;
-var pass1 =
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3)
-history.go(-1);
-return " ";
-}
-</SCRIPT>
-<CENTER>
-<FORM>
-<input type="button" value="Enter Protected Area" onClick="passWord()">
-</FORM>
-</CENTER>
 
       <p className="description">
         verse
@@ -145,7 +126,7 @@ return " ";
 
     </main>
 
-
+)
     <style jsx>{`
       .poem {
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
