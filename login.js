@@ -11,6 +11,7 @@ const Login = ({ redirectPath }) => {
         <label className="block">
           <span className="text-gray-700">Password?</span>
           <br />
+          <br />
           <input
             type="text"
             className="form-input mt-1 block w-full bg-gray-50"
@@ -19,7 +20,7 @@ const Login = ({ redirectPath }) => {
           ></input>
         </label>
         <button
-          type="submit"
+          type="🔑"
           className="mt-3 bg-green-400 text-white p-2 font-bold rounded hover:bg-green-600"
           onClick={(e) => {
             e.preventDefault()

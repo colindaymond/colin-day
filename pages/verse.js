@@ -120,7 +120,7 @@ export default function Protected({ hasReadPermission }) {
 </div>
 
 <footer>
-<Link href="/">
+<Link href="https://c01.in">
 <a>
 &#127962;
 </a>
