@@ -31,7 +31,7 @@ const Login = ({ redirectPath }) => {
             window.location.href = redirectPath ?? "/"
           }}
         >
-          Login
+          Enter
         </button>
       </form>
     </div>
