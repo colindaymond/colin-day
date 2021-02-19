@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import { useRouter } from "next/router"
-import Login from "components/Login"
+import Login from "login"
 
 // Inside our function component
 
@@ -18,7 +18,7 @@ export default function Protected({ hasReadPermission }) {
   if (!hasReadPermission) {
     return <Login redirectPath={router.asPath} />
   }
-  
+
   return (
 
 
