@@ -5,15 +5,16 @@ import Head from 'next/head'
 import { useRouter } from "next/router"
 import Login from "login"
 
-// Inside our function component
-
 
 export default function Protected({ hasReadPermission }) {
+
+    const router = useRouter()
+
   if (!hasReadPermission) {
-    return <div>Access denied.</div>
+    return <Login redirectPath={router.asPath} />
   }
 
-  const router = useRouter()
+
 
   if (!hasReadPermission) {
     return <Login redirectPath={router.asPath} />
