@@ -9,7 +9,8 @@ const Login = ({ redirectPath }) => {
     <div className="w-1/3 max-w-sm mx-auto">
       <form>
         <label className="block">
-          <span className="text-gray-700">Password</span>
+          <span className="text-gray-700">Password?</span>
+          <br />
           <input
             type="text"
             className="form-input mt-1 block w-full bg-gray-50"
