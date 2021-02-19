@@ -9,12 +9,12 @@ const Login = ({ redirectPath }) => {
     <div className="w-1/3 max-w-sm mx-auto">
       <form>
         <label className="block">
-          <span className="h2">Password?</span>
+          <span className="h2">🔑?</span>
           <br />
           <br />
           <input
             type="text"
-            className="form-input mt-1 block w-full bg-gray-50"
+            className="form-input mt-1 block w-full #ffc2f7"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           ></input>
