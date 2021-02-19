@@ -2,9 +2,6 @@ import Link from 'next/link'
 
 import Head from 'next/head'
 
-export default function verse() {
-  return (
-
 export default function Protected({ hasReadPermission }) {
   if (!hasReadPermission) {
     return <div>Access denied.</div>
