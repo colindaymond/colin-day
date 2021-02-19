@@ -126,7 +126,7 @@ export default function Protected({ hasReadPermission }) {
 
     </main>
 
-)
+
     <style jsx>{`
       .poem {
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
