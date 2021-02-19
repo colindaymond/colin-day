@@ -14,7 +14,7 @@ const Login = ({ redirectPath }) => {
           <br />
           <input
             type="text"
-            className="form-input mt-1 block w-full #ffc2f7"
+            className="form-input block w-full #ffc2f7"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           ></input>
@@ -31,7 +31,7 @@ const Login = ({ redirectPath }) => {
             window.location.href = redirectPath ?? "/"
           }}
         >
-          🔑
+          go
         </button>
       </form>
 
