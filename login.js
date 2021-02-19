@@ -31,7 +31,7 @@ const Login = ({ redirectPath }) => {
             window.location.href = redirectPath ?? "/"
           }}
         >
-          Enter
+          🔑
         </button>
       </form>
 
@@ -175,6 +175,18 @@ const Login = ({ redirectPath }) => {
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
+
+      .h2 {
+        margin: 0 0 0.5rem 0;
+        font-size: 1rem;
+        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+      }
+
+
+
+
+
 
       .card p {
         margin: 0;
