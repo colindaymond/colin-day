@@ -29,7 +29,7 @@ const Home = () => (
           <h2>venturing</h2>
         </a>
 
-        <a href="/photographs" target="_blank" className="card">
+        <a href="/photographs" className="card">
           <h2>photographs</h2>
         </a>
 

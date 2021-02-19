@@ -13,7 +13,6 @@ const Login = ({ redirectPath }) => {
           <input
             type="text"
             className="form-input mt-1 block w-full bg-gray-50"
-            placeholder="Your site password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           ></input>
