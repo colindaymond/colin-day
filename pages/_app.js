@@ -12,7 +12,7 @@ MyApp.getInitialProps = async (appContext) => {
   const cookies = new Cookies(appContext.ctx.req.headers.cookie)
   const password = cookies.get(consts.SiteReadCookie) ?? ""
 
-  if (password === "sparklydinosaur") {
+  if (password === "慢走") {
     appProps.pageProps.hasReadPermission = true
   }
 
