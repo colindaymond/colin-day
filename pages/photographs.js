@@ -44,6 +44,48 @@ export default function photographs() {
                   priority='true'
                   />
 
+                  <p className="h3">
+                    drakes bay ↧
+                  </p>
+
+                      <Image
+                          src="/images/2585469_2585469-R1-E037.jpg"
+                          alt="first bull"
+                          width={960}
+                          height={649}
+                          layout='intrinsic'
+                          quality={100}
+                              />
+
+
+                              <br />
+                              <br />
+                              <br />
+
+                              <Image
+                                    src="/images/2585469_2585469-R1-E022.jpg"
+                                    alt="with dad"
+                                    width={960}
+                                    height={649}
+                                    layout='intrinsic'
+                                    quality={100}
+                                    priority='true'
+                                    />
+
+                                    <br />
+                                    <br />
+                                    <br />
+
+                                    <Image
+                                          src="/images/2585469_2585469-R1-E020.jpg"
+                                          alt="with dad"
+                                          width={960}
+                                          height={649}
+                                          layout='intrinsic'
+                                          quality={100}
+                                          priority='true'
+                                          />
+
             <p className="h3">
               wien ↧
             </p>
@@ -88,20 +130,42 @@ export default function photographs() {
                               <br />
 
 
-                                <Image
-                        src="/images/000044210019.jpg"
-                        alt="dots"
-                        width={960}
-                        height={636}
-                        layout='intrinsic'
-                        quality={100}
-                              />
+                              <Image
+                      src="/images/2584967_2584967-R1-E031.jpg"
+                      alt="dots"
+                      width={480}
+                      height={710}
+                      layout='intrinsic'
+                      quality={100}
+                            />
+
 
 
                                                     <br />
                                                     <br />
                                                     <br />
 
+                                                    <Image
+                                            src="/images/2584967_2584967-R1-E030.jpg"
+                                            alt="dots"
+                                            width={960}
+                                            height={649}
+                                            layout='intrinsic'
+                                            quality={100}
+                                                  />
+
+                                                  <br />
+                                                  <br />
+                                                  <br />
+
+                                                      <Image
+                                              src="/images/000044210019.jpg"
+                                              alt="dots"
+                                              width={960}
+                                              height={636}
+                                              layout='intrinsic'
+                                              quality={100}
+                                                    />
 
 
       <p className="h3">
