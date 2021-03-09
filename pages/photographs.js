@@ -87,7 +87,7 @@ export default function photographs() {
                                           />
 
             <p className="h3">
-              wien ↧
+              österreich ↧
             </p>
 
             <Image
