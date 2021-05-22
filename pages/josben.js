@@ -3,6 +3,8 @@ import Link from 'next/link'
 
 import Head from 'next/head'
 
+import Image from 'next/image'
+
 export default function IndexPage() {
   return (
     <div>
@@ -13,12 +15,6 @@ export default function IndexPage() {
         />
       </Head>
     </div>
-  )
-}
-
-import Image from 'next/image'
-
-<main>
 
 <p className="letter">
 Dear Ben, Dear Jos, <br />
@@ -37,7 +33,6 @@ Colin, Concetta and Oscar
 
 </p>
 
-</main>
 
 
 )
