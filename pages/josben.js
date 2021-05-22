@@ -23,7 +23,7 @@ export default function josben() {
   return (
 
 
-<p className="letter">
+<p className="poem">
 Dear Ben, Dear Jos, <br />
 <br/>
 When I heard the news that the two of you have agreed to try and spend a life together something within me clicked and
