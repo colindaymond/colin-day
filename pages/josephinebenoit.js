@@ -10,7 +10,7 @@ export default function photographs() {
   return (
 
 
-
+<p className="poem">
 
 
 Dear Benoit, Dear Josephine,
@@ -26,3 +26,7 @@ The days with you both outside of Berlin were sun-drenched and wild. I can’t w
 Love to you both
 
 Colin
+
+</p>
+)
+}
