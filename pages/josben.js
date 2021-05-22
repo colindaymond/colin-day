@@ -29,7 +29,7 @@ Colin, Concetta and Oscar
 </br>
 
 <a href="https://soundcloud.com/victorashe/jamaican-love-call-45s-12" target="_blank" className="card">
-<h2>tune</h2>
+
 
 </p>
 
