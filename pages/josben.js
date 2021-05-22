@@ -18,10 +18,6 @@ export default function IndexPage() {
 
 import Image from 'next/image'
 
-
-export default function josben() {
-  return (
-
 <main>
 
 <p className="letter">
