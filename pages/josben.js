@@ -7,16 +7,9 @@ import Image from 'next/image'
 
 export default function IndexPage() {
   return (
-    <div>
-      <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=EB+Garamond"
-          rel="stylesheet"
-        />
-      </Head>
-    </div>
 
 
+<p className="letter">
 Dear Ben, Dear Jos, <br />
 <br/>
 When I heard the news that the two of you have agreed to try and spend a life together something within me clicked and
@@ -31,6 +24,7 @@ Big hugs and love to you both <br />
 <br/>
 Colin, Concetta and Oscar
 
+</p>
 
 
 )
