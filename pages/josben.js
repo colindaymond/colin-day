@@ -12,7 +12,6 @@ export default function IndexPage() {
           rel="stylesheet"
         />
       </Head>
-      <p>Hello world!</p>
     </div>
   )
 }
