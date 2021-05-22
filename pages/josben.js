@@ -40,6 +40,8 @@ Colin, Concetta and Oscar
 
 </p>
 
+</div>
+
 <style jsx>{`
 
   .letter {
