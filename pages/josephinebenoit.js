@@ -13,7 +13,7 @@ export default function photographs() {
 <p className="poem">
 
 
-Dear Benoit, Dear Josephine, <br />
+Dear Ben, Dear Jos, <br />
 <br/>
 When I heard the news that the two of you have agreed to try and spend a life together something within me clicked and
 fell together. Ben, you are an extraordinary man with a warm heart and a viking spirit. Josephine, you have tamed the untameable bull
@@ -28,5 +28,9 @@ Love to you both <br />
 Colin
 
 </p>
+
+<a href="https://soundcloud.com/victorashe/jamaican-love-call-45s-12">song</a>
+
+
 )
 }
