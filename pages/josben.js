@@ -6,7 +6,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 
-export default function photographs() {
+export default function josben() {
   return (
 
 
@@ -26,9 +26,7 @@ The days with you both outside of Berlin were sun-drenched and wild. I can’t w
 Big hugs and loves to you both <br />
 <br/>
 Colin, Concetta and Oscar
-</br>
 
-<a href="https://soundcloud.com/victorashe/jamaican-love-call-45s-12" target="_blank" className="card">
 
 
 </p>
