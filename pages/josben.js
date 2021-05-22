@@ -33,7 +33,7 @@ with your smile and because perhaps you yourself have more than a little wild. <
 <br/>
 The days with you both outside of Berlin were sun-drenched and wild. I can’t wait to share a moment again. <br />
 <br/>
-<a href="https://soundcloud.com/coldaymond/sunday-the-nineenth-of-july">You’ll never…. meet somebody, like you… meet me”</a> <br />
+<link href="https://soundcloud.com/coldaymond/sunday-the-nineenth-of-july">You’ll never…. meet somebody, like you… meet me”</link> <br />
 <br/>
 Big hugs and love to you both <br />
 <br/>
@@ -43,16 +43,6 @@ Colin, Concetta and Oscar
 
 </main>
 
-<style jsx>{`
-
-  .letter {
-    font-family: 'EB Garamond', serif;
-    color: #484848;
-
-  }
-
-
-`}</style>
 
 )
 }
