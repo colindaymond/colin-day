@@ -77,7 +77,7 @@ const Home = () => (
       }
 
       .letter {
-        font-family: EB Garamond;
+        font-family: 'EB Garamond', serif;
         color: #484848;
 
       }
