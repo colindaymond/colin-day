@@ -76,6 +76,12 @@ const Home = () => (
         padding: 2rem;
       }
 
+      .letter {
+        font-family: EB Garamond;
+        color: #484848;
+
+      }
+
       .poem-title {
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
           Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;

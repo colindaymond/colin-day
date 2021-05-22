@@ -10,7 +10,7 @@ export default function photographs() {
   return (
 
 
-<p className="poem">
+<p className="letter">
 
 
 Dear Ben, Dear Jos, <br />
