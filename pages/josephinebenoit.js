@@ -23,9 +23,9 @@ The days with you both outside of Berlin were sun-drenched and wild. I can’t w
 <br/>
 “You’ll never…. meet somebody, like you… meet me” <br />
 <br/>
-Love to you both <br />
+Big hugs and loves to you both <br />
 <br/>
-Colin
+Colin, Concetta and Oscar
 
 </p>
 
