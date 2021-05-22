@@ -22,6 +22,7 @@ import Image from 'next/image'
 export default function josben() {
   return (
 
+<main>
 
 <p className="letter">
 Dear Ben, Dear Jos, <br />
@@ -40,7 +41,7 @@ Colin, Concetta and Oscar
 
 </p>
 
-</div>
+</main>
 
 <style jsx>{`
 
