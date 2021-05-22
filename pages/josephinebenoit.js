@@ -1,4 +1,18 @@
 
+import Link from 'next/link'
+
+import Head from 'next/head'
+
+import Image from 'next/image'
+
+
+export default function photographs() {
+  return (
+
+
+
+
+
 Dear Benoit, Dear Josephine,
 
 When I heard the news that the two of you have agreed to try and spend a life together something within me clicked and
