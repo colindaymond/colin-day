@@ -36,6 +36,7 @@ export default function Protected({ hasReadPermission }) {
   src="/images/IMG_4373.jpeg"
   alt="oscar1"
   width={240}
+  height={360}
   layout='intrinsic'
   quality={100}
       />
