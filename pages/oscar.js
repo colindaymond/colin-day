@@ -38,7 +38,7 @@ export default function Protected({ hasReadPermission }) {
         <Image
           src="/images/IMG_4373.jpeg"
           alt="oscar1"
-          width={240}
+          width={280}
           height={360}
           layout='intrinsic'
           quality={100}
@@ -55,7 +55,7 @@ export default function Protected({ hasReadPermission }) {
           <Image
             src="/images/IMG_4379.jpeg"
             alt="oscar3"
-            width={240}
+            width={280}
             height={360}
             layout='intrinsic'
             quality={100}
@@ -72,7 +72,7 @@ export default function Protected({ hasReadPermission }) {
             <Image
               src="/images/IMG_4238.jpeg"
               alt="oscar2"
-              width={240}
+              width={280}
               height={360}
               layout='intrinsic'
               quality={100}
