@@ -33,7 +33,6 @@ export default function Protected({ hasReadPermission }) {
 <div className="container">
 
 
-
       <p className="poem">
         <b> june 19 2021 </b> <br />
         <br />
@@ -41,6 +40,12 @@ export default function Protected({ hasReadPermission }) {
 
         </p>
 
+        <p className="poem">
+          <b> june 18 2021 </b> <br />
+          <br />
+          oscar has mickey mouse wrists.
+
+          </p>
 
 
 </div>
