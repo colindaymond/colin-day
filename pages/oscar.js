@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import { useRouter } from "next/router"
 import Login from "login"
-
+import Image from 'next/image'
 
 export default function Protected({ hasReadPermission }) {
 
@@ -34,6 +34,7 @@ export default function Protected({ hasReadPermission }) {
 
       <p className="poem">
         <b> june 19 2021 </b> <br />
+
         <Image
           src="c01in-vercel/public/images/IMG_4373.jpeg"
           alt="oscar1"
