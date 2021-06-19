@@ -44,7 +44,7 @@ export default function Protected({ hasReadPermission }) {
           quality={100}
               />
 
-        <br />
+        <br />< br />
         when oscar is at the beach he grabs fistfuls of sand and doesn't let them go.
 
         </p>
@@ -61,7 +61,7 @@ export default function Protected({ hasReadPermission }) {
             quality={100}
                 />
 
-          <br />
+          <br /><br />
           oscar has mickey mouse wrists.
 
           </p>
@@ -78,7 +78,7 @@ export default function Protected({ hasReadPermission }) {
               quality={100}
                   />
 
-            <br />
+            <br /><br />
             oscar likes his coffee with foam.
 
             </p>
