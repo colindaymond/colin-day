@@ -34,6 +34,15 @@ export default function Protected({ hasReadPermission }) {
 
       <p className="poem">
         <b> june 19 2021 </b> <br />
+        <Image
+          src="c01in-vercel/public/images/IMG_4373.jpeg"
+          alt="oscar1"
+          width={240}
+          height={360}
+          layout='intrinsic'
+          quality={100}
+              />
+
         <br />
         when oscar is at the beach he grabs fistfuls of sand and doesn't let them go.
 
