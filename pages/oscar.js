@@ -70,7 +70,7 @@ export default function Protected({ hasReadPermission }) {
             <b> may 8 2021 </b> <br />
             <br />
             <Image
-              src="/images/IMG_4238.jpeg"
+              src="/images/IMG_4238.jpg"
               alt="oscar2"
               width={280}
               height={360}
