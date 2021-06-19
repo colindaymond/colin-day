@@ -34,7 +34,7 @@ export default function Protected({ hasReadPermission }) {
 
       <p className="poem">
         <b> june 19 2021 </b> <br />
-
+        <br />
         <Image
           src="/images/IMG_4373.jpeg"
           alt="oscar1"
@@ -52,10 +52,36 @@ export default function Protected({ hasReadPermission }) {
         <p className="poem">
           <b> june 18 2021 </b> <br />
           <br />
+          <Image
+            src="/images/IMG_4379.jpeg"
+            alt="oscar3"
+            width={240}
+            height={360}
+            layout='intrinsic'
+            quality={100}
+                />
+
+          <br />
           oscar has mickey mouse wrists.
 
           </p>
 
+          <p className="poem">
+            <b> may 8 2021 </b> <br />
+            <br />
+            <Image
+              src="/images/IMG_4238.jpeg"
+              alt="oscar2"
+              width={240}
+              height={360}
+              layout='intrinsic'
+              quality={100}
+                  />
+
+            <br />
+            oscar likes his coffee with foam.
+
+            </p>
 
 </div>
 
