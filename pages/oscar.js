@@ -36,7 +36,7 @@ export default function Protected({ hasReadPermission }) {
         <b> june 19 2021 </b> <br />
 
         <Image
-          src="c01in-vercel/public/images/IMG_4373.jpeg"
+          src="/images/IMG_4373.jpeg"
           alt="oscar1"
           width={240}
           height={360}
