@@ -117,6 +117,33 @@ export default function Protected({ hasReadPermission }) {
                   maybe now we remember why
                   </p>
 
+                  <p className="poem">
+                    <b> if </b> <br />
+                    <br />
+            If on this grey summer day   <br />
+          If on this Atlantic moored island   <br />
+        On the 28th of June, 2017 <br />
+            <br />
+              Will my smile still reach my eyes?  <br />
+              Will I still float listlessly in the vibrations of this blue world?  <br />
+              Or will sorrow swallow my throat?  <br />
+
+            <br />
+            We are all given but a matchflame <br />
+            A glassbottle lightflick floating on the ocean of time  <br />
+              Each moment beckoning attention <br />
+            <br />
+              What is a shortened flicker but a flicker?  <br />
+              Where from comes the angst?  <br />
+            In the end I want songs fire and waves <br />
+            <br />
+            A good Sunday morning cuddle<br />
+            The butter of asphalt from a dervish <br />
+            The cotton of our world and the love that stains it <br />
+
+
+                    </p>
+
 </div>
 
 <footer>
