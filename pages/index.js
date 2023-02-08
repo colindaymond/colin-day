@@ -26,7 +26,7 @@ const Home = () => (
 
 <div className="container">
         
-        <a href="https://www.foggynotions.xyz" target="_blank" className="card">
+        <a href="https://www.foggynotions.org" target="_blank" className="card">
           <h2>foggy notions</h2>
         </a>
 
