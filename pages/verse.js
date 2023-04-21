@@ -57,7 +57,7 @@ export default function Protected({ hasReadPermission }) {
         the snow melts  <br />
         water rushing between conifers <br />
         <br />
-        pollen on the glass of a liquid crystal display  <br />
+        pollen on the glass <br />
         up above: birdsong
         </p>
 
