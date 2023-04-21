@@ -54,9 +54,12 @@ export default function Protected({ hasReadPermission }) {
         <p className="poem">
         <b> mawi wawi </b> <br />
         <br />
-        there i was crispy tomato skin, spittin' rainbows  <br />
+        there i was crispy tomato skin <br />
+        spittin' rainbows  <br />
+        <br />
         potato chip droppin' in to ramps of water come alive <br />
         paddlin' back hollerin' <br />
+        <br />
         what a day to be on planet earth <br />
         spittin' rainbows 
 
