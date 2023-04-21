@@ -50,72 +50,83 @@ export default function Protected({ hasReadPermission }) {
         this is all any of us will ever need from you
 
         </p>
+        
+        <p className="poem">
+        <b> mawi wawi </b> <br />
+        <br />
+        there i was crispy tomato skin, spittin' rainbows  <br />
+        potato chip droppin' in to ramps of water come alive <br />
+        paddlin' back hollerin' <br />
+        what a day to be on planet earth <br />
+        spittin' rainbows 
+
+        </p>
 
       <p className="poem">
         <b> spring </b> <br />
         <br />
-        the snow melts  <br />
-        water rushing between conifers <br />
+          the snow melts  <br />
+          water rushing between conifers <br />
         <br />
-        pollen on the glass <br />
-        up above: birdsong
+          pollen on the glass <br />
+          up above: birdsong
         </p>
 
         <p className="poem">
           <b> pagi </b> <br />
-          <br />
-    A man awakes stuck in sticky morning to the sound of a tokay gecko   <br />
-    clinging to the wicker wall above. Through the mosquito net the gecko appears   <br />
-    Sketched onto parchment, all messy and smudged, and the man reaches  <br />
-    up but cannot reach and blinks and it is gone.  <br />
-  <br />
-    He opens his mouth to breathe the Sumatran air  <br />
-    tasting salty like sweat oozing thick like honey  <br />
-    in between the man’s teeth, around his tongue.  <br />
-    His cheeks are so filled with it he almost expects to choke but does not.  <br />
-  <br />
-    His thoughts skip as stones on a lake without ripples,  <br />
-    clenched anchors clutch the bunched damp sheets.  <br />
-    He fears a wind will soon lift him away yet the air is quiet.  <br />
-    In that silence the fear becomes an acceptance and the acceptance a longing.  <br />
-  <br />
-    Next to him lies a silhouette of sweat, of raindrops on paper.  <br />
-    A whisper of someone he once might have known, known completely  <br />
-    without hesitation and without doubt and without restraint.  <br />
-    Raindrops dry, silhouette fades, starch white alone.  <br />
-  <br />
-    He has forgotten how the moon pulls at the ocean<br />
-    How the stars scream bright only to be swallowed by the yellowing blue of the sun <br />
-    How he wakes in the morning or falls asleep at night <br />
-    He knows only that they do and that he does and there is no coincidence in that.
+        <br />
+          A man awakes stuck in sticky morning to the sound of a tokay gecko   <br />
+          clinging to the wicker wall above. Through the mosquito net the gecko appears   <br />
+          Sketched onto parchment, all messy and smudged, and the man reaches  <br />
+          up but cannot reach and blinks and it is gone.  <br />
+        <br />
+          He opens his mouth to breathe the Sumatran air  <br />
+          tasting salty like sweat oozing thick like honey  <br />
+          in between the man’s teeth, around his tongue.  <br />
+          His cheeks are so filled with it he almost expects to choke but does not.  <br />
+        <br />
+          His thoughts skip as stones on a lake without ripples,  <br />
+          clenched anchors clutch the bunched damp sheets.  <br />
+          He fears a wind will soon lift him away yet the air is quiet.  <br />
+          In that silence the fear becomes an acceptance and the acceptance a longing.  <br />
+        <br />
+          Next to him lies a silhouette of sweat, of raindrops on paper.  <br />
+          A whisper of someone he once might have known, known completely  <br />
+          without hesitation and without doubt and without restraint.  <br />
+          Raindrops dry, silhouette fades, starch white alone.  <br />
+        <br />
+          He has forgotten how the moon pulls at the ocean<br />
+          How the stars scream bright only to be swallowed by the yellowing blue of the sun <br />
+          How he wakes in the morning or falls asleep at night <br />
+          He knows only that they do and that he does and there is no coincidence in that.
 
           </p>
 
 
-                <p className="poem">
-                  <b> the virus is a portal </b> <br />
-                  <br />
-                  all the numbers we use to measure human behaviour<br />
-                  like gross domestic product, share prices and paychecks<br />
-                  are just ideas defined by men to reduce us to numbers<br />
-                  <br />
-                  how can they be real when &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8 <br />
-                  <br />
-                  hours of knee-bleeding <br />
-                  toilet cleaning gets you &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  $58 (- taxes)<br />
-                  <br />
-                  but men in suits can <br /> unilaterally create
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p className="poem">
+          <b> the virus is a portal </b> <br />
+          <br />
+          all the numbers we use to measure human behaviour<br />
+          like gross domestic product, share prices and paychecks<br />
+          are just ideas defined by men to reduce us to numbers<br />
+          <br />
+          how can they be real when &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8 <br />
+          <br />
+          hours of knee-bleeding <br />
+          toilet cleaning gets you &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          $58 (- taxes)<br />
+          <br />
+          but men in suits can <br /> unilaterally create
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-                   $2,300,000,000,000 <br />
-                  <br />
-                  instantly and out of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nothing <br />
-                  <br />
-                  you don't count hugs laughs or tears<br />
-                  maybe now we remember why
-                  </p>
+           $2,300,000,000,000 <br />
+          <br />
+          instantly and out of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nothing <br />
+          <br />
+          you don't count hugs laughs or tears<br />
+          maybe now we remember why
+          </p>
 
 </div>
 
