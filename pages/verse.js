@@ -43,11 +43,11 @@ export default function Protected({ hasReadPermission }) {
         to find in oneself that very space  <br />
         to allow it to unfold into the umpteenth dimension <br />
         <br />
-        and there in the soft bake of the sun, plumeria blossom <br />
-        stamina whispering words we hear but cannot listen<br />
+        plumeria blossom in the soft bake of the sun <br />
+        stamina whispering words we see but do not hear<br />
         <br />
         take your life into your own hands. <br />
-        this is all any of us will ever need from you
+        this is all any of us need from you.
 
         </p>
         
