@@ -199,16 +199,15 @@ const Home = () => (
       }
 
       .card {
-        margin: 0rem;
-        flex-basis: 45%;
-        padding: 0rem;
+        margin: 0;
+        padding: 0;
         text-align: left;
         color: inherit;
         text-decoration: none;
         border: 0px solid #333333;
         border-radius: 10px;
         transition: color 0.15s ease, border-color 0.15s ease;
-        display: inline;
+        display: inline-block;
       }
 
       .card:hover,
@@ -219,10 +218,11 @@ const Home = () => (
       }
 
       .card h2 {
-        margin: 0 0 0.5rem 0;
+        margin: 0;
         font-size: 1rem;
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+        display: inline;
       }
 
       .card p {
