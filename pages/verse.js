@@ -36,12 +36,17 @@ export default function Protected({ hasReadPermission }) {
         <b> may 2023, boulder CO </b> <br />
         <br />
          The standing pine tree  <br />
-         A songbird --- diving, banking <br />
+         a songbird - diving, banking <br />
          Young cones in the sun <br />
 
         <br />
+        <br />
+        <br />
+        <br />
+        <br />
+     
         The rains of late spring <br />
-        Renewed with sleep and breath <br />
+        renewed by sleep and breath <br />
         Green of the meadow
         </p>
 
