@@ -26,8 +26,14 @@ const Home = () => (
 
 <div className="container">
 
-        hi! i'm c01in. i'm a dad x2, a partner at <a href="https://balderton.com" target="_blank">balderton</a>, and a maker. see below for some things i've made.
-
+        hi! i'm c01in <br />
+        a dad x2 <br />
+        a partner at <a href="https://balderton.com" target="_blank">balderton</a> <br />
+        a <a href="https://www.youtube.com/watch?v=X6wBClRRPAU" target="_blank">swimmer</a> <br />
+        and a tinkerer <br />
+        see below for some things i'm working on <br />
+        <br />
+        <br />
         <a href="https://venturing.ghost.io" target="_blank" className="card">
           <h2>venturing</h2>
         </a>
@@ -110,6 +116,8 @@ const Home = () => (
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
 
       footer {
