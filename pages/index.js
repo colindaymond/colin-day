@@ -26,6 +26,8 @@ const Home = () => (
 
 <div className="container">
 
+        hi! i'm c01in. i'm a dad x2, a partner at <a href="https://balderton.com" target="_blank">balderton</a>, and a maker. see below for some things i've made.
+
         <a href="https://venturing.ghost.io" target="_blank" className="card">
           <h2>venturing</h2>
         </a>
