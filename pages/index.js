@@ -28,8 +28,8 @@ const Home = () => (
 
         hello! i'm c01in <br />
         a dad x2 <br />
-        a partner at <a href="https://balderton.com" className="card" target="_blank">balderton</a> <br />
-        a <a href="https://www.youtube.com/watch?v=X6wBClRRPAU" className="card" target="_blank">swimmer</a> <br />
+        a partner at balderton<br />
+        a swimmer <br />
         and a tinkerer <br />
         below are some things i'm working on <br />
         <br />
