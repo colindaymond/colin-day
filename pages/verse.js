@@ -46,7 +46,7 @@ export default function Protected({ hasReadPermission }) {
         <br />
      
         The rains of late spring <br />
-        renewed by sleep and breath <br />
+        Renewed by sleep and breath <br />
         Green of the meadow
         </p>
 
