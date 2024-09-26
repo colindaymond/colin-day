@@ -28,8 +28,8 @@ const Home = () => (
 
         hello! i'm c01in <br />
         a dad x2 <br />
-        a partner at <a href="https://balderton.com" style="display: inline;" target="_blank">balderton</a> <br />
-        a <a href="https://www.youtube.com/watch?v=X6wBClRRPAU" style="display: inline;" target="_blank">swimmer</a> <br />
+        a partner at <a href="https://balderton.com" className="card" target="_blank">balderton</a> <br />
+        a <a href="https://www.youtube.com/watch?v=X6wBClRRPAU" className="card" target="_blank">swimmer</a> <br />
         and a tinkerer <br />
         below are some things i'm working on <br />
         <br />
@@ -208,6 +208,7 @@ const Home = () => (
         border: 0px solid #333333;
         border-radius: 10px;
         transition: color 0.15s ease, border-color 0.15s ease;
+        display: inline;
       }
 
       .card:hover,
