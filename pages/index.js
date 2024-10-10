@@ -26,13 +26,8 @@ const Home = () => (
 
 <div className="container">
 
-        hello! i'm c01in <br />
-        a dad x2 <br />
-        a partner at balderton<br />
-        a swimmer <br />
-        and a tinkerer <br />
-        below are some things i'm working on <br />
-        <br />
+        hello! i'm colin, dad x2, partner at balderton, swimmer, surfer, tinkerer <br />
+        here are some things i do<br />
         <br />
         <a href="https://venturing.ghost.io" target="_blank" className="card">
           <h2>venturing</h2>
@@ -72,7 +67,9 @@ const Home = () => (
     <br />
     <br />
     <br />
-    慢走
+    take a deep breath <br/>
+    慢走 <br/>
+    
     </p>
     </footer>
 
@@ -107,6 +104,7 @@ const Home = () => (
         flex-direction: column;
         justify-content: center;
         align-items: left;
+        font-size: 0.9rem;
       }
 
       main {
