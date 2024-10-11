@@ -51,7 +51,7 @@ const Home = () => (
 
         </a>
 
-        <a href="https://viewer.legacysurvey.org" target="_blank"
+        <a href="https://www.youtube.com/watch?v=ybXrrTX3LuI" target="_blank"
           className="card">
           <h2>grab bag</h2>
         </a>
@@ -66,8 +66,6 @@ const Home = () => (
     <br />
     慢走 <br/>
     <br />
-    made with &#129305;&#127996; + jamstack in berlin <br />
-
     
     </p>
     </footer>
@@ -211,8 +209,8 @@ const Home = () => (
       .card:hover,
       .card:focus,
       .card:active {
-        color: #fffdac;
-        border-color: #fffdac;
+        color: #808080;
+        border-color: #808080;
       }
 
       .card h2 {
