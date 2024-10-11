@@ -99,6 +99,7 @@ const Home = () => (
 
       .container {
         min-height: 0vh;
+        text-align: center;
         padding-top: 2.5rem;
         padding-bottom: 3rem;
         display: flex;
