@@ -189,7 +189,7 @@ const Home = () => (
 
       .grid {
         display: flex;
-        align-items: left;
+        align-items: center;
         justify-content: center;
         flex-wrap: wrap;
 
@@ -200,7 +200,7 @@ const Home = () => (
       .card {
         margin: 0;
         padding: 0;
-        text-align: left;
+        text-align: center;
         color: inherit;
         text-decoration: none;
         border: 0px solid #333333;
