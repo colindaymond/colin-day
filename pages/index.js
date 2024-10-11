@@ -95,13 +95,13 @@ const Home = () => (
 
       .container {
         min-height: 0vh;
-        text-align: left;
+        text-align: center;
         padding-top: 2.5rem;
         padding-bottom: 3rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: left;
+        align-items: center;
         font-size: 0.9rem;
       }
 
