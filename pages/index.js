@@ -200,7 +200,7 @@ const Home = () => (
         margin: 0;
         padding: 0;
         text-align: center;
-        color: inherit;
+        color: #ffc2f7;
         text-decoration: none;
         border: 0px solid #333333;
         border-radius: 10px;
@@ -211,8 +211,8 @@ const Home = () => (
       .card:hover,
       .card:focus,
       .card:active {
-        color: #ffc2f7;
-        border-color: #ffc2f7;
+        color: #fffdac;
+        border-color: #fffdac;
       }
 
       .card h2 {
