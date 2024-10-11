@@ -28,8 +28,6 @@ const Home = () => (
 
         hello! i'm colin, dad x2, partner at balderton, swimmer, surfer, tinkerer <br />
         <br />
-        here are some things i do<br />
-        <br />
         <a href="https://venturing.ghost.io" target="_blank" className="card">
           <h2>venturing</h2>
         </a>
@@ -99,13 +97,13 @@ const Home = () => (
 
       .container {
         min-height: 0vh;
-        text-align: center;
+        text-align: left;
         padding-top: 2.5rem;
         padding-bottom: 3rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: left;
         font-size: 0.9rem;
       }
 
