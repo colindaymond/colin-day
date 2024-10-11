@@ -129,6 +129,7 @@ export default function Protected({ hasReadPermission }) {
                   instantly and out of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nothing <br />
                   <br />
                   you don't count hugs laughs or tears<br />
+                  <br />
                   maybe now we remember why
                   </p>
 
@@ -162,6 +163,7 @@ export default function Protected({ hasReadPermission }) {
 </div>
 
 <footer>
+  <br />
 <Link href="https://www.c01.in">
 <a>
 &#127962;
