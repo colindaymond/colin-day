@@ -27,6 +27,7 @@ const Home = () => (
 <div className="container">
 
         hello! i'm colin, dad x2, partner at balderton, swimmer, surfer, tinkerer <br />
+        <br />
         here are some things i do<br />
         <br />
         <a href="https://venturing.ghost.io" target="_blank" className="card">
@@ -63,11 +64,10 @@ const Home = () => (
 
     <footer>
     <p className="description">
-    made with &#129305;&#127996; + jamstack in berlin
-    <br />
-    <br />
+    made with &#129305;&#127996; + jamstack in berlin <br />
     <br />
     take a deep breath <br/>
+    <br />
     慢走 <br/>
     
     </p>
