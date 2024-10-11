@@ -35,19 +35,17 @@ export default function Protected({ hasReadPermission }) {
       <p className="poem">
         <b> may 2023, boulder CO </b> <br />
         <br />
-         The standing pine tree  <br />
+         The straight standing pine  <br />
          a songbird - diving, banking <br />
          Young cones in the sun <br />
 
         <br />
+        ---
         <br />
-        <br />
-        <br />
-        <br />
-     
+
         The rains of late spring <br />
-        Renewed by sleep and breath <br />
-        Green of the meadow
+        Eyes sharpened by sleep and breath <br />
+        Dew on the meadow
         </p>
 
 
