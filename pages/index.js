@@ -64,11 +64,12 @@ const Home = () => (
 
     <footer>
     <p className="description">
-    made with &#129305;&#127996; + jamstack in berlin <br />
-    <br />
     take a deep breath <br/>
     <br />
     慢走 <br/>
+    <br />
+    made with &#129305;&#127996; + jamstack in berlin <br />
+
     
     </p>
     </footer>
@@ -103,7 +104,7 @@ const Home = () => (
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: left;
+        align-items: center;
         font-size: 0.9rem;
       }
 
