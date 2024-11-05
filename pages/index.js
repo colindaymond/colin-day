@@ -20,10 +20,10 @@ const Home = () => (
         sizes="(max-width: 768px) 100vw,
         (max-width: 1200px) 80vw,
         60vw"
-        style={
+        style={{
           width: '100%',
           height: 'auto',
-        }
+        }}
         loading='eager'
         />
 
