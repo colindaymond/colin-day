@@ -13,10 +13,10 @@ const Home = () => (
   <main>
 
   <Image
-        src="/images/hobbes-thinking1.jpg"
-        alt="thinkinghobbes"
-        width={140}
-        height={240}
+        src="/images/COBW3594-R1-16-17 (1).jpeg"
+        alt="cards"
+        width={240}
+        height={140}
         loading='eager'
         />
 
