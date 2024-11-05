@@ -14,8 +14,16 @@ const Home = () => (
 
   <Image
         src="/images/med_moon.jpg"
-        alt="cards"
-        width="50vw"
+        alt="moon"
+        width={1200}
+        height={800}
+        sizes="(max-width: 768px) 100vw,
+        (max-width: 1200px) 80vw,
+        60vw"
+        style={
+          width: '100%',
+          height: 'auto',
+        }
         loading='eager'
         />
 
