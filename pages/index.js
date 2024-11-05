@@ -26,7 +26,7 @@ const Home = () => (
 
 <div className="container">
 
-        hello! i'm colin, dad x2, partner at balderton, swimmer, surfer, tinkerer <br />
+        hello! i'm colin, dad, swimmer, surfer, investor, tinkerer, human <br />
         <br />
         <a href="https://venturing.ghost.io" target="_blank" className="card">
           <h2>venturing</h2>
