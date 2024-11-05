@@ -15,8 +15,7 @@ const Home = () => (
   <Image
         src="/images/med_moon.jpg"
         alt="cards"
-        width={600}
-        height={400}
+        width="100%"
         loading='eager'
         />
 
