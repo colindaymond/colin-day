@@ -27,10 +27,6 @@ const Home = () => (
         loading='eager'
         />
 
-      <p className="description">
-        it's all grist for the mill
-      </p>
-
 <div className="container">
 
         hello! i'm colin, dad, swimmer, surfer, investor, tinkerer, human <br />
