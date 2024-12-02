@@ -48,7 +48,25 @@ export default function Protected({ hasReadPermission }) {
         Dew on the meadow
         </p>
 
+        <p className="poem">
+        <b> nov 29 2024 </b> <br />
+        <br />
+        the atoms of air between graphite and paper  <br />
+        pencil hovering, wavering,<br />
+        seeds of understanding enclosed in its palm <br />
+        <br />
+        unfurl your fingers, pencil <br />
+        point me in that cardinal direction <br />
+        to where my heart and my reason meet without contempt <br />
+        <br />
+        lead me away from that bitter path <br />
+        where i, like WeiWei did, hold that which is most precious to me <br />
+        <br />
+        and let go. leaving ceramic shards shattered at my feet
 
+      
+
+        </p>
       <p className="poem">
         <b> akdeniz </b> <br />
         <br />
