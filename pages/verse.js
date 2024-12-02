@@ -53,15 +53,14 @@ export default function Protected({ hasReadPermission }) {
         <br />
         the atoms of air between graphite and paper  <br />
         pencil hovering, wavering,<br />
-        seeds of understanding enclosed in its palm <br />
+        seeds of understanding entombed in its tip <br />
         <br />
-        unfurl your fingers, pencil <br />
+        unfurl your secrets, pencil <br />
         point me in that cardinal direction <br />
         to where my heart and my reason meet without contempt <br />
         <br />
         lead me away from that bitter path <br />
         where i, like WeiWei did, hold that which is most precious to me <br />
-        <br />
         and let go. leaving ceramic shards shattered at my feet
 
       
