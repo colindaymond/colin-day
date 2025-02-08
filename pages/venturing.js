@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from "next/router"
+import { marked } from 'marked'
 
 class Post {
   constructor(content) {
@@ -14,13 +15,11 @@ class Post {
   }
 
   toHTML() {
-    // You'll need to install marked with: npm install marked
-    const marked = require('marked');
     return marked(this.content);
   }
 }
 
-export default function venturing() {
+export default function Venturing() {
   const posts = [
     new Post(`
 # My First Venture
@@ -37,19 +36,22 @@ Here's another post with **bold** text and a [link](https://example.com).
   ];
 
   return (
-    <div>
+    <div className="container">
       <Head>
         <title>Venturing - Your Name</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <article>
-        <h1>Venturing</h1>
-        {posts.map((post, index) => (
-          <div key={index} className="post">
-            <div className="date">{post.date}</div>
-            <div dangerouslySetInnerHTML={{ __html: post.toHTML() }} />
-          </div>
-        ))}
-      </article>
+      <main>
+        <article>
+          <h1>Venturing</h1>
+          {posts.map((post, index) => (
+            <div key={index} className="post">
+              <div className="date">{post.date}</div>
+              <div dangerouslySetInnerHTML={{ __html: post.toHTML() }} />
+            </div>
+          ))}
+        </article>
+      </main>
     </div>
   )
 } 
