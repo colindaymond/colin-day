@@ -21,7 +21,14 @@ class Post {
   }
 }
 
-export default function Venturing() {
+export default function Protected({ hasReadPermission }) {
+  const router = useRouter()
+  
+  if (!hasReadPermission) {
+    router.push('/login')
+    return null
+  }
+
   const [posts] = useState([
     new Post(`
 # My First Venture
