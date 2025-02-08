@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from "next/router"
 
-
 class Post {
   constructor(content) {
     this.content = content;
@@ -21,15 +20,8 @@ class Post {
   }
 }
 
-export default function Protected({ hasReadPermission }) {
-  const router = useRouter()
-  
-  if (!hasReadPermission) {
-    router.push('/login')
-    return null
-  }
-
-  const [posts] = useState([
+export default function venturing() {
+  const posts = [
     new Post(`
 # My First Venture
       
@@ -42,7 +34,7 @@ This is an example post using *markdown*.
       
 Here's another post with **bold** text and a [link](https://example.com).
     `)
-  ]);
+  ];
 
   return (
     <div>
