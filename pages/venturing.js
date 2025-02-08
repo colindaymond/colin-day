@@ -36,22 +36,108 @@ Here's another post with **bold** text and a [link](https://example.com).
   ];
 
   return (
-    <div className="container">
+    <div id="wrapper">
       <Head>
-        <title>Venturing - Your Name</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>venturing</title>
+        <link href="https://fonts.googleapis.com/css?family=Cormorant:400,400i,500,600,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
       </Head>
-      <main>
-        <article>
-          <h1>Venturing</h1>
+
+      <header id="blog-header">
+        <div className="inner">
+          <h1 className="blog-name"><a href="/">venturing</a></h1>
+        </div>
+      </header>
+
+      <main className="content" role="main">
+        <div id="index" className="container">
           {posts.map((post, index) => (
-            <div key={index} className="post">
-              <div className="date">{post.date}</div>
-              <div dangerouslySetInnerHTML={{ __html: post.toHTML() }} />
-            </div>
+            <article key={index} className="post no-image">
+              <div className="inner">
+                <header className="post-header">
+                  <h2 className="post-title">{post.content.split('\n')[0].replace('#', '').trim()}</h2>
+                  <span className="post-meta">
+                    <time>{post.date}</time>
+                  </span>
+                  <div className="clear"></div>
+                </header>
+                <section className="post-excerpt">
+                  <div dangerouslySetInnerHTML={{ __html: post.toHTML() }} />
+                </section>
+              </div>
+            </article>
           ))}
-        </article>
+        </div>
       </main>
+
+      <style jsx global>{`
+        body {
+          font-family: 'Open Sans', sans-serif;
+          line-height: 1.6;
+          color: #1a1a1a;
+          margin: 0;
+          padding: 0;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+          font-family: 'Cormorant', serif;
+          letter-spacing: -1px;
+        }
+
+        .container {
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 2rem;
+        }
+
+        .post {
+          margin-bottom: 4rem;
+        }
+
+        .post-title {
+          font-size: 2rem;
+          margin: 0;
+        }
+
+        .post-meta {
+          color: #666;
+          font-size: 0.9rem;
+        }
+
+        .post-excerpt {
+          margin-top: 1rem;
+        }
+
+        .inner {
+          padding: 1rem 0;
+        }
+
+        .clear {
+          clear: both;
+        }
+
+        #blog-header {
+          padding: 2rem 0;
+          border-bottom: 1px solid #eee;
+        }
+
+        .blog-name {
+          font-family: 'Cormorant', serif;
+          letter-spacing: -1px;
+          font-size: 2rem;
+          margin: 0;
+          text-align: center;
+        }
+
+        .blog-name a {
+          color: #1a1a1a;
+          text-decoration: none;
+        }
+
+        .blog-name a:hover {
+          color: #ff00e7;
+        }
+      `}</style>
     </div>
   )
 } 
