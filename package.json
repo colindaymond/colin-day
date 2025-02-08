@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "marked": "^15.0.6",
     "next": "^14.2.13",
     "postcss": "^8.4.47",
     "postcss-scss": "^4.0.9",

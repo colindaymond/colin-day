@@ -1,0 +1,10 @@
+.post {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.post .date {
+  color: #666;
+  margin-bottom: 1rem;
+} 
