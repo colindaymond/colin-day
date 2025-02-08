@@ -39,7 +39,7 @@ Here's another post with **bold** text and a [link](https://example.com).
   ]);
 
   return (
-    <Layout>
+    <div>
       <Head>
         <title>Venturing - Your Name</title>
       </Head>
@@ -52,6 +52,6 @@ Here's another post with **bold** text and a [link](https://example.com).
           </div>
         ))}
       </article>
-    </Layout>
+    </div>
   )
 } 
