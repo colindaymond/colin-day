@@ -82,7 +82,7 @@ We think you will want to replace Squarespace, Wix, Wordpress with Daydream, but
 
       <style jsx global>{`
         body {
-          font-family: 'Open Sans', sans-serif;
+          font-family: 'EB Garamond', serif;
           line-height: 1.6;
           color: #1a1a1a;
           margin: 0;
