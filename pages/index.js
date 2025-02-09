@@ -29,8 +29,13 @@ const Home = () => (
 
 <div className="container">
 
-        hello! i'm colin: dad, swimmer, surfer, investor, tinkerer, human <br />
+        hello! i'm colin | swimmer, dad, surfer, investor, tinkerer, human <br />
         <br />
+
+        <a href="/foggynotions" className="card">
+          <h2>foggy notions</h2>
+        </a>
+
         <a href="https://venturing.ghost.io" target="_blank" className="card">
           <h2>venturing</h2>
         </a>
@@ -43,18 +48,13 @@ const Home = () => (
         <h2>verse</h2>
         </a>
 
-        <a href="https://www.youtube.com/watch?v=z9mjK8DYE3A&t=213s" target="_blank"
-          className="card">
-          <h2>moving pictures</h2>
-        </a>
-
         <a href="https://soundcloud.com/coldaymond/likes" target="_blank"
           className="card">
           <h2>tunes</h2>
 
         </a>
 
-        <a href="https://www.youtube.com/watch?v=ybXrrTX3LuI" target="_blank"
+        <a href="https://www.youtube.com/watch?v=z9mjK8DYE3A&t=213s" target="_blank"
           className="card">
           <h2>grab bag</h2>
         </a>
@@ -65,8 +65,6 @@ const Home = () => (
 
     <footer>
     <p className="description">
-    take a deep breath <br/>
-    <br />
     慢走 <br/>
     <br />
     
@@ -230,6 +228,17 @@ const Home = () => (
         line-height: 1.5;
       }
 
+      .post {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.post .date {
+  color: #666;
+  margin-bottom: 1rem;
+} 
+
       @media (max-width: 600px) {
         .grid {
           width: 100%;
@@ -252,6 +261,8 @@ const Home = () => (
         box-sizing: border-box;
       }
     `}</style>
+
+    
   </div>
 )
 
