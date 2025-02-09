@@ -55,7 +55,7 @@ We think you will want to replace Squarespace, Wix, Wordpress with Daydream, but
 
       <header id="blog-header">
         <div className="inner">
-          <h1 className="blog-name"><a href="/">venturing</a></h1>
+          <h1 className="blog-name"><a href="/">foggy notions</a></h1>
         </div>
       </header>
 
