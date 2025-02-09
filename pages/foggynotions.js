@@ -23,15 +23,19 @@ export default function Foggynotions() {
   const posts = [
 
     new Post(`
-## Daydream
+## daydream
 
-Daydream is a new way of giving power to people to create things online that they own and control.
+daydream is a new way of giving power to people to create things online that they own and control.
 
-It's fundamental tech stack are language models, the networking world wide web, the open standards of the internet, the human voice, and human creativty.
+Our tech stack consists of large language models, IPv6, SMTP, other open standards of the internet, and authentic human creativity.
 
-Our mission is to empower people to own the versions of themselves online. 
+We believe the human voice should be at the center of human computer interaction.
 
-We believe in unmediated social media, where people and not platforms have power.
+Our mission is to empower people to own the online versions of themselves with ease.
+
+We want to unmediate social media.
+
+
 `)
   ];
 
@@ -102,7 +106,7 @@ We believe in unmediated social media, where people and not platforms have power
         }
 
         .post-meta {
-          color: #ffe070;
+          color: #2b2b2b;
           font-size: 0.9rem;
         }
 
