@@ -9,7 +9,7 @@ class Post {
     this.content = content;
     this.date = new Date().toLocaleDateString('en-US', {
       year: 'numeric',
-      month: 'long',
+      month: 'short',
       day: 'numeric'
     });
   }
@@ -19,7 +19,7 @@ class Post {
   }
 }
 
-export default function Venturing() {
+export default function Foggynotions() {
   const posts = [
     new Post(`
 # My First Venture
@@ -32,14 +32,24 @@ This is an example post using *markdown*.
 ## Another Adventure
       
 Here's another post with **bold** text and a [link](https://example.com).
-    `)
+    `),
+    new Post(`
+## Daydream
+
+Daydream is a new way of giving power to people to create things online that they own and control.
+
+It's fundamental tech stack are language models, the world wide web, and the human voice.
+
+We think you will want to replace Squarespace, Wix, Wordpress with Daydream, but we hope that together we build something to replace platform-dominated social media that is engineering vice with inhumane algorithms.
+
+`)
   ];
 
   return (
     <div id="wrapper">
       <Head>
-        <title>venturing</title>
-        <link href="https://fonts.googleapis.com/css?family=Cormorant:400,400i,500,600,700" rel="stylesheet" />
+        <title>foggy notions</title>
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,600,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
       </Head>
 
@@ -80,7 +90,7 @@ Here's another post with **bold** text and a [link](https://example.com).
         }
         
         h1, h2, h3, h4, h5, h6 {
-          font-family: 'Cormorant', serif;
+          font-family: 'EB Garamond', serif;
           letter-spacing: -1px;
         }
 
@@ -122,7 +132,7 @@ Here's another post with **bold** text and a [link](https://example.com).
         }
 
         .blog-name {
-          font-family: 'Cormorant', serif;
+          font-family: 'EB Garamond', serif;
           letter-spacing: -1px;
           font-size: 2rem;
           margin: 0;
