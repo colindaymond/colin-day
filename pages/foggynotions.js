@@ -21,27 +21,17 @@ class Post {
 
 export default function Foggynotions() {
   const posts = [
-    new Post(`
-# My First Venture
-      
-This is an example post using *markdown*.
-- Point 1
-- Point 2
-    `),
-    new Post(`
-## Another Adventure
-      
-Here's another post with **bold** text and a [link](https://example.com).
-    `),
+
     new Post(`
 ## Daydream
 
 Daydream is a new way of giving power to people to create things online that they own and control.
 
-It's fundamental tech stack are language models, the world wide web, and the human voice.
+It's fundamental tech stack are language models, the networking world wide web, the open standards of the internet, the human voice, and human creativty.
 
-We think you will want to replace Squarespace, Wix, Wordpress with Daydream, but we hope that together we build something to replace platform-dominated social media that is engineering vice with inhumane algorithms.
+Our mission is to empower people to own the versions of themselves online. 
 
+We believe in unmediated social media, where people and not platforms have power.
 `)
   ];
 
@@ -102,15 +92,17 @@ We think you will want to replace Squarespace, Wix, Wordpress with Daydream, but
 
         .post {
           margin-bottom: 4rem;
+          font-size: 1.1rem;
         }
 
         .post-title {
           font-size: 2rem;
           margin: 0;
+          color: #696969;
         }
 
         .post-meta {
-          color: #666;
+          color: #ffe070;
           font-size: 0.9rem;
         }
 
