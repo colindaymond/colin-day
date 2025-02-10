@@ -29,18 +29,15 @@ const Home = () => (
 
 <div className="container">
 
-        hello! i'm colin | swimmer, dad, surfer, investor, tinkerer, human <br />
+        hello! i'm colin || swimmer, dad, surfer, investor, tinkerer, human <br />
+        <br />
         <br />
 
         <a href="/foggynotions" className="card">
           <h2>foggy notions</h2>
         </a>
 
-        <a href="https://venturing.ghost.io" target="_blank" className="card">
-          <h2>venturing</h2>
-        </a>
-
-        <a href="/photographs" className="card">
+         <a href="/photographs" className="card">
           <h2>photographs</h2>
         </a>
 
