@@ -146,31 +146,31 @@ That said, the undeniable shift towards open source is inspiring. It enables and
     }),
 
     new Post(`
-    ## probably quantum? NISQ and where we are today
+## probably quantum? NISQ and where we are today
 
-    ![probably quantum](/images/probably quantum.png)
+![probablyquantum](/images/probably quantum.png)
 
-    In October, my colleagues Lars Fjeldsoe-Nielsen, Maxime Le Dantec and I were honored to co-host an awesome crowd of thinkers and builders in Quantum Computing at Balderton HQ alongside the UK's National Physical Laboratory, just a night before Google announced their achievement of quantum supremacy.
+In October, my colleagues Lars Fjeldsoe-Nielsen, Maxime Le Dantec and I were honored to co-host an awesome crowd of thinkers and builders in Quantum Computing at Balderton HQ alongside the UK's National Physical Laboratory, just a night before Google announced their achievement of quantum supremacy.
 
-    I won't get into the fray as to whether Google's result amounts to supremacy or speedup, and I think this blog post by Leo at Rahko does a succinct job of summarizing the result and placing it in context. (For a more detailed take see Scott Aaronson's post) Needless to say, these are exciting times for the future of computing and for achieving a greater capacity to understand Nature.
+I won't get into the fray as to whether Google's result amounts to supremacy or speedup, and I think this blog post by Leo at Rahko does a succinct job of summarizing the result and placing it in context. (For a more detailed take see Scott Aaronson's post) Needless to say, these are exciting times for the future of computing and for achieving a greater capacity to understand Nature.
 
-    Our gathering was motivated by John Preskill's paper Quantum Computing in the NISQ Era and Beyond. NISQ is an acronym that describes the current available quantum computing devices. They are Noisy Intermediate-Scale Quantum Computers that represent huge advances compared to the available technology a few years ago, but are still a far cry from a truly Universal Quantum Computer. In the paper, Preskill writes that "Now is an opportune time for a fruitful discussion among researchers, entrepreneurs, managers, and investors who share an interest in quantum computing." As capital has surged into this still-highly experimental field in ever greater quantities (from $70M in total quantum-focused VC in 2015 to $560M so far in 2019), it becomes critical to gather disparate viewpoints within four walls and try to separate signal from noise. (We were also inspired by BlueYard and Google's 2017 Munich gathering, A Quantum Leap.)
+Our gathering was motivated by John Preskill's paper Quantum Computing in the NISQ Era and Beyond. NISQ is an acronym that describes the current available quantum computing devices. They are Noisy Intermediate-Scale Quantum Computers that represent huge advances compared to the available technology a few years ago, but are still a far cry from a truly Universal Quantum Computer. In the paper, Preskill writes that "Now is an opportune time for a fruitful discussion among researchers, entrepreneurs, managers, and investors who share an interest in quantum computing." As capital has surged into this still-highly experimental field in ever greater quantities (from $70M in total quantum-focused VC in 2015 to $560M so far in 2019), it becomes critical to gather disparate viewpoints within four walls and try to separate signal from noise. (We were also inspired by BlueYard and Google's 2017 Munich gathering, A Quantum Leap.)
 
-    Over the course of the day we were lucky to have vigorous debate from company leaders like Christopher Savoie, CEO at Zapata, Ilyas Khan, CEO at Cambridge Quantum Computing, Leo Wossnig, CEO at Rahko and Justin Ging, CCO at Honeywell Quantum. These voices were complemented by many researchers from Oxford, Cambridge, UCL and other universities, by investors, and also by representatives of the UK government, including Roger McKinlay, the Challenge Director for Quantum Technologies at UK Research and Innovation.
+Over the course of the day we were lucky to have vigorous debate from company leaders like Christopher Savoie, CEO at Zapata, Ilyas Khan, CEO at Cambridge Quantum Computing, Leo Wossnig, CEO at Rahko and Justin Ging, CCO at Honeywell Quantum. These voices were complemented by many researchers from Oxford, Cambridge, UCL and other universities, by investors, and also by representatives of the UK government, including Roger McKinlay, the Challenge Director for Quantum Technologies at UK Research and Innovation.
 
-    Through the course of the afternoon we uncovered some of the challenges associated with measuring progress within quantum computing. What are the right metrics? The oft-reported total qubit number is almost certainly not a fair metric. One also has to look at measures of connectivity, fidelity, and circuit depth. Similarly to when you look at the specs for your new laptop, there is no one metric to rule them all.
+Through the course of the afternoon we uncovered some of the challenges associated with measuring progress within quantum computing. What are the right metrics? The oft-reported total qubit number is almost certainly not a fair metric. One also has to look at measures of connectivity, fidelity, and circuit depth. Similarly to when you look at the specs for your new laptop, there is no one metric to rule them all.
 
-    We had a debate about the benefits and drawbacks of the various hardware approaches for quantum computing, including superconducting qubits, ion traps, and spin qubits. Most notably, we had agreement that superconducting qubits are easy to design with microwave electronics, but can be inherently unstable and there can be calibration issues. Ion trapped qubits have high fidelity and connectivity, but can be difficult and inaccurate to control. Spin qubits in silicon have the benefit of a pre-existing fabrication supply chain that is already manufacturing silicon chips at massive scale and low cost.
+We had a debate about the benefits and drawbacks of the various hardware approaches for quantum computing, including superconducting qubits, ion traps, and spin qubits. Most notably, we had agreement that superconducting qubits are easy to design with microwave electronics, but can be inherently unstable and there can be calibration issues. Ion trapped qubits have high fidelity and connectivity, but can be difficult and inaccurate to control. Spin qubits in silicon have the benefit of a pre-existing fabrication supply chain that is already manufacturing silicon chips at massive scale and low cost.
 
-    To varying degrees, all approaches are experiencing challenges scaling devices to many high quality qubits. We also lack any sort of infrastructure to allow interoperability between different QCs with different types of qubits.
+To varying degrees, all approaches are experiencing challenges scaling devices to many high quality qubits. We also lack any sort of infrastructure to allow interoperability between different QCs with different types of qubits.
 
-    A recurring theme was the necessity of teams working on hardware, software, and end-users (customers) to maintain an open dialogue. A preference one place in the stack could turn into a specification somewhere else.
+A recurring theme was the necessity of teams working on hardware, software, and end-users (customers) to maintain an open dialogue. A preference one place in the stack could turn into a specification somewhere else.
 
-    On the software side, the discussion largely focused on what degree quantum algorithms would need to combine with classical and machine learning algorithms in order to be usable in the near term. Many of us were excited by the scope of using quantum computing and machine learning to augment one another, (as an example of a hybrid approach see this recent paper). All that said, we still have a ways to go in terms of demonstrating concrete value to customers.
+On the software side, the discussion largely focused on what degree quantum algorithms would need to combine with classical and machine learning algorithms in order to be usable in the near term. Many of us were excited by the scope of using quantum computing and machine learning to augment one another, (as an example of a hybrid approach see this recent paper). All that said, we still have a ways to go in terms of demonstrating concrete value to customers.
 
-    Finally, we discussed the need for a deeper talent pool in quantum; quantum chemistry and other potential areas of near-term applications; and how quantum computing might best be regarded as a new frontier of generalized computation that is well-suited to problems requiring high dimensionality rather than high throughput.
+Finally, we discussed the need for a deeper talent pool in quantum; quantum chemistry and other potential areas of near-term applications; and how quantum computing might best be regarded as a new frontier of generalized computation that is well-suited to problems requiring high dimensionality rather than high throughput.
 
-    Gathering perspectives from academia, industry, investors, and government is an important way to drive technologies further in a thoughtful fashion and we look forward to continuing the conversation with all those who joined us.
+Gathering perspectives from academia, industry, investors, and government is an important way to drive technologies further in a thoughtful fashion and we look forward to continuing the conversation with all those who joined us.
     `, { 
       customDate: 'Nov 06, 2019',
       isPublished: true
@@ -214,7 +214,8 @@ Speaking of social graphs, there are various worthwhile efforts at recreating so
 
 So the trade-offs we have to make in favor of privacy are getting easier, even as awareness of the cost of the status quo (which supports surveillance, direct personal data monetization, and personal data vulnerability through poor security and storage) expands.
 
-![photo underground](/images/photo underground.jpeg)
+![photounderground](/images/photo underground.jpeg)
+
 iii. Since Snowden brought institutionalized online surveillance programs like PRISM and XKeyScore to our attention in 2013, privacy has become a daily front-page issue for publications and boardrooms around the world. Alongside this narrative has been the slow realisation that most companies simply cannot be trusted with our own personal data (go have a look at Have I Been Pwned and see for yourself). Luckily, in the relatively short six years since, the European Union has put into law the General Data Protection Regulation (GDPR, implemented in May 2018), which states that "The protection of natural persons in relation to the processing of personal data is a fundamental right". GDPR outlines a comprehensive framework that fundamentally changes how businesses and services must collect, process and treat personal data. Enforcement has so far been muted in my view, while authorities allow for some adjustment time, but I believe major enforcement is a question of when, not if.
 
 Europe is not alone in terms of front-footed policy making on privacy. California passed the California Consumer Privacy Act (CCPA, enforceable beginning January 1, 2020) last year. The Act begins with a reminder that a fundamental right to privacy for all is recognized and protected by California's constitution. These policies have been a critical impetus in ensuring that citizens and market participants treat counterparty data with more respect. The bills have also created huge opportunities for companies focused on privacy software that help businesses bridge the wide gap between what policymakers are signing into law and the privacy-jeopardizing status-quo of the past few decades. Companies that are seizing this opportunity include Collibra, Onetrust and DataGuard
@@ -228,12 +229,13 @@ Luckily, the steps we have to take today don't seem as foolish and aren't as har
     }),
 
   new Post(`
-    ## anticipations for 2019
 
-    Und nun wollen wir glauben an ein langes Jahr, das uns
-gegeben ist, neu, unberührt, voll nie gewesener Dinge...
+## anticipations for 2019
 
-"And now we would like to believe in a long year, given to us new, untouched, full of things that never before were..." -- Rainer Maria Rilke in a letter to his wife, January 1, 1907
+*Und nun wollen wir glauben an ein langes Jahr, das uns gegeben ist, neu, unberührt, voll nie gewesener Dinge...*
+
+"And now we would like to believe in a long year, given to us new, untouched, full of things that never before were..." 
+-- Rainer Maria Rilke in a letter to his wife, January 1, 1907
 
 I thought I'd start the new year with a few technology related anticipations.
 
@@ -294,7 +296,7 @@ operating leverage = (fixed costs) / (total costs)
 
 a company with a high proportion of fixed costs has high operating leverage. put another way, a company with a low proportion of variable costs also has high operating leverage.
 
-! [operating leverage](/images/oplev.png)
+![operatingleverage](/images/oplev.png)
 
 why is that?
 
@@ -323,7 +325,7 @@ in early stage venture, a companies cost structure is often still being built ou
 new Post(`
   ## luno
 
-  a central challenge facing venture capitalists today is the decentralization of tomorrow's internet. while many won't admit it, venture capitalists often need centralization to create companies at the scale that deliver outsized returns to their investors. if the internet becomes decentralized, where will those returns be generated?
+a central challenge facing venture capitalists today is the decentralization of tomorrow's internet. while many won't admit it, venture capitalists often need centralization to create companies at the scale that deliver outsized returns to their investors. if the internet becomes decentralized, where will those returns be generated?
 
 we've been thinking about that here at balderton with regards to the emerging crypto economy. one conclusion is that the bridges and access points between the "crypto economy" and the "fiat world" will continue to drive value and growth in years to come.
 
@@ -340,9 +342,9 @@ the caliber of luno's team and the pace that they are growing their business con
 new Post(`
   ## consciousness and intent in technology
 
-  ! [removed](images/removed.jpg)
+![removed](images/removed.jpg)
 
-  Credit to Eric Pickersgill at http://www.ericpickersgill.com/removed
+Credit to Eric Pickersgill at http://www.ericpickersgill.com/removed
 
 We have a thesis we've been discussing internally here at Balderton on The End of Reality. Quantum physics and simulation theory aside, it's clear that we are increasingly escaping our immediate physical reality in favor of alternative digitally (or chemically) constructed realities.
 
@@ -375,30 +377,25 @@ new Post(`
 
 I have spent some time in recent months thinking and learning about cryptographic tokens and blockchain, specifically Ethereum. This included time at the Ethereum Developers Conference, conversations with thoughtful folks in the space, and a wheat beer at Room77 in Berlin. After these conversations, I feel strongly for various reasons that it is a space we all should be on top of, and where tech investors should be looking to put capital to work, sometimes in unfamiliar ways.
 
-1. Top Down. Cryptocurrencies (mostly Bitcoin and Ethereum) are emerging as an entirely new
-asset class with returns we, as technology investors, shouldn't ignore
+1.  Top Down. Cryptocurrencies (mostly Bitcoin and Ethereum) are emerging as an entirely new asset class with returns we, as technology investors, shouldn't ignore
 
-In 2010 all the world's cryptocurrencies were worth virtually nothing, today they are worth between $20-25B. In a world where the existing 5 macro asset classes (currencies, commodities, rates, equities, fixed income) are largely influenced by policymakers, central bankers, and increasingly unpredictable democratic outcomes, cryptocurrencies are providing a relatively uncorrelated asset class that can potentially reduce portfolio volatility and increase risk-adjusted returns.
+    In 2010 all the world's cryptocurrencies were worth virtually nothing, today they are worth between $20-25B. In a world where the existing 5 macro asset classes (currencies, commodities, rates, equities, fixed income) are largely influenced by policymakers, central bankers, and increasingly unpredictable democratic outcomes, cryptocurrencies are providing a relatively uncorrelated asset class that can potentially reduce portfolio volatility and increase risk-adjusted returns.
 
-Not to mention, the returns have been fantastic. In the last 12 months BTC has grown from a market cap of $6.3B to $17.8B. In the last 12 months ETH has grown from a market cap of $850M to $4B. While it's true that these asset classes have also historically been extremely volatile, it's also clear from the data that they have thus far delivered consistently handsome returns to early investors. Losses were posted two of the 9 years, with annual average returns of in the ballpark of 350% and 500% respectively for Bitcoin and Ethereum.
+    Not to mention, the returns have been fantastic. In the last 12 months BTC has grown from a market cap of $6.3B to $17.8B. In the last 12 months ETH has grown from a market cap of $850M to $4B. While it's true that these asset classes have also historically been extremely volatile, it's also clear from the data that they have thus far delivered consistently handsome returns to early investors. Losses were posted two of the 9 years, with annual average returns of in the ballpark of 350% and 500% respectively for Bitcoin and Ethereum.
 
-We may argue that, as impressive as these numbers may be, we are equity investors into technology companies, and as such these and related asset classes are clearly inappropriate investments. That would be a mistake. These tokens are fundamentally new technologies first, and financial assets second.
+    We may argue that, as impressive as these numbers may be, we are equity investors into technology companies, and as such these and related asset classes are clearly inappropriate investments. That would be a mistake. These tokens are fundamentally new technologies first, and financial assets second.
 
-2. Tokens are becoming a new funding paradigm. It behooves us to think about how as VCs we can
-operate here if we see compelling cases.
+2.  Tokens are becoming a new funding paradigm. It behooves us to think about how as VCs we can operate here if we see compelling cases.
 
-Previously, protocol layers (like HTTP or TCP/IP) were largely provided by researchers who didn't (at scale) monetize their protocols directly. It took entities who built software on top of those protocols, and then either sold that software directly, or built networks large enough to be attractive to advertisers, before the
-protocol could be meaningfully monetized.
+    Previously, protocol layers (like HTTP or TCP/IP) were largely provided by researchers who didn't (at scale) monetize their protocols directly. It took entities who built software on top of those protocols, and then either sold that software directly, or built networks large enough to be attractive to advertisers, before the protocol could be meaningfully monetized.
 
-Networks like Ethereum are entirely different. Through cryptographic token sales, a for-profit entity can issue tokens to would-be participants in the network while retaining some portion of the tokens for themselves. As network participation increases, so does the value of the withheld tokens, which they can use to fund operations, incentivize employees, etc.
+    Networks like Ethereum are entirely different. Through cryptographic token sales, a for-profit entity can issue tokens to would-be participants in the network while retaining some portion of the tokens for themselves. As network participation increases, so does the value of the withheld tokens, which they can use to fund operations, incentivize employees, etc.
 
 As such, as technology investors I think we need to think about how we can gain exposure to these tokens
 in the event that we see a company that is attractive to us and meets our investment criteria.
 
-3. It is very early days for Ethereum (genesis block in July 2015), and yet the flexibility of its
-scripting language (Solidity) means that it has already garnered lots of developer attention, with the
-promise of a much richer and diverse application layer of decentralized applications (DApps) built on
-top of it
+3. It is very early days for Ethereum (genesis block in July 2015), and yet the flexibility of its scripting language (Solidity) means that it has already garnered lots of developer attention, with the
+promise of a much richer and diverse application layer of decentralized applications (DApps) built on top of it
 
 Big validation points for Ethereum include:
 
@@ -412,6 +409,7 @@ A full list of DApps maintained by ethereum.org
 Some examples:
 
 Status - A mobile browser, OS and messaging platform for Ethereum & Dapps
+
 Oraclize - Data carrier for decentralized apps
 Ujo Music, Musicoin - Blockchain-enabled digital rights mgmt. for musicians
 Etherisc -  p2p Social insurance, flight delay insurance, crop insurance
@@ -425,16 +423,11 @@ Risks
 
 To be fair, this space is fraught with risk, of which here are some:
 
-Security
-There have been numerous cases of security breaches at high-profile stores of currencies, most notably Mt. Gox and the DAO. Security needs to be #1 DD item for any investment involved with storing or transferring a high volume of keys
-Volatility
-Tokens have been tremendously volatile, which is a direct risk for us as investors but also a risk to mass-market adoption.
-Reputational risk
-Ask your friends what they buy with their Bitcoin
-Scale
-Both Bitcoin and Ethereum have issues at scale involving block-size, and transaction speeds/costs. Ethereum has an active community and is willing to evolve via hard forks, which suggests it will be the more flexible solution
-Is this just batshit crazy?
-I don't know. Is this so out there? I don't think so. At this point, there have been billionaires created by investing in these tokens, building companies in the space, and building next generation protocol layers. The value of these networks is increasing exponentially as more and more smart people dedicate their careers and lives to the space.
+Security - There have been numerous cases of security breaches at high-profile stores of currencies, most notably Mt. Gox and the DAO. Security needs to be #1 DD item for any investment involved with storing or transferring a high volume of keys
+Volatility - Tokens have been tremendously volatile, which is a direct risk for us as investors but also a risk to mass-market adoption.
+Reputational risk - Ask your friends what they buy with their Bitcoin
+Scale - Both Bitcoin and Ethereum have issues at scale involving block-size, and transaction speeds/costs. Ethereum has an active community and is willing to evolve via hard forks, which suggests it will be the more flexible solution
+Is this just crazy?I don't know. Is this so out there? I don't think so. At this point, there have been billionaires created by investing in these tokens, building companies in the space, and building next generation protocol layers. The value of these networks is increasing exponentially as more and more smart people dedicate their careers and lives to the space.
 
   `, { 
       customDate: 'Mar 21, 2017',
@@ -552,7 +545,7 @@ Things fall apart; the centre cannot hold
         }
 
         .inner {
-          padding: 1rem 0;
+          padding: 0.5rem 0;
         }
 
         .clear {
@@ -562,6 +555,10 @@ Things fall apart; the centre cannot hold
         #blog-header {
           padding: 2rem 0;
           border-bottom: 1px solid #eee;
+        }
+
+        .post-header {
+          margin-bottom: 0.5rem;
         }
 
         .blog-name {
