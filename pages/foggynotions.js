@@ -498,6 +498,7 @@ Things fall apart; the centre cannot hold
                   <section className="post-excerpt">
                     <div dangerouslySetInnerHTML={{ __html: post.toHTML() }} />
                   </section>
+                  <div className="post-emojis">☁️ 💡</div>
                 </div>
               </article>
             ))}
@@ -538,7 +539,7 @@ Things fall apart; the centre cannot hold
         }
 
         .post-meta {
-          color: #ff00e7;
+          color: #ffc2f7;
           font-size: 0.9rem;
           display: block;
           margin-bottom: -0.5rem;
@@ -593,7 +594,13 @@ Things fall apart; the centre cannot hold
         }
 
         .blog-name a:hover {
-          color: #ff00e7;
+          color: #ffc2f7;
+        }
+
+        .post-emojis {
+          text-align: center;
+          margin: 2rem 0;
+          font-size: 1.5rem;
         }
       `}</style>
     </div>
