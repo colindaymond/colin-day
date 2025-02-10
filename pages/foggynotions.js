@@ -534,7 +534,7 @@ Things fall apart; the centre cannot hold
         .post-title {
           font-size: 2rem;
           margin: 0;
-          line-height: 1;
+          line-height: 0.8;
           color: #696969;
         }
 
@@ -543,7 +543,7 @@ Things fall apart; the centre cannot hold
           font-size: 0.9rem;
           display: block;
           margin-bottom: -0.5rem;
-          line-height: 0.8;
+          line-height: 0.6;
         }
 
         .post-excerpt {
