@@ -603,6 +603,10 @@ Things fall apart; the centre cannot hold
           margin: 1rem 0;
           font-size: 1.3rem;
         }
+
+        .post:first-child .post-meta {
+          padding-top: 1rem;
+        }
       `}</style>
     </div>
   )
