@@ -148,7 +148,7 @@ That said, the undeniable shift towards open source is inspiring. It enables and
     new Post(`
 ## probably quantum? NISQ and where we are today
 
-![probablyquantum](/images/probably quantum.png)
+![probably quantum](/images/probably_quantum.png)
 
 In October, my colleagues Lars Fjeldsoe-Nielsen, Maxime Le Dantec and I were honored to co-host an awesome crowd of thinkers and builders in Quantum Computing at Balderton HQ alongside the UK's National Physical Laboratory, just a night before Google announced their achievement of quantum supremacy.
 
@@ -214,7 +214,7 @@ Speaking of social graphs, there are various worthwhile efforts at recreating so
 
 So the trade-offs we have to make in favor of privacy are getting easier, even as awareness of the cost of the status quo (which supports surveillance, direct personal data monetization, and personal data vulnerability through poor security and storage) expands.
 
-![photounderground](/images/photo underground.jpeg)
+![photo underground](/images/photo_underground.jpeg)
 
 iii. Since Snowden brought institutionalized online surveillance programs like PRISM and XKeyScore to our attention in 2013, privacy has become a daily front-page issue for publications and boardrooms around the world. Alongside this narrative has been the slow realisation that most companies simply cannot be trusted with our own personal data (go have a look at Have I Been Pwned and see for yourself). Luckily, in the relatively short six years since, the European Union has put into law the General Data Protection Regulation (GDPR, implemented in May 2018), which states that "The protection of natural persons in relation to the processing of personal data is a fundamental right". GDPR outlines a comprehensive framework that fundamentally changes how businesses and services must collect, process and treat personal data. Enforcement has so far been muted in my view, while authorities allow for some adjustment time, but I believe major enforcement is a question of when, not if.
 
@@ -296,7 +296,7 @@ operating leverage = (fixed costs) / (total costs)
 
 a company with a high proportion of fixed costs has high operating leverage. put another way, a company with a low proportion of variable costs also has high operating leverage.
 
-![operatingleverage](/images/oplev.png)
+![operating leverage](/images/oplev.png)
 
 why is that?
 
@@ -342,9 +342,9 @@ the caliber of luno's team and the pace that they are growing their business con
 new Post(`
   ## consciousness and intent in technology
 
-![removed](images/removed.jpg)
+![removed](/images/removed.jpg)
 
-Credit to Eric Pickersgill at http://www.ericpickersgill.com/removed
+Credit to Eric Pickersgill
 
 We have a thesis we've been discussing internally here at Balderton on The End of Reality. Quantum physics and simulation theory aside, it's clear that we are increasingly escaping our immediate physical reality in favor of alternative digitally (or chemically) constructed realities.
 
@@ -522,6 +522,7 @@ Things fall apart; the centre cannot hold
           max-width: 800px;
           margin: 0 auto;
           padding: 2rem;
+          padding-top: 7rem; /* Add padding to account for fixed header */
         }
 
         .post {
@@ -541,11 +542,11 @@ Things fall apart; the centre cannot hold
         }
 
         .post-excerpt {
-          margin-top: 1rem;
+          margin-top: 0.5rem;
         }
 
         .inner {
-          padding: 0.5rem 0;
+          padding: 1rem 0;
         }
 
         .clear {
@@ -553,12 +554,18 @@ Things fall apart; the centre cannot hold
         }
 
         #blog-header {
-          padding: 2rem 0;
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          padding: 1rem 0;
           border-bottom: 1px solid #eee;
+          background: white;
+          z-index: 1000;
         }
 
         .post-header {
-          margin-bottom: 0.5rem;
+          margin-bottom: 0;
         }
 
         .blog-name {
