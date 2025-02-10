@@ -29,10 +29,6 @@ const Home = () => (
 
 <div className="container">
 
-        hello! i'm colin || swimmer, dad, surfer, investor, tinkerer, human <br />
-        <br />
-        <br />
-
         <a href="/foggynotions" className="card">
           <h2>foggy notions</h2>
         </a>
