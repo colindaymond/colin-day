@@ -534,6 +534,7 @@ Things fall apart; the centre cannot hold
         .post-title {
           font-size: 2rem;
           margin: 0;
+          margin-top: -0.3rem;
           line-height: 0.8;
           color: #696969;
         }
