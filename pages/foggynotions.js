@@ -489,10 +489,10 @@ Things fall apart; the centre cannot hold
               <article key={index} className="post no-image">
                 <div className="inner">
                   <header className="post-header">
-                    <h2 className="post-title">{post.content.split('\n')[0].replace('#', '').trim()}</h2>
                     <span className="post-meta">
                       <time>{post.date}</time>
                     </span>
+                    <h2 className="post-title">{post.content.split('\n')[0].replace('#', '').trim()}</h2>
                     <div className="clear"></div>
                   </header>
                   <section className="post-excerpt">
@@ -533,7 +533,7 @@ Things fall apart; the centre cannot hold
         .post-title {
           font-size: 2rem;
           margin: 0;
-          margin-top: -1.5rem;  /* Pull title up towards the date */
+          line-height: 1.2;
           color: #696969;
         }
 
@@ -541,7 +541,8 @@ Things fall apart; the centre cannot hold
           color: #ff00e7;
           font-size: 0.9rem;
           display: block;
-          margin-bottom: 0;
+          margin-bottom: -0.5rem;
+          line-height: 1;
         }
 
         .post-excerpt {
