@@ -498,7 +498,7 @@ Things fall apart; the centre cannot hold
                   <section className="post-excerpt">
                     <div dangerouslySetInnerHTML={{ __html: post.toHTML() }} />
                   </section>
-                  <div className="post-emojis">☁️ 💡</div>
+                  <div className="post-emojis">☁️</div>
                 </div>
               </article>
             ))}
