@@ -548,6 +548,13 @@ Things fall apart; the centre cannot hold
           margin-top: 0.5rem;
         }
 
+        .post-excerpt img {
+          max-width: 100%;
+          height: auto;
+          display: block;
+          margin: 1rem 0;
+        }
+
         .inner {
           padding: 1rem 0;
         }
