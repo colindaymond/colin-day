@@ -527,14 +527,14 @@ Things fall apart; the centre cannot hold
         }
 
         .post {
-          margin-bottom: 3rem;
+          margin-bottom: 1.5rem;
           font-size: 1.1rem;
         }
 
         .post-title {
           font-size: 2rem;
           margin: 0;
-          line-height: 1.2;
+          line-height: 1;
           color: #696969;
         }
 
@@ -543,7 +543,7 @@ Things fall apart; the centre cannot hold
           font-size: 0.9rem;
           display: block;
           margin-bottom: -0.5rem;
-          line-height: 1;
+          line-height: 0.8;
         }
 
         .post-excerpt {
@@ -600,7 +600,7 @@ Things fall apart; the centre cannot hold
         .post-emojis {
           text-align: center;
           margin: 1rem 0;
-          font-size: 1rem;
+          font-size: 1.2rem;
         }
       `}</style>
     </div>
