@@ -527,7 +527,7 @@ Things fall apart; the centre cannot hold
         }
 
         .post {
-          margin-bottom: 1.5rem;
+          margin-bottom: 1rem;
           font-size: 1.1rem;
         }
 
@@ -598,9 +598,9 @@ Things fall apart; the centre cannot hold
         }
 
         .post-emojis {
-          text-align: center;
+          text-align: left;
           margin: 1rem 0;
-          font-size: 1.2rem;
+          font-size: 1.3rem;
         }
       `}</style>
     </div>
