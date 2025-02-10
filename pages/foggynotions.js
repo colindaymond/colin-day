@@ -533,12 +533,15 @@ Things fall apart; the centre cannot hold
         .post-title {
           font-size: 2rem;
           margin: 0;
+          margin-top: -1.5rem;  /* Pull title up towards the date */
           color: #696969;
         }
 
         .post-meta {
-          color: #2b2b2b;
+          color: #ff00e7;
           font-size: 0.9rem;
+          display: block;
+          margin-bottom: 0;
         }
 
         .post-excerpt {
