@@ -51,17 +51,17 @@ export default function Protected({ hasReadPermission }) {
         <p className="poem">
         <b> nov 29 2024 </b> <br />
         <br />
-        the atoms of air between graphite and paper  <br />
-        pencil hovering, wavering,<br />
-        seeds of understanding entombed in its tip <br />
+        atoms of air between graphite and paper  <br />
+        the pencil hovers, wavers,<br />
+        wisdom hidden within its tip <br />
         <br />
         unfurl your secrets, pencil <br />
         point me in that cardinal direction <br />
-        to where my heart and my reason meet without contempt <br />
+        towards where heart and reason meet without contradiction <br />
         <br />
         lead me away from that bitter path <br />
-        where i, like WeiWei did, hold that which is most precious to me <br />
-        and let go. leaving ceramic shards shattered at my feet
+        where i, like weiwei did, holding that which is most precious to me, let go --- <br />
+        ceramic shards at my feet
 
       
 
