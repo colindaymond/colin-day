@@ -35,9 +35,9 @@ export default function Protected({ hasReadPermission }) {
       <p className="poem">
         <b> may 2023, boulder CO </b> <br />
         <br />
-         A tall standing pine  <br />
-         A songbird falling banking<br />
-         The pinecone dangles <br />
+         Tall green standing pine<br />
+         Darting songbird cuts blue sky<br />
+         Pinecone hanging still<br />
 
         <br />
         ---
@@ -84,7 +84,7 @@ export default function Protected({ hasReadPermission }) {
         </p>
 
       <p className="poem">
-        <b> spring </b> <br />
+        <b> spring in styria </b> <br />
         <br />
         the snow melts  <br />
         water rushing between conifers <br />
@@ -103,7 +103,7 @@ export default function Protected({ hasReadPermission }) {
   <br />
     He opens his mouth to breathe the Sumatran air  <br />
     tasting salty like sweat oozing thick like honey  <br />
-    in between the man’s teeth, around his tongue.  <br />
+    in between the man's teeth, around his tongue.  <br />
     His cheeks are so filled with it he almost expects to choke but does not.  <br />
   <br />
     His thoughts skip as stones on a lake without ripples,  <br />
