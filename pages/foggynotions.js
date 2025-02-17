@@ -42,7 +42,7 @@ We want to unmediate social media.
     new Post(`
   ## fuse
 
-  Earlier this year, my Partner Daniel and I found ourselves in the Docklands in East London at sunrise. We were there to meet Alan Chang and Charles Orr of Tesseract, who have just announced their ambitious $78M raise to help fix Europe's broken energy market. Having both previously worked at Revolut, where Alan was most recently Chief Revenue Officer, they both have a keen sense of the importance of ambition, focus and tenacity in the face of very large, very regulated, and very complex markets.
+  Earlier this year, my Partner Daniel and I found ourselves in the Docklands in East London at sunrise. We were there to meet Alan Chang and Charles Orr of [Fuse](https://www.fuseenergy.com/), who have just announced their ambitious $78M raise to help fix Europe's broken energy market. Having both previously worked at Revolut, where Alan was most recently Chief Revenue Officer, they both have a keen sense of the importance of ambition, focus and tenacity in the face of very large, very regulated, and very complex markets.
 
 But let's rewind to that first dawn meeting. What became immediately apparent to Daniel and I as the sun came up was that Alan and Charles, like Nikolay, were deeply hungry entrepreneurs who had a knack for identifying big hairy global problems, untangling their complex causes, breaking those down into a list of concrete actions, motivating humans around them to join them in their purpose, and together knocking out these actions and building solutions, bird by bird.
 
