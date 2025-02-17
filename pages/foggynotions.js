@@ -61,7 +61,7 @@ We are excited to be welcoming Alan, Charles and the whole Fuse team to Balderto
 
   As a venture investor there are rare occasions when you get to be the first check into a company that is truly special.
 
-While we are still in the early innings, what Aeneas, Thomas and the team at Ory are committed to is to building something important and doing so with a sharp eye for excellence. We believe that excellence is a quality that persists over time, and both Thomas, one of Germany's early internet stalwarts, and Aeneas, who has received Germany's highest civilian honor, have exhibited it in spades.
+While we are still in the early innings, what Aeneas, Thomas and the team at [Ory](https://www.ory.sh/) are committed to is to building something important and doing so with a sharp eye for excellence. We believe that excellence is a quality that persists over time, and both Thomas, one of Germany's early internet stalwarts, and Aeneas, who has received Germany's highest civilian honor, have exhibited it in spades.
 
 Based in Munich but already boasting a truly global community, Ory is building a zero-trust, cloud-native identity layer for the internet. Built on top of their widely-used open source stack, the Ory Cloud delivers to developers and organizations the ability to implement identity across their software stack without compromising on privacy, extensibility and security. Ory was building hardened open source identity software for many years before commercialization, and has experience merging pull requests and managing a decentralized community of contributors, something we believe grants a fundamental advantage in infrastructure software.
 
