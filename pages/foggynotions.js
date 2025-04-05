@@ -23,6 +23,24 @@ class Post {
 export default function Foggynotions() {
   const posts = [
     new Post(`
+      ## gendered AI
+      
+     My sense is that it is a problem for humanity that the resource we are increasingly turning to for knowledge is likely heavily biased towards men and away from women or non-binary people. 
+     
+     To my knowledge none of the large LLMs have published the breakdown of gender within their training data. But we do know that the models are trained on sites like Wikipedia and Reddit and we have gender data for those sites.
+     
+     Several Wikipedia studies state that 90% of Wikipedia contributors are male and fewer than 10% female. Other studies show that of all the biographies on Wikipedia, roughly 80% are of men and 20% are of women.
+
+     On Reddit, the gender skew of the user base currently is something like 65% male, 35% female, although historically the skew towards men was greater.
+
+     What kind of perspective does this gender skew in training data give us? If half of humanity are women, shouldn't that voice be equally represented in software and weights that attempt to reflect the combined knowledge of humanity? 
+
+     With my most profound questions in life, or when I'm looking for another perspective, I'm lucky enough to be able to turn to both my mom and my dad. We will lose something profound if we lose sight of that. 
+      `, { 
+            customDate: 'Apr 5, 2025',
+            isPublished: true
+          }),
+    new Post(`
 ## daydream
 
 daydream is a new way of giving power to people to create things online that they own and control.
