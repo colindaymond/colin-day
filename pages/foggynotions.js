@@ -33,7 +33,7 @@ export default function Foggynotions() {
 
      On Reddit, the gender skew of the user base currently is something like 65% male, 35% female, although historically the skew towards men was greater. This [study](https://www.cyber.pitt.edu/sites/default/files/who_authors_the_internet_analyzing_gender_diversity_chatgpt3_data.pdf) states that just over a quarter of the training data for GPT-3 was authored by women. 
 
-     What kind of perspective does this gender skew in training data give us? If half of humanity are women, shouldn't that voice be equally represented in software and weights that attempt to reflect the combined knowledge of humanity? 
+     What kind of perspective does this gender skew in training data give us? What perspective do we miss? If half of humanity are women, shouldn't that voice be equally represented in software and weights that attempt to reflect the combined knowledge of humanity? 
 
      With my most profound questions in life, or when I'm looking for another perspective, I'm lucky enough to be able to turn to both my mom and my dad. We will lose something profound if we lose sight of that. 
       `, { 
