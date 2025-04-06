@@ -25,13 +25,13 @@ export default function Foggynotions() {
     new Post(`
       ## gendered AI
       
-     My sense is that it is a problem for humanity that the resource we are increasingly turning to for knowledge is likely heavily biased towards men and away from women or non-binary people. 
+     My sense is that it is a problem for humanity that the resource we are increasingly turning to for knowledge is likely heavily biased towards men and away from women. 
      
      To my knowledge none of the large LLMs have published the breakdown of gender within their training data. But we do know that the models are trained on sites like Wikipedia and Reddit and we have gender data for those sites.
      
      Several Wikipedia studies state that 90% of Wikipedia contributors are male and fewer than 10% female. Other studies show that of all the biographies on Wikipedia, roughly 80% are of men and 20% are of women.
 
-     On Reddit, the gender skew of the user base currently is something like 65% male, 35% female, although historically the skew towards men was greater.
+     On Reddit, the gender skew of the user base currently is something like 65% male, 35% female, although historically the skew towards men was greater. This [study](https://www.cyber.pitt.edu/sites/default/files/who_authors_the_internet_analyzing_gender_diversity_chatgpt3_data.pdf) states that just over a quarter of the training data for GPT-3 was authored by women. 
 
      What kind of perspective does this gender skew in training data give us? If half of humanity are women, shouldn't that voice be equally represented in software and weights that attempt to reflect the combined knowledge of humanity? 
 
