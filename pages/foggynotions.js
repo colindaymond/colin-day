@@ -37,7 +37,7 @@ On Reddit, the gender skew of the user base currently is something like 65% male
 
 What kind of perspective does this gender skew in training data give us? What perspective do we miss? If half of humanity are women, shouldn't that voice be equally represented in software and weights that attempt to reflect the combined knowledge of humanity? 
 
-With my most profound questions in life, or when I'm looking for another perspective, I'm lucky enough to be able to turn to both my mom and my dad. We will lose something profound if we lose sight of that. 
+When life leads to me an important crossroad, or when I'm simply looking for another perspective, I'm lucky to be able to turn to both my mom and my dad for help. We will lose something profound if we lose sight of that. 
 `, { 
             customDate: 'Apr 5, 2025',
             isPublished: true
