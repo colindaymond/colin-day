@@ -1,6 +1,7 @@
 import App from "next/app"
 import Cookies from "universal-cookie"
 import consts from "consts"
+import { Analytics } from "@vercel/analytics/react"
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
