@@ -45,7 +45,7 @@ export default function Protected({ hasReadPermission }) {
         <br />
         The rains of late spring <br />
         Eyes sharpened by sleep and breath <br />
-        Dew on the meadow
+        Dew on the grass blade
         </p>
 
         <p className="poem">
