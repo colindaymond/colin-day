@@ -2,365 +2,317 @@ import Link from 'next/link'
 import Head from 'next/head'
 import { useRouter } from "next/router"
 import Login from "login"
+import { marked } from 'marked'
 
+class Poem {
+  constructor(content, options = {}) {
+    this.content = content;
+    this.date = options.date || "";
+    this.title = options.title || "";
+  }
+
+  toHTML() {
+    return marked(this.content);
+  }
+}
 
 export default function Protected({ hasReadPermission }) {
-
   const router = useRouter()
 
   if (!hasReadPermission) {
     return <Login redirectPath={router.asPath} />
   }
 
+  const poems = [
+    new Poem(`
+## may 2023, boulder CO
+
+Tall green standing pine  
+Darting songbird cuts blue sky  
+Pinecone hanging still
+
+---
+
+The rains of late spring  
+Eyes sharpened by sleep and breath  
+Dew on the grass blade
+`, { 
+      date: "May 2023",
+      title: "boulder CO"
+    }),
+
+    new Poem(`
+## nov 29 2024
+
+atoms of air between graphite and paper  
+the pencil hovers, wavers,  
+wisdom hidden within its tip  
+
+unfurl your secrets, pencil  
+point me in that cardinal direction  
+towards where heart and reason meet without contradiction  
+
+lead me away from that bitter path  
+where i, like weiwei did, holding that which is most precious to me, let go ---  
+ceramic shards at my feet
+`, {
+      date: "Nov 29 2024",
+      title: "untitled"
+    }),
+
+    new Poem(`
+## akdeniz
+
+and though between light and dark is small  
+it explodes upon the rest of a gaze  
+
+to find in oneself that very space  
+to allow it to unfold into the umpteenth dimension  
+
+and there in the soft bake of the sun, plumeria blossom  
+stamina whispering words we hear but cannot listen  
+
+take your life into your own hands.  
+this is all any of us will ever need from you
+`, {
+      date: "2024",
+      title: "akdeniz"
+    }),
+
+    new Poem(`
+## spring in styria
+
+the snow melts  
+water rushing between conifers  
+
+pollen on the glass of a liquid crystal display  
+up above: birdsong
+`, {
+      date: "2024",
+      title: "spring in styria"
+    }),
+
+    new Poem(`
+## pagi
+
+A man awakes stuck in sticky morning to the sound of a tokay gecko  
+clinging to the wicker wall above. Through the mosquito net the gecko appears  
+Sketched onto parchment, all messy and smudged, and the man reaches  
+up but cannot reach and blinks and it is gone.  
+
+He opens his mouth to breathe the Sumatran air  
+tasting salty like sweat oozing thick like honey  
+in between the man's teeth, around his tongue.  
+His cheeks are so filled with it he almost expects to choke but does not.  
+
+His thoughts skip as stones on a lake without ripples,  
+clenched anchors clutch the bunched damp sheets.  
+He fears a wind will soon lift him away yet the air is quiet.  
+In that silence the fear becomes an acceptance and the acceptance a longing.  
+
+Next to him lies a silhouette of sweat, of raindrops on paper.  
+A whisper of someone he once might have known, known completely  
+without hesitation and without doubt and without restraint.  
+Raindrops dry, silhouette fades, starch white alone.  
+
+He has forgotten how the moon pulls at the ocean  
+How the stars scream bright only to be swallowed by the yellowing blue of the sun  
+How he wakes in the morning or falls asleep at night  
+He knows only that they do and that he does and there is no coincidence in that.
+`, {
+      date: "2024",
+      title: "pagi"
+    }),
+
+    new Poem(`
+## the virus is a portal
+
+all the numbers we use to measure human behaviour  
+like gross domestic product, share prices and paychecks  
+are just ideas defined by men to reduce us to numbers  
+
+how can they be real when &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8  
+
+hours of knee-bleeding  
+toilet cleaning gets you &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $58 (- taxes)  
+
+but men in suits can  
+unilaterally create &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $2,300,000,000,000  
+
+instantly and out of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nothing  
+
+you don't count hugs laughs or tears  
+
+maybe now we remember why
+`, {
+      date: "2020",
+      title: "the virus is a portal"
+    }),
+
+    new Poem(`
+## if
+
+If on this grey summer day  
+If on this Atlantic moored island  
+On the 28th of June, 2017  
+
+Will my smile still reach my eyes?  
+Will I still float listlessly in the vibrations of this blue world?  
+Or will sorrow swallow my throat?  
+
+We are all given but a matchflame  
+A glassbottle lightflick floating on the ocean of time  
+Each moment beckoning attention  
+
+What is a shortened flicker but a flicker?  
+Where from comes the angst?  
+In the end I want songs fire and waves  
+
+A good Sunday morning cuddle  
+The butter of asphalt from a dervish  
+The cotton of our world and the love that stains it
+`, {
+      date: "2017",
+      title: "if"
+    })
+  ];
 
   return (
+    <div className="container">
+      <Head>
+        <title>c01in</title>
+      </Head>
 
+      <main>
+        <p className="description">verse</p>
 
-  <div className="container">
-    <Head>
-      <title>c01in</title>
-    </Head>
+        <div className="container">
+          {poems.map((poem, index) => (
+            <article key={index} className="poem">
+              <div className="inner">
+                <header className="poem-header">
+                  <span className="poem-meta">
+                    <time>{poem.date}</time>
+                  </span>
+                  <h2 className="poem-title">{poem.title}</h2>
+                  <div className="clear"></div>
+                </header>
+                <section className="poem-content">
+                  <div dangerouslySetInnerHTML={{ __html: poem.toHTML() }} />
+                </section>
+              </div>
+            </article>
+          ))}
+        </div>
 
-
-    <main>
-
-
-      <p className="description">
-        verse
-      </p>
-
-
-<div className="container">
-
-      <p className="poem">
-        <b> may 2023, boulder CO </b> <br />
-        <br />
-         Tall green standing pine<br />
-         Darting songbird cuts blue sky<br />
-         Pinecone hanging still<br />
-
-        <br />
-        ---
-        <br />
-        <br />
-        The rains of late spring <br />
-        Eyes sharpened by sleep and breath <br />
-        Dew on the grass blade
-        </p>
-
-        <p className="poem">
-        <b> nov 29 2024 </b> <br />
-        <br />
-        atoms of air between graphite and paper  <br />
-        the pencil hovers, wavers,<br />
-        wisdom hidden within its tip <br />
-        <br />
-        unfurl your secrets, pencil <br />
-        point me in that cardinal direction <br />
-        towards where heart and reason meet without contradiction <br />
-        <br />
-        lead me away from that bitter path <br />
-        where i, like weiwei did, holding that which is most precious to me, let go --- <br />
-        ceramic shards at my feet
-
-      
-
-        </p>
-      <p className="poem">
-        <b> akdeniz </b> <br />
-        <br />
-        and though between light and dark is small  <br />
-        it explodes upon the rest of a gaze <br />
-        <br />
-        to find in oneself that very space  <br />
-        to allow it to unfold into the umpteenth dimension <br />
-        <br />
-        and there in the soft bake of the sun, plumeria blossom <br />
-        stamina whispering words we hear but cannot listen<br />
-        <br />
-        take your life into your own hands. <br />
-        this is all any of us will ever need from you
-
-        </p>
-
-      <p className="poem">
-        <b> spring in styria </b> <br />
-        <br />
-        the snow melts  <br />
-        water rushing between conifers <br />
-        <br />
-        pollen on the glass of a liquid crystal display  <br />
-        up above: birdsong
-        </p>
-
-        <p className="poem">
-          <b> pagi </b> <br />
+        <footer>
           <br />
-    A man awakes stuck in sticky morning to the sound of a tokay gecko   <br />
-    clinging to the wicker wall above. Through the mosquito net the gecko appears   <br />
-    Sketched onto parchment, all messy and smudged, and the man reaches  <br />
-    up but cannot reach and blinks and it is gone.  <br />
-  <br />
-    He opens his mouth to breathe the Sumatran air  <br />
-    tasting salty like sweat oozing thick like honey  <br />
-    in between the man's teeth, around his tongue.  <br />
-    His cheeks are so filled with it he almost expects to choke but does not.  <br />
-  <br />
-    His thoughts skip as stones on a lake without ripples,  <br />
-    clenched anchors clutch the bunched damp sheets.  <br />
-    He fears a wind will soon lift him away yet the air is quiet.  <br />
-    In that silence the fear becomes an acceptance and the acceptance a longing.  <br />
-  <br />
-    Next to him lies a silhouette of sweat, of raindrops on paper.  <br />
-    A whisper of someone he once might have known, known completely  <br />
-    without hesitation and without doubt and without restraint.  <br />
-    Raindrops dry, silhouette fades, starch white alone.  <br />
-  <br />
-    He has forgotten how the moon pulls at the ocean<br />
-    How the stars scream bright only to be swallowed by the yellowing blue of the sun <br />
-    How he wakes in the morning or falls asleep at night <br />
-    He knows only that they do and that he does and there is no coincidence in that.
+          <Link href="https://www.c01.in">
+            <a>&#127962;</a>
+          </Link>
+        </footer>
+      </main>
 
-          </p>
-
-
-                <p className="poem">
-                  <b> the virus is a portal </b> <br />
-                  <br />
-                  all the numbers we use to measure human behaviour<br />
-                  like gross domestic product, share prices and paychecks<br />
-                  are just ideas defined by men to reduce us to numbers<br />
-                  <br />
-                  how can they be real when &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8 <br />
-                  <br />
-                  hours of knee-bleeding <br />
-                  toilet cleaning gets you &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  $58 (- taxes)<br />
-                  <br />
-                  but men in suits can <br /> unilaterally create
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                   $2,300,000,000,000 <br />
-                  <br />
-                  instantly and out of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nothing <br />
-                  <br />
-                  you don't count hugs laughs or tears<br />
-                  <br />
-                  maybe now we remember why
-                  </p>
-
-                  <p className="poem">
-                    <b> if </b> <br />
-                    <br />
-            If on this grey summer day   <br />
-          If on this Atlantic moored island   <br />
-        On the 28th of June, 2017 <br />
-            <br />
-              Will my smile still reach my eyes?  <br />
-              Will I still float listlessly in the vibrations of this blue world?  <br />
-              Or will sorrow swallow my throat?  <br />
-
-            <br />
-            We are all given but a matchflame <br />
-            A glassbottle lightflick floating on the ocean of time  <br />
-              Each moment beckoning attention <br />
-            <br />
-              What is a shortened flicker but a flicker?  <br />
-              Where from comes the angst?  <br />
-            In the end I want songs fire and waves <br />
-            <br />
-            A good Sunday morning cuddle<br />
-            The butter of asphalt from a dervish <br />
-            The cotton of our world and the love that stains it <br />
-
-
-                    </p>
-
-</div>
-
-<footer>
-  <br />
-<Link href="https://www.c01.in">
-<a>
-&#127962;
-</a>
-</Link>
-</footer>
-
-    </main>
-
-
-    <style jsx>{`
-      .poem {
-        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-        font-size: 1.0rem;
-        text-align: left;
-        padding: 2rem;
-      }
-
-      .poem-title {
-        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-        font-size: 1.0rem;
-        text-align: left;
-        font-weight: bold;
-      }
-
-      .container {
-        min-height: 100vh;
-        padding: 0 0.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: left;
-      }
-
-      main {
-        padding: 5rem 0;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-
-      footer {
-        width: 100%;
-        height: 100px;
-        border-top: 1px solid #ffc2f7;
-        display: flex;
-        justify-content: center;
-        align-items: bottom;
-        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-      }
-
-      footer img {
-        margin-left: 0.5rem;
-      }
-
-      footer a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
-
-      .title a {
-        color: #ffc2f7;
-        text-decoration: none;
-      }
-
-      .title a:hover,
-      .title a:focus,
-      .title a:active {
-        text-decoration: underline;
-      }
-
-      .title {
-        color: #ffc2f7;
-        margin: 0;
-        line-height: 1.15;
-        font-size: 3rem;
-        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-      }
-
-      .title,
-      .description {
-        text-align: center;
-      }
-
-      .description {
-        line-height: 1.5;
-        font-size: 1.1rem;
-        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-      }
-
-      code {
-        background: #fafafa;
-        border-radius: 5px;
-        padding: 0.75rem;
-        font-size: 1.1rem;
-        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-      }
-
-      .h2 {
-        text-align: right;
-      }
-
-      .grid {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-
-        max-width: 800px;
-        margin-top: 3rem;
-      }
-
-      .card {
-        margin: 1rem;
-        flex-basis: 45%;
-        padding: 1.5rem;
-        text-align: left;
-        color: inherit;
-        text-decoration: none;
-        border: 1px solid #333333;
-        border-radius: 10px;
-        transition: color 0.15s ease, border-color 0.15s ease;
-      }
-
-      .card:hover,
-      .card:focus,
-      .card:active {
-        color: #007dfa;
-        border-color: #007dfa;
-      }
-
-      .card h3 {
-        margin: 0 0 1rem 0;
-        font-size: 1.5rem;
-      }
-
-      .card p {
-        margin: 0;
-        font-size: 1.0rem;
-        line-height: 1.5;
-      }
-
-      @media (max-width: 600px) {
-        .grid {
-          width: 100%;
-          flex-direction: column;
+      <style jsx>{`
+        .poem {
+          margin-bottom: 2rem;
+          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+            Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+          font-size: 1.0rem;
+          text-align: left;
+          padding: 2rem;
         }
-      }
-    `}</style>
 
-    <style jsx global>{`
-      html,
-      body {
-        padding: 0;
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        .poem-title {
+          font-size: 1.5rem;
+          margin: 0;
+          margin-top: -0.3rem;
+          line-height: 1.2;
+          color: #696969;
+        }
 
-      }
+        .poem-meta {
+          color: #ffc2f7;
+          font-size: 0.9rem;
+          display: block;
+          margin-bottom: -0.5rem;
+          line-height: 0.6;
+        }
 
-      * {
-        box-sizing: border-box;
-      }
-    `}</style>
+        .poem-content {
+          margin-top: 1rem;
+        }
 
-</div>
+        .poem-content p {
+          margin: 0;
+          line-height: 1.6;
+        }
 
+        .container {
+          min-height: 100vh;
+          padding: 0 0.5rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: left;
+        }
+
+        main {
+          padding: 5rem 0;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
+        footer {
+          width: 100%;
+          height: 100px;
+          border-top: 1px solid #ffc2f7;
+          display: flex;
+          justify-content: center;
+          align-items: bottom;
+          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+        }
+
+        footer a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
+
+        .description {
+          line-height: 1.5;
+          font-size: 1.1rem;
+          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+        }
+
+        .clear {
+          clear: both;
+        }
+      `}</style>
+
+      <style jsx global>{`
+        html,
+        body {
+          padding: 0;
+          margin: 0;
+          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+            Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        }
+
+        * {
+          box-sizing: border-box;
+        }
+      `}</style>
+    </div>
   )
 }
