@@ -5,10 +5,8 @@ import Login from "login"
 import { marked } from 'marked'
 
 class Poem {
-  constructor(content, options = {}) {
+  constructor(content) {
     this.content = content;
-    this.date = options.date || "";
-    this.title = options.title || "";
   }
 
   toHTML() {
@@ -25,7 +23,7 @@ export default function Protected({ hasReadPermission }) {
 
   const poems = [
     new Poem(`
-## may 2023, boulder CO
+**may 2023, boulder CO**
 
 Tall green standing pine  
 Darting songbird cuts blue sky  
@@ -36,13 +34,10 @@ Pinecone hanging still
 The rains of late spring  
 Eyes sharpened by sleep and breath  
 Dew on the grass blade
-`, { 
-      date: "May 2023",
-      title: "boulder CO"
-    }),
+`),
 
     new Poem(`
-## nov 29 2024
+**nov 29 2024**
 
 atoms of air between graphite and paper  
 the pencil hovers, wavers,  
@@ -55,13 +50,10 @@ towards where heart and reason meet without contradiction
 lead me away from that bitter path  
 where i, like weiwei did, holding that which is most precious to me, let go ---  
 ceramic shards at my feet
-`, {
-      date: "Nov 29 2024",
-      title: "untitled"
-    }),
+`),
 
     new Poem(`
-## akdeniz
+**akdeniz**
 
 and though between light and dark is small  
 it explodes upon the rest of a gaze  
@@ -74,26 +66,20 @@ stamina whispering words we hear but cannot listen
 
 take your life into your own hands.  
 this is all any of us will ever need from you
-`, {
-      date: "2024",
-      title: "akdeniz"
-    }),
+`),
 
     new Poem(`
-## spring in styria
+**spring in styria**
 
 the snow melts  
 water rushing between conifers  
 
 pollen on the glass of a liquid crystal display  
 up above: birdsong
-`, {
-      date: "2024",
-      title: "spring in styria"
-    }),
+`),
 
     new Poem(`
-## pagi
+**pagi**
 
 A man awakes stuck in sticky morning to the sound of a tokay gecko  
 clinging to the wicker wall above. Through the mosquito net the gecko appears  
@@ -119,13 +105,10 @@ He has forgotten how the moon pulls at the ocean
 How the stars scream bright only to be swallowed by the yellowing blue of the sun  
 How he wakes in the morning or falls asleep at night  
 He knows only that they do and that he does and there is no coincidence in that.
-`, {
-      date: "2024",
-      title: "pagi"
-    }),
+`),
 
     new Poem(`
-## the virus is a portal
+**the virus is a portal**
 
 all the numbers we use to measure human behaviour  
 like gross domestic product, share prices and paychecks  
@@ -144,13 +127,10 @@ instantly and out of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 you don't count hugs laughs or tears  
 
 maybe now we remember why
-`, {
-      date: "2020",
-      title: "the virus is a portal"
-    }),
+`),
 
     new Poem(`
-## if
+**if**
 
 If on this grey summer day  
 If on this Atlantic moored island  
@@ -171,16 +151,14 @@ In the end I want songs fire and waves
 A good Sunday morning cuddle  
 The butter of asphalt from a dervish  
 The cotton of our world and the love that stains it
-`, {
-      date: "2017",
-      title: "if"
-    })
+`)
   ];
 
   return (
     <div className="container">
       <Head>
         <title>c01in</title>
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,600,700" rel="stylesheet" />
       </Head>
 
       <main>
@@ -190,13 +168,6 @@ The cotton of our world and the love that stains it
           {poems.map((poem, index) => (
             <article key={index} className="poem">
               <div className="inner">
-                <header className="poem-header">
-                  <span className="poem-meta">
-                    <time>{poem.date}</time>
-                  </span>
-                  <h2 className="poem-title">{poem.title}</h2>
-                  <div className="clear"></div>
-                </header>
                 <section className="poem-content">
                   <div dangerouslySetInnerHTML={{ __html: poem.toHTML() }} />
                 </section>
@@ -216,27 +187,11 @@ The cotton of our world and the love that stains it
       <style jsx>{`
         .poem {
           margin-bottom: 2rem;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-            Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-          font-size: 1.0rem;
+          font-family: 'EB Garamond', serif;
+          font-size: 1.1rem;
           text-align: left;
           padding: 2rem;
-        }
-
-        .poem-title {
-          font-size: 1.5rem;
-          margin: 0;
-          margin-top: -0.3rem;
-          line-height: 1.2;
-          color: #696969;
-        }
-
-        .poem-meta {
-          color: #ffc2f7;
-          font-size: 0.9rem;
-          display: block;
-          margin-bottom: -0.5rem;
-          line-height: 0.6;
+          line-height: 1.6;
         }
 
         .poem-content {
@@ -294,10 +249,6 @@ The cotton of our world and the love that stains it
           font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
             DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
         }
-
-        .clear {
-          clear: both;
-        }
       `}</style>
 
       <style jsx global>{`
@@ -305,8 +256,7 @@ The cotton of our world and the love that stains it
         body {
           padding: 0;
           margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-            Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+          font-family: 'EB Garamond', serif;
         }
 
         * {
