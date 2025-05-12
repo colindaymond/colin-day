@@ -39,9 +39,12 @@ Dew on the grass blade
     new Poem(`
 **supernovae ember**
 
-*By looking at the proportions of the isotopes in the cold, dead ember which we are, we can discover what the furnace was like in which the stuff of which we are was formed. That furnace was like the stars, and so it is very likely that our elements were “made” in the stars and spit out in the explosions which we call novae and supernovae.*
+*By looking at the proportions of the isotopes in the cold, dead ember which we are, 
+we can discover what the furnace was like in which the stuff of which we are was formed. 
+That furnace was like the stars, and so it is very likely that our elements were 
+“made” in the stars and spit out in the explosions which we call novae and supernovae.*
 
-- Richard Feynman
+-Richard Feynman
 
 I shall be the poet Feynman challenged us to be
 Reminding us we are but the belching of forgotten stars
@@ -50,7 +53,12 @@ Kinking folding amino acid chains
 Proteins created with precise instructions
 From a double helix ribbon of complements
 
-Another complement the thing gold band to my finger, forged in the nucleus of a star
+And then there is the thin gold band to my finger, 
+forged exclusively by colliding neutron stars
+or the massive explosion of a collapsing star.
+Rare on the scale of the universe, but each pair of colliding stars
+creating up to 13 Earth masses of gold.
+This band on my finger: a small souvenir from a galactic shockwave
 `),
 
 
