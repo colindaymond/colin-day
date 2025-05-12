@@ -136,7 +136,7 @@ He knows only that they do and that he does and there is no coincidence in that.
 `),
 
     new Poem(`
-**the virus is a portal**
+**figures**
 
 all the numbers we use to measure human behaviour  
 like gross domestic product, share prices and paychecks  
@@ -144,8 +144,8 @@ are just ideas defined by men to reduce us to numbers
 
 how can they be real when &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8  
 
-hours of knee-bleeding  
-toilet cleaning gets you &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $58 (- taxes)  
+hours of knee-bleeding toilet cleaning gets you 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $58 (- taxes)  
 
 but men in suits can  
 unilaterally create &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $2,300,000,000,000  
