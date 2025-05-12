@@ -37,6 +37,24 @@ Dew on the grass blade
 `),
 
     new Poem(`
+**supernovae ember**
+
+*By looking at the proportions of the isotopes in the cold, dead ember which we are, we can discover what the furnace was like in which the stuff of which we are was formed. That furnace was like the stars, and so it is very likely that our elements were “made” in the stars and spit out in the explosions which we call novae and supernovae.*
+
+- Richard Feynman
+
+I shall be the poet Feynman challenged us to be
+Reminding us we are but the belching of forgotten stars
+Broken down into atoms; reassembled
+Kinking folding amino acid chains
+Proteins created with precise instructions
+From a double helix ribbon of complements
+
+Another complement the thing gold band to my finger, forged in the nucleus of a star
+`),
+
+
+new Poem(`
 **nov 29 2024**
 
 atoms of air between graphite and paper  
@@ -132,22 +150,17 @@ maybe now we remember why
     new Poem(`
 **if**
 
-If on this grey summer day  
-If on this Atlantic moored island  
+On this grey summer day  
+On this Atlantic moored island  
 On the 28th of June, 2017  
 
 Will my smile still reach my eyes?  
-Will I still float listlessly in the vibrations of this blue world?  
+Will I still float in the vibrations of this blue world?  
 Or will sorrow swallow my throat?  
 
-We are all given but a matchflame  
-A glassbottle lightflick floating on the ocean of time  
-Each moment beckoning attention  
+We are all given but a matchflame
 
-What is a shortened flicker but a flicker?  
-Where from comes the angst?  
 In the end I want songs fire and waves  
-
 A good Sunday morning cuddle  
 The butter of asphalt from a dervish  
 The cotton of our world and the love that stains it
