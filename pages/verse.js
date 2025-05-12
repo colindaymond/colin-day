@@ -55,11 +55,11 @@ Proteins created with precise instructions
 From a double helix ribbon of complements  
 
 
-And then there is the thin gold band to my finger,  
+And then there is the thin gold band on my finger,  
 forged exclusively by colliding neutron stars   
-or the massive explosion of a collapsing star.  
+or the massive explosion of a collapsing star, a supernova. 
 Rare on the scale of the universe, but each pair of colliding stars  
-creating up to 13 Earth masses of gold.  
+creating up to thirteen Earth masses of gold.
 A smidgen of matter from some heavenly explosion, wrapped on my finger
 `),
 
