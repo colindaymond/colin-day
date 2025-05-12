@@ -39,8 +39,8 @@ Dew on the grass blade
 new Poem(`
 **supernovae ember**
 
-*By looking at the proportions of the isotopes in the cold, dead ember which we are, 
-we can discover what the furnace was like in which the stuff of which we are was formed. 
+*By looking at the proportions of the isotopes in the cold, dead ember which we are,  
+we can discover what the furnace was like in which the stuff of which we are was formed.   
 That furnace was like the stars, and so it is very likely that our elements were  
 "made" in the stars and spit out in the explosions which we call novae and supernovae.*
 
