@@ -60,7 +60,7 @@ forged exclusively by colliding neutron stars
 or the massive explosion of a collapsing star.  
 Rare on the scale of the universe, but each pair of colliding stars  
 creating up to 13 Earth masses of gold.  
-This band on my finger: a small souvenir from a galactic shockwave
+A smidgen of matter from some heavenly explosion, wrapped on my finger
 `),
 
 
