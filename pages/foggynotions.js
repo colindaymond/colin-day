@@ -552,6 +552,12 @@ Things fall apart; the centre cannot hold
         </div>
       </main>
 
+      <footer className="home-button-container">
+        <Link href="/">
+          <a className="home-button">🏠 home</a>
+        </Link>
+      </footer>
+
       <style jsx global>{`
         body {
           font-family: 'EB Garamond', serif;
@@ -653,6 +659,29 @@ Things fall apart; the centre cannot hold
 
         .post:first-child .post-meta {
           padding-top: 1rem;
+        }
+
+        .home-button-container {
+          text-align: center;
+          padding: 2rem 0;
+          border-top: 1px solid #eee;
+          margin-top: 2rem;
+        }
+
+        .home-button {
+          display: inline-block;
+          padding: 0.8rem 1.5rem;
+          background-color: #ffc2f7;
+          color: white;
+          text-decoration: none;
+          border-radius: 4px;
+          font-family: 'EB Garamond', serif;
+          font-size: 1.1rem;
+          transition: background-color 0.2s ease;
+        }
+
+        .home-button:hover {
+          background-color: #e6a8e6;
         }
       `}</style>
     </div>

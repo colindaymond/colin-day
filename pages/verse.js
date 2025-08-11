@@ -178,16 +178,20 @@ The cotton of our world and the love that stains it
   ];
 
   return (
-    <div className="container">
+    <div id="wrapper">
       <Head>
         <title>c01in</title>
         <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,600,700" rel="stylesheet" />
       </Head>
 
-      <main>
-        <p className="description">verse</p>
+      <header id="blog-header">
+        <div className="inner">
+          <h1 className="blog-name"><a href="/">verse</a></h1>
+        </div>
+      </header>
 
-        <div className="container">
+      <main className="content" role="main">
+        <div id="index" className="container">
           {poems.map((poem, index) => (
             <article key={index} className="poem">
               <div className="inner">
@@ -198,13 +202,6 @@ The cotton of our world and the love that stains it
             </article>
           ))}
         </div>
-
-        <footer>
-          <br />
-          <Link href="https://www.c01.in">
-            <a>&#127962;</a>
-          </Link>
-        </footer>
       </main>
 
       <style jsx>{`
@@ -227,12 +224,10 @@ The cotton of our world and the love that stains it
         }
 
         .container {
-          min-height: 100vh;
-          padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: left;
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 2rem;
+          padding-top: 7rem; /* Add padding to account for fixed header */
         }
 
         main {
@@ -244,33 +239,36 @@ The cotton of our world and the love that stains it
           align-items: center;
         }
 
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #ffc2f7;
-          display: flex;
-          justify-content: center;
-          align-items: bottom;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+        #blog-header {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          padding: 1rem 0;
+          border-bottom: 1px solid #eee;
+          background: white;
+          z-index: 1000;
         }
 
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
+        .blog-name {
+          font-family: 'EB Garamond', serif;
+          letter-spacing: -1px;
+          font-size: 2rem;
+          margin: 0;
+          text-align: center;
         }
 
-        a {
-          color: inherit;
+        .blog-name a {
+          color: #1a1a1a;
           text-decoration: none;
         }
 
-        .description {
-          line-height: 1.5;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+        .blog-name a:hover {
+          color: #ffc2f7;
+        }
+
+        .inner {
+          padding: 1rem 0;
         }
       `}</style>
 
