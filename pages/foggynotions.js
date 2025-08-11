@@ -23,6 +23,31 @@ class Post {
 export default function Foggynotions() {
   
   const posts = [
+
+    new Post(`
+      ## next chapter
+      
+Last week marks nine years since I joined Balderton. Today I am announcing with both sadness and excitement that I will be departing in my role as a Partner at the end of the month.
+
+On the Balderton website it says the best way to change the world is to build a business. I’m leaving to do just that. Across many dimensions it feels like a new order is forming. I have the urge to help shape the internet that my children may use one day by building products, by building teams, by having my fingers in the clay of an operating business again.
+
+Looking back, I feel overwhelming gratitude towards the entire firm and for my time as an investor.
+
+I was asked recently what the purpose of Balderton is. While managing capital is a less obviously tactile pursuit, the firm is extraordinary not because of what we do but because of how we do it.
+
+It is extraordinary because of how we treat those around us. We are stubbornly kind, even under pressure. We are reflective and thoughtful. We leave our egos at the door, and push towards excellence without sacrificing our ideals or principles.
+
+This is what the purpose of Balderton is for me. It is more a way of demonstrating to the world how to be rather than what to be. This is something I will take with me.
+
+There are many other learnings I am grateful for. The Founders I work with have shown me what perseverance, creativity, and ambition can yield. I will try to do right by those learnings. The proof, as they say, will be in the pudding.
+
+More to come..
+
+      `, { 
+                  customDate: 'Jul 5, 2025',
+                  isPublished: true
+                }),
+      
     
     new Post(`
 ## gendered AI
