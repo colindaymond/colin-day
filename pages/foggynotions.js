@@ -25,7 +25,7 @@ export default function Foggynotions() {
   const posts = [
 
     new Post(`
-      ## next chapter
+## next chapter
       
 Last week marks nine years since I joined Balderton. Today I am announcing with both sadness and excitement that I will be departing in my role as a Partner at the end of the month.
 
