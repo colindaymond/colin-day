@@ -158,20 +158,6 @@ export default function photographs() {
                       albion ↧
                               </p>
 
-                              <Image
-                                src="/images/COBW3595-R1-28-29.jpeg"
-                                alt="atlas1"
-                                width={960}
-                                height={636}
-                                layout='intrinsic'
-                                quality={100}
-                                    />
-
-                                    <br />
-                                    <br />
-                                    <br />
-
-
                                           <Image
                                             src="/images/COBW3594-R1-05-6.jpeg"
                                             alt="atlas2"
