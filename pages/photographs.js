@@ -63,20 +63,6 @@ export default function photographs() {
                               <br />
 
                               <Image
-                                    src="/images/2585469_2585469-R1-E022.jpg"
-                                    alt="with dad"
-                                    width={960}
-                                    height={649}
-                                    layout='intrinsic'
-                                    quality={100}
-                                    priority='true'
-                                    />
-
-                                    <br />
-                                    <br />
-                                    <br />
-
-                                    <Image
                                           src="/images/2585469_2585469-R1-E020.jpg"
                                           alt="with dad"
                                           width={960}
@@ -103,18 +89,6 @@ export default function photographs() {
                     <br />
                     <br />
 
-              <Image
-                src="/images/000044210006.jpg"
-                alt="wien2"
-                width={480}
-                height={720}
-                layout='intrinsic'
-                quality={100}
-                      />
-
-                      <br />
-                      <br />
-                      <br />
 
                       <Image
                         src="/images/000044210012 2.jpg"
@@ -130,20 +104,6 @@ export default function photographs() {
                               <br />
 
 
-                              <Image
-                      src="/images/2584967_2584967-R1-E031.jpg"
-                      alt="dots"
-                      width={480}
-                      height={710}
-                      layout='intrinsic'
-                      quality={100}
-                            />
-
-
-
-                                                    <br />
-                                                    <br />
-                                                    <br />
 
                                                     <Image
                                             src="/images/2584967_2584967-R1-E030.jpg"
@@ -211,18 +171,6 @@ export default function photographs() {
                                     <br />
                                     <br />
 
-                                    <Image
-                                      src="/images/COBW3593-R1-36-37.jpeg"
-                                      alt="atlas1"
-                                      width={960}
-                                      height={636}
-                                      layout='intrinsic'
-                                      quality={100}
-                                          />
-
-                                          <br />
-                                          <br />
-                                          <br />
 
                                           <Image
                                             src="/images/COBW3594-R1-05-6.jpeg"

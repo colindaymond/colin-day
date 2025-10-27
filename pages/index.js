@@ -47,7 +47,7 @@ const Home = () => (
 
         </a>
 
-        <a href="https://www.youtube.com/watch?v=z9mjK8DYE3A&t=213s" target="_blank"
+        <a href="https://earendil.com" target="_blank"
           className="card">
           <h2>grab bag</h2>
         </a>
