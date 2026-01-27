@@ -12,19 +12,14 @@ const Home = () => (
 
   <main>
 
-  <Image
+  <img
         src="/images/med_moon.svg"
         alt="moon"
-        width={1200}
-        height={800}
-        sizes="(max-width: 768px) 100vw,
-        (max-width: 1200px) 80vw,
-        60vw"
         style={{
           width: '100%',
+          maxWidth: '1200px',
           height: 'auto',
         }}
-        loading='eager'
         />
 
 <div className="container">
