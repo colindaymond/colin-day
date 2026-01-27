@@ -39,10 +39,6 @@ const Home = () => (
     <style jsx>{`
       .page-wrapper {
         min-height: 100vh;
-        background-image: url('/images/med_moon_colin.jpg');
-        background-size: cover;
-        background-position: top center;
-        background-repeat: no-repeat;
         position: relative;
       }
 
@@ -100,12 +96,24 @@ const Home = () => (
     `}</style>
 
     <style jsx global>{`
-      html,
-      body,
-      #__next {
-        padding: 0;
-        margin: 0;
+      html {
         height: 100%;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+        background-image: url('/images/med_moon_colin.jpg');
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+
+      #__next {
+        margin: 0;
+        padding: 0;
         min-height: 100vh;
       }
 
