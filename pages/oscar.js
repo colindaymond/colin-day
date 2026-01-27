@@ -40,8 +40,7 @@ export default function Protected({ hasReadPermission }) {
           alt="oscar1"
           width={280}
           height={360}
-          layout='intrinsic'
-          quality={100}
+                    quality={100}
               />
 
         <br />< br />
@@ -57,8 +56,7 @@ export default function Protected({ hasReadPermission }) {
             alt="oscar3"
             width={280}
             height={360}
-            layout='intrinsic'
-            quality={100}
+                        quality={100}
                 />
 
           <br /><br />
@@ -74,8 +72,7 @@ export default function Protected({ hasReadPermission }) {
               alt="oscar2"
               width={280}
               height={360}
-              layout='intrinsic'
-              quality={100}
+                            quality={100}
                   />
 
             <br /><br />
@@ -86,11 +83,7 @@ export default function Protected({ hasReadPermission }) {
 </div>
 
 <footer>
-<Link href="https://colin.day">
-<a>
-&#127962;
-</a>
-</Link>
+<Link href="https://colin.day">&#127962;</Link>
 </footer>
 
     </main>

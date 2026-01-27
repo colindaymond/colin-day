@@ -25,8 +25,7 @@ export default function photographs() {
         alt="iceland2"
         width={480}
         height={720}
-        layout='intrinsic'
-        quality={100}
+                quality={100}
             />
 
 
@@ -39,9 +38,8 @@ export default function photographs() {
                   alt="iceland1"
                   width={480}
                   height={720}
-                  layout='intrinsic'
-                  quality={100}
-                  priority='true'
+                                    quality={100}
+                  priority
                   />
 
                   <p className="h3">
@@ -53,8 +51,7 @@ export default function photographs() {
                           alt="first bull"
                           width={960}
                           height={649}
-                          layout='intrinsic'
-                          quality={100}
+                                                    quality={100}
                               />
 
 
@@ -67,9 +64,8 @@ export default function photographs() {
                                           alt="with dad"
                                           width={960}
                                           height={649}
-                                          layout='intrinsic'
-                                          quality={100}
-                                          priority='true'
+                                                                                    quality={100}
+                                          priority
                                           />
 
             <p className="h3">
@@ -81,8 +77,7 @@ export default function photographs() {
                 alt="wien1"
                 width={480}
                 height={720}
-                layout='intrinsic'
-                quality={100}
+                                quality={100}
                     />
 
                     <br />
@@ -95,8 +90,7 @@ export default function photographs() {
                         alt="banana"
                         width={480}
                         height={720}
-                        layout='intrinsic'
-                        quality={100}
+                                                quality={100}
                               />
 
                               <br />
@@ -110,8 +104,7 @@ export default function photographs() {
                                             alt="dots"
                                             width={960}
                                             height={649}
-                                            layout='intrinsic'
-                                            quality={100}
+                                                                                        quality={100}
                                                   />
 
                                                   <br />
@@ -123,8 +116,7 @@ export default function photographs() {
                                               alt="dots"
                                               width={960}
                                               height={636}
-                                              layout='intrinsic'
-                                              quality={100}
+                                                                                            quality={100}
                                                     />
 
 
@@ -137,8 +129,7 @@ export default function photographs() {
             alt="atlas1"
             width={960}
             height={636}
-            layout='intrinsic'
-            quality={100}
+                        quality={100}
                 />
 
                 <br />
@@ -150,8 +141,7 @@ export default function photographs() {
             alt="atlas1"
             width={960}
             height={636}
-            layout='intrinsic'
-            quality={100}
+                        quality={100}
                 />
 
                 <p className="h3">
@@ -163,8 +153,7 @@ export default function photographs() {
                                             alt="atlas2"
                                             width={960}
                                             height={636}
-                                            layout='intrinsic'
-                                            quality={100}
+                                                                                        quality={100}
                                                 />
                     <p className="h3">
                             別處 ↧
@@ -175,8 +164,7 @@ export default function photographs() {
                             alt="bcn1"
                             width={960}
                             height={636}
-                            layout='intrinsic'
-                            quality={100}
+                                                        quality={100}
                                 />
                                 <br />
                                 <br />
@@ -186,16 +174,13 @@ export default function photographs() {
                             alt="bcn2"
                             width={480}
                             height={720}
-                            layout='intrinsic'
-                            quality={100}
+                                                        quality={100}
                                 />
 </main>
 
   <footer>
   <br />
-  <Link href="https://colin.day">
-  <a>&#127962;</a>
-  </Link>
+  <Link href="https://colin.day">&#127962;</Link>
   </footer>
 
 

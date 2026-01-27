@@ -553,9 +553,7 @@ Things fall apart; the centre cannot hold
       </main>
 
       <footer className="home-button-container">
-        <Link href="/">
-          <a className="home-button">🏠 home</a>
-        </Link>
+        <Link href="/" className="home-button">🏠 home</Link>
       </footer>
 
       <style jsx global>{`

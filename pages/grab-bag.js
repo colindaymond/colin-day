@@ -7,7 +7,7 @@ export default function grabbag() {
 
   <div className="container">
     <Head>
-      <title>c01in</title>
+      <title>colin</title>
       <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/call-me-hand_emoji-modifier-fitzpatrick-type-3_1f919-1f3fc_1f3fc.png"></link>
     </Head>
 
@@ -32,11 +32,7 @@ These words were either written or spoken by White Eagle from the Hopi on March 
 </div>
 
 <footer>
-<Link href="/">
-<a>
-&#127962;
-</a>
-</Link>
+<Link href="/">&#127962;</Link>
 </footer>
 
     </main>

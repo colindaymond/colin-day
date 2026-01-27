@@ -200,9 +200,7 @@ The cotton of our world and the love that stains it
 
         <footer>
           <br />
-          <Link href="https://colin.day">
-            <a>&#127962;</a>
-          </Link>
+          <Link href="https://colin.day">&#127962;</Link>
         </footer>
       </main>
 

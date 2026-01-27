@@ -180,7 +180,7 @@ The cotton of our world and the love that stains it
   return (
     <div id="wrapper">
       <Head>
-        <title>c01in</title>
+        <title>colin</title>
         <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,600,700" rel="stylesheet" />
       </Head>
 
