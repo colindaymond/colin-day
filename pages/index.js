@@ -81,6 +81,18 @@ const Home = () => (
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
+
+      @media (max-width: 600px) {
+        main {
+          align-items: center;
+          padding: 0 0 2rem 0;
+        }
+
+        .links {
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+      }
     `}</style>
 
     <style jsx global>{`
