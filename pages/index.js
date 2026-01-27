@@ -113,7 +113,7 @@ const Home = () => (
       footer {
         width: 100%;
         height: 50px;
-        border-top: 1px solid #ffc2f7;
+        border-top: none;
         display: flex;
         justify-content: center;
         align-items: bottom;
