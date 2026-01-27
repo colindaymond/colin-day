@@ -102,31 +102,24 @@ const Home = () => (
     `}</style>
 
     <style jsx global>{`
-      html {
+      html, body {
+        margin: 0 !important;
+        padding: 0 !important;
         height: 100%;
+        background: #000;
       }
 
       body {
-        margin: 0;
-        padding: 0;
-        min-height: 100%;
-        background-image: url('/images/med_moon_colin.jpg');
-        background-size: cover;
-        background-position: top center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        background: url('/images/med_moon_colin.jpg') top center / cover no-repeat fixed;
       }
 
       #__next {
         margin: 0;
         padding: 0;
-        min-height: 100vh;
       }
 
       * {
         box-sizing: border-box;
-        margin: 0;
-        padding: 0;
       }
     `}</style>
   </div>
