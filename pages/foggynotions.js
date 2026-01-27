@@ -545,6 +545,7 @@ Things fall apart; the centre cannot hold
         <title>foggy notions</title>
         <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,600,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+        <link rel="alternate" type="application/rss+xml" title="foggy notions RSS Feed" href="/api/feed" />
       </Head>
 
       <header id="blog-header">
