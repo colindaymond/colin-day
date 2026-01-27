@@ -80,7 +80,7 @@ const Home = () => (
       }
 
       .card {
-        color: white;
+        color: #d0d0d0;
         text-decoration: none;
         transition: color 0.15s ease;
       }
@@ -88,7 +88,7 @@ const Home = () => (
       .card:hover,
       .card:focus,
       .card:active {
-        color: #cccccc;
+        color: white;
       }
 
       .card h2 {
