@@ -39,7 +39,7 @@ Here is what Armin and I wrote about ourselves in a memo we prepared for our ang
 >
 > we've never formally worked together but there is a clarity and purpose to our relationship — our company — that is refreshing and energizing.
 >
-> what draws us together are a common sense values and purpose. we want to be successful and we want to do it the right way. the way where we can go home and tell our kids about it transparently, excitedly.
+> what draws us together is a common sense of values and purpose. we want to be successful and we want to do it the right way. the way where we can go home and tell our kids about it transparently, excitedly.
 
 [Earendil](https://earendil.com) was formed to craft software and open protocols to strengthen human agency. Open standards, the Internet and AI all have the power to greatly enhance what humanity can achieve. We believe it is important that we build mechanisms that strengthen our capabilities rather than diminish them. We wield the hammer, the hammer does not wield us.
 
