@@ -76,7 +76,7 @@ const Home = () => (
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 0.5rem;
+        gap: 0.2rem;
       }
 
       .card {
