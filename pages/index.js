@@ -7,7 +7,7 @@ import Image from 'next/image'
 const Home = () => (
   <div className="container">
     <Head>
-      <title>c01in</title>
+      <title>colin</title>
     </Head>
 
   <main>
@@ -29,7 +29,7 @@ const Home = () => (
 
 <div className="container">
 
-        <a href="/foggynotions" className="card">
+        <a href="https://www.foggynotions.day" className="card">
           <h2>foggy notions</h2>
         </a>
 
