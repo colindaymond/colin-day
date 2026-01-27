@@ -41,7 +41,7 @@ const Home = () => (
         min-height: 100vh;
         background-image: url('/images/med_moon_colin.jpg');
         background-size: cover;
-        background-position: center;
+        background-position: top center;
         background-repeat: no-repeat;
         position: relative;
       }
@@ -65,8 +65,9 @@ const Home = () => (
         min-height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
+        padding-bottom: 2rem;
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
