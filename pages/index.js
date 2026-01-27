@@ -50,17 +50,17 @@ const Home = () => (
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        align-items: center;
-        padding-bottom: 2rem;
+        align-items: flex-end;
+        padding: 0 2rem 2rem 0;
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
 
       .links {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        gap: 0.2rem;
+        gap: 1.5rem;
       }
 
       .card {
