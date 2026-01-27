@@ -101,11 +101,11 @@ const Home = () => (
 
     <style jsx global>{`
       html,
-      body {
+      body,
+      #__next {
         padding: 0;
         margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        height: 100%;
         min-height: 100vh;
       }
 
