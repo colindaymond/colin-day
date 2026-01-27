@@ -32,7 +32,7 @@ These words were either written or spoken by White Eagle from the Hopi on March 
 </div>
 
 <footer>
-<Link href="/">&#127962;</Link>
+<Link href="https://colin.day">&#127962;</Link>
 </footer>
 
     </main>

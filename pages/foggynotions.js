@@ -553,7 +553,7 @@ Things fall apart; the centre cannot hold
       </main>
 
       <footer className="home-button-container">
-        <Link href="/" className="home-button">🏠 home</Link>
+        <Link href="https://colin.day">🏠</Link>
       </footer>
 
       <style jsx global>{`
@@ -664,22 +664,11 @@ Things fall apart; the centre cannot hold
           padding: 2rem 0;
           border-top: 1px solid #eee;
           margin-top: 2rem;
+          font-size: 1.5rem;
         }
 
-        .home-button {
-          display: inline-block;
-          padding: 0.8rem 1.5rem;
-          background-color: #ffc2f7;
-          color: white;
+        .home-button-container a {
           text-decoration: none;
-          border-radius: 4px;
-          font-family: 'EB Garamond', serif;
-          font-size: 1.1rem;
-          transition: background-color 0.2s ease;
-        }
-
-        .home-button:hover {
-          background-color: #e6a8e6;
         }
       `}</style>
     </div>
