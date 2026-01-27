@@ -31,7 +31,7 @@ export const posts = [
 
 Last time I checked in it was to say that after nine years at Balderton I was beginning a new adventure.
 
-Today I'm stoked to share that that adventure is an internet company, [Earendil](https://earendil.com), and that I've started it with [Armin Ronacher](https://lucumr.pocoo.org/).
+Today I'm stoked to share that the adventure is an internet company, [Earendil](https://earendil.com), and that I've started it with [Armin](https://lucumr.pocoo.org/).
 
 Here is what Armin and I wrote about ourselves in a memo we prepared for our angel investors:
 
@@ -45,7 +45,7 @@ Here is what Armin and I wrote about ourselves in a memo we prepared for our ang
 >
 > what draws us together are a common sense values and purpose. we want to be successful and we want to do it the right way. the way where we can go home and tell our kids about it transparently, excitedly.
 
-Earendil was formed to craft software and open protocols to strengthen human agency. Open standards, the Internet and AI all have the power to greatly enhance what humanity can achieve. We believe it is important that we build mechanisms that strengthen our capabilities rather than diminish them. We wield the hammer, the hammer does not wield us.
+[Earendil](https://earendil.com) was formed to craft software and open protocols to strengthen human agency. Open standards, the Internet and AI all have the power to greatly enhance what humanity can achieve. We believe it is important that we build mechanisms that strengthen our capabilities rather than diminish them. We wield the hammer, the hammer does not wield us.
 
 If you want to follow along with Earendil, you can do so [here](https://earendil.com/posts/subscribe/).
 `, {
