@@ -551,7 +551,10 @@ Things fall apart; the centre cannot hold
       <header id="blog-header">
         <div className="inner">
           <h1 className="blog-name"><a href="/">foggy notions</a></h1>
-          <span className="blog-author">by <a href="https://colin.day">colin daymond hanna</a></span>
+          <div className="header-right">
+            <span className="blog-author">by <a href="https://colin.day">colin daymond hanna</a></span>
+            <a href="/api/feed" className="rss-link">rss</a>
+          </div>
         </div>
       </header>
 
@@ -708,6 +711,23 @@ Things fall apart; the centre cannot hold
         }
 
         .blog-author a:hover {
+          color: #ffc2f7;
+        }
+
+        .header-right {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+        }
+
+        .rss-link {
+          font-family: 'EB Garamond', serif;
+          font-size: 0.75rem;
+          color: #aaa;
+          text-decoration: none;
+        }
+
+        .rss-link:hover {
           color: #ffc2f7;
         }
 
