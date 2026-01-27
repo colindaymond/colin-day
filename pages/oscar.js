@@ -18,7 +18,7 @@ export default function Protected({ hasReadPermission }) {
 
   <div className="container">
     <Head>
-      <title>c01in</title>
+      <title>colin</title>
     </Head>
 
 
@@ -86,7 +86,7 @@ export default function Protected({ hasReadPermission }) {
 </div>
 
 <footer>
-<Link href="https://www.c01.in">
+<Link href="https://colin.day">
 <a>
 &#127962;
 </a>

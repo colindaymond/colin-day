@@ -193,7 +193,7 @@ export default function photographs() {
 
   <footer>
   <br />
-  <Link href="https://www.c01.in">
+  <Link href="https://colin.day">
   <a>&#127962;</a>
   </Link>
   </footer>
