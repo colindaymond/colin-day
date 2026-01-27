@@ -60,11 +60,11 @@ const Home = () => (
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 1.5rem;
+        gap: 2.5rem;
       }
 
       .card {
-        color: #d0d0d0;
+        color: #e0e0e0;
         text-decoration: none;
         transition: color 0.15s ease;
       }
