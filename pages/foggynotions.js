@@ -555,7 +555,7 @@ Things fall apart; the centre cannot hold
       <header id="blog-header">
         <div className="inner">
           <h1 className="blog-name"><a href="/">foggy notions</a></h1>
-          <span className="blog-author">written by <a href="https://colin.day">colin daymond hanna</a></span>
+          <span className="blog-author">by <a href="https://colin.day">colin daymond hanna</a></span>
         </div>
       </header>
 
