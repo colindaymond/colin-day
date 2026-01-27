@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 import Head from 'next/head'
 
 const Home = () => (
@@ -38,33 +36,17 @@ const Home = () => (
 
     <style jsx>{`
       .page-wrapper {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
+        min-height: 100vh;
+        background: url('/images/med_moon_colin.jpg') top center / cover no-repeat;
       }
 
       .background-text {
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        font-size: 2rem;
-        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        z-index: 0;
         opacity: 0;
       }
 
       main {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 1;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -102,22 +84,9 @@ const Home = () => (
     `}</style>
 
     <style jsx global>{`
-      html, body {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-      }
-
-      body {
-        background: url('/images/med_moon_colin.jpg') top center / cover no-repeat fixed;
-      }
-
-      #__next {
-        margin: 0;
-        padding: 0;
-      }
-
       * {
+        margin: 0;
+        padding: 0;
         box-sizing: border-box;
       }
     `}</style>
