@@ -545,7 +545,6 @@ Things fall apart; the centre cannot hold
         <title>foggy notions</title>
         <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,600,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
-        <link rel="alternate" type="application/rss+xml" title="foggy notions RSS Feed" href="/api/feed" />
       </Head>
 
       <header id="blog-header">
@@ -553,7 +552,6 @@ Things fall apart; the centre cannot hold
           <h1 className="blog-name"><a href="/">foggy notions</a></h1>
           <div className="header-right">
             <span className="blog-author">by <a href="https://colin.day">colin daymond hanna</a></span>
-            <a href="/api/feed" className="rss-link">rss</a>
           </div>
         </div>
       </header>
@@ -718,17 +716,6 @@ Things fall apart; the centre cannot hold
           display: flex;
           flex-direction: column;
           align-items: flex-end;
-        }
-
-        .rss-link {
-          font-family: 'EB Garamond', serif;
-          font-size: 0.9rem;
-          color: #aaa;
-          text-decoration: none;
-        }
-
-        .rss-link:hover {
-          color: #ffc2f7;
         }
 
         .post-emojis {
