@@ -106,10 +106,13 @@ const Home = () => (
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
           Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        min-height: 100vh;
       }
 
       * {
         box-sizing: border-box;
+        margin: 0;
+        padding: 0;
       }
     `}</style>
   </div>
