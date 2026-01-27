@@ -13,7 +13,7 @@ const Home = () => (
   <main>
 
   <Image
-        src="/images/med_moon.jpg"
+        src="/images/med_moon.svg"
         alt="moon"
         width={1200}
         height={800}
