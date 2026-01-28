@@ -204,6 +204,10 @@ The cotton of our world and the love that stains it
         </div>
       </main>
 
+      <footer className="home-button-container">
+        <a href="https://colin.day">&#127962;</a>
+      </footer>
+
       <style jsx>{`
         .poem {
           margin-bottom: 2rem;
@@ -269,6 +273,17 @@ The cotton of our world and the love that stains it
 
         .inner {
           padding: 1rem 0;
+        }
+
+        .home-button-container {
+          text-align: center;
+          padding: 2rem 0;
+          border-top: 1px solid #eee;
+          font-size: 1.5rem;
+        }
+
+        .home-button-container a {
+          text-decoration: none;
         }
       `}</style>
 

@@ -180,7 +180,7 @@ export default function photographs() {
 
   <footer>
   <br />
-  <Link href="https://colin.day">&#127962;</Link>
+  <a href="https://colin.day">&#127962;</a>
   </footer>
 
 
