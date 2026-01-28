@@ -554,7 +554,7 @@ Things fall apart; the centre cannot hold
             <span className="blog-author">by <a href="https://colin.day">colin daymond hanna</a></span>
           </div>
         </div>
-        <a href="https://foggynotions.day/subscribe" className="subscribe-link">subscribe</a>
+        <a href="https://colin.day/subscribe" className="subscribe-link">subscribe</a>
       </header>
 
       <main className="content" role="main">
