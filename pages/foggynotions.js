@@ -604,7 +604,7 @@ Things fall apart; the centre cannot hold
           max-width: 800px;
           margin: 0 auto;
           padding: 2rem;
-          padding-top: 7rem; /* Add padding to account for fixed header */
+          padding-top: 8rem; /* Add padding to account for fixed header */
         }
 
         .post {
@@ -664,7 +664,6 @@ Things fall apart; the centre cannot hold
           left: 0;
           right: 0;
           padding: 1rem 2rem;
-          padding-bottom: 1.8rem;
           border-bottom: 1px solid #eee;
           background: white;
           z-index: 1000;
