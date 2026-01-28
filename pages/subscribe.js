@@ -79,10 +79,10 @@ export default function Subscribe() {
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet" />
       </Head>
 
-      <a href="/" className="back-link">[back]</a>
+      <a href="https://foggynotions.day" className="back-link">foggy notions</a>
 
       <main>
-        <p className="heading">hear from foggy notions</p>
+        <p className="heading">subscribe to foggy notions</p>
 
         {status === 'idle' || status === 'error' ? (
           <div className="form-area">
@@ -184,17 +184,12 @@ export default function Subscribe() {
           font-family: 'EB Garamond', Georgia, serif;
           font-size: 1.2rem;
           border: none;
-          border-bottom: 1px solid #ccc;
           padding: 0.5rem 0;
           background: transparent;
           outline: none;
           text-align: center;
           min-width: 180px;
-          transition: border-color 0.2s ease, box-shadow 0.3s ease;
-        }
-
-        .email-input:focus {
-          border-color: #888;
+          transition: box-shadow 0.3s ease;
         }
 
         .email-input.placeholder-text {
@@ -202,7 +197,6 @@ export default function Subscribe() {
         }
 
         .email-input.valid-glow {
-          border-color: #ffc2f7;
           box-shadow: 0 2px 8px rgba(255, 194, 247, 0.4);
         }
 
@@ -247,7 +241,7 @@ export default function Subscribe() {
         .feeds {
           margin-top: 3rem;
           color: #888;
-          font-size: 0.9rem;
+          font-size: 1.1rem;
         }
 
         .feeds a {
