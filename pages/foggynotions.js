@@ -552,9 +552,9 @@ Things fall apart; the centre cannot hold
           <h1 className="blog-name"><a href="/">foggy notions</a></h1>
           <div className="header-right">
             <span className="blog-author">by <a href="https://colin.day">colin daymond hanna</a></span>
-            <a href="/subscribe" className="header-link">subscribe</a>
           </div>
         </div>
+        <a href="https://foggynotions.day/subscribe" className="subscribe-link">subscribe</a>
       </header>
 
       <main className="content" role="main">
@@ -664,6 +664,7 @@ Things fall apart; the centre cannot hold
           left: 0;
           right: 0;
           padding: 1rem 2rem;
+          padding-bottom: 1.8rem;
           border-bottom: 1px solid #eee;
           background: white;
           z-index: 1000;
@@ -719,14 +720,17 @@ Things fall apart; the centre cannot hold
           align-items: flex-end;
         }
 
-        .header-link {
+        .subscribe-link {
+          position: absolute;
+          bottom: 0.5rem;
+          right: 2rem;
           font-family: 'EB Garamond', serif;
           font-size: 0.9rem;
           color: #aaa;
           text-decoration: none;
         }
 
-        .header-link:hover {
+        .subscribe-link:hover {
           color: #ffc2f7;
         }
 
