@@ -552,9 +552,9 @@ Things fall apart; the centre cannot hold
           <h1 className="blog-name"><a href="/">foggy notions</a></h1>
           <div className="header-right">
             <span className="blog-author">by <a href="https://colin.day">colin daymond hanna</a></span>
+            <a href="https://foggynotions.day/subscribe" className="subscribe-link">subscribe</a>
           </div>
         </div>
-        <a href="https://foggynotions.day/subscribe" className="subscribe-link">subscribe</a>
       </header>
 
       <main className="content" role="main">
@@ -721,9 +721,6 @@ Things fall apart; the centre cannot hold
         }
 
         .subscribe-link {
-          position: absolute;
-          bottom: 0.5rem;
-          right: 2rem;
           font-family: 'EB Garamond', serif;
           font-size: 0.9rem;
           color: #aaa;
