@@ -2,11 +2,15 @@ import { NextResponse } from 'next/server'
 
 export function middleware(request) {
   const hostname = request.headers.get('host') || ''
+  const pathname = request.nextUrl.pathname
 
-  // If the request is coming from foggynotions.day, serve the foggynotions page
+  // If the request is coming from foggynotions.day
   if (hostname.includes('foggynotions.day')) {
-    // Rewrite to /foggynotions for any path on foggynotions.day
-    return NextResponse.rewrite(new URL('/foggynotions', request.url))
+    // Only rewrite the root path to /foggynotions
+    // Let other paths (/subscribe, /api/*, etc.) pass through
+    if (pathname === '/') {
+      return NextResponse.rewrite(new URL('/foggynotions', request.url))
+    }
   }
 
   return NextResponse.next()
