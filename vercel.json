@@ -1,0 +1,44 @@
+{
+  "rewrites": [
+    {
+      "source": "/subscribe",
+      "destination": "/subscribe",
+      "has": [
+        {
+          "type": "host",
+          "value": "foggynotions.day"
+        }
+      ]
+    },
+    {
+      "source": "/subscribe",
+      "destination": "/subscribe",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.foggynotions.day"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/foggynotions",
+      "has": [
+        {
+          "type": "host",
+          "value": "foggynotions.day"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/foggynotions",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.foggynotions.day"
+        }
+      ]
+    }
+  ]
+}

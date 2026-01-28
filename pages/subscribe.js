@@ -41,7 +41,7 @@ export default function Subscribe() {
     if (!isValid || status === 'submitting') return
 
     setStatus('submitting')
-    setMessage('storing at the speed of light')
+    setMessage('storing')
 
     try {
       const res = await fetch('/api/subscribe', {
