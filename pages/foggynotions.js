@@ -724,6 +724,7 @@ Things fall apart; the centre cannot hold
           font-size: 0.9rem;
           color: #aaa;
           text-decoration: none;
+          margin-top: 0.5rem;
         }
 
         .subscribe-link:hover {
