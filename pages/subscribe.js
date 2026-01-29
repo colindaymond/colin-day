@@ -141,7 +141,7 @@ export default function Subscribe() {
           right: 2rem;
           color: #888;
           text-decoration: none;
-          font-size: 0.9rem;
+          font-size: 1.3rem;
         }
 
         .back-link:hover {
@@ -216,7 +216,7 @@ export default function Subscribe() {
         }
 
         .message {
-          font-size: 1.1rem;
+          font-size: 1.3rem;
           margin-top: 1rem;
           animation: fadeIn 0.3s ease;
         }
