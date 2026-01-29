@@ -725,7 +725,7 @@ Things fall apart; the centre cannot hold
           color: #aaa;
           text-decoration: none;
           margin-top: 0.5rem;
-          margin-bottom: -1.2rem;
+          margin-bottom: -2.0rem;
         }
 
         .subscribe-link:hover {
