@@ -663,7 +663,7 @@ Things fall apart; the centre cannot hold
           top: 0;
           left: 0;
           right: 0;
-          padding: 1rem 2rem 0.2rem;
+          padding: 1rem 2rem;
           border-bottom: 1px solid #eee;
           background: white;
           z-index: 1000;
@@ -725,6 +725,7 @@ Things fall apart; the centre cannot hold
           color: #aaa;
           text-decoration: none;
           margin-top: 0.5rem;
+          margin-bottom: -0.8rem;
         }
 
         .subscribe-link:hover {
