@@ -663,7 +663,7 @@ Things fall apart; the centre cannot hold
           top: 0;
           left: 0;
           right: 0;
-          padding: 1rem 2rem;
+          padding: 1rem 2rem 0.2rem;
           border-bottom: 1px solid #eee;
           background: white;
           z-index: 1000;
