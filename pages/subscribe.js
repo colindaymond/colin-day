@@ -79,10 +79,8 @@ export default function Subscribe() {
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet" />
       </Head>
 
-      <a href="https://foggynotions.day" className="back-link">foggy notions</a>
-
       <main>
-        <p className="heading">subscribe to foggy notions</p>
+        <p className="heading">subscribe to <a href="https://foggynotions.day" className="title-link">foggy notions</a></p>
 
         {status === 'idle' || status === 'error' ? (
           <div className="form-area">
@@ -135,19 +133,6 @@ export default function Subscribe() {
           position: relative;
         }
 
-        .back-link {
-          position: absolute;
-          top: 2rem;
-          right: 2rem;
-          color: #888;
-          text-decoration: none;
-          font-size: 1.3rem;
-        }
-
-        .back-link:hover {
-          color: #ffc2f7;
-        }
-
         main {
           text-align: center;
           max-width: 400px;
@@ -157,6 +142,15 @@ export default function Subscribe() {
           font-size: 1.3rem;
           color: #1a1a1a;
           margin-bottom: 2rem;
+        }
+
+        .title-link {
+          color: #1a1a1a;
+          text-decoration: none;
+        }
+
+        .title-link:hover {
+          color: #ffc2f7;
         }
 
         .form-area {
