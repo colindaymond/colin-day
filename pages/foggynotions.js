@@ -748,8 +748,8 @@ Things fall apart; the centre cannot hold
           color: #ffc2f7;
           font-size: 0.9rem;
           display: block;
-          margin-bottom: -0.5rem;
-          line-height: 0.6;
+          margin-bottom: 0.35rem;
+          line-height: 1;
         }
 
         .post-excerpt {
