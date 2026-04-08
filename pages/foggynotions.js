@@ -664,7 +664,6 @@ Things fall apart; the centre cannot hold
           <h1 className="blog-name"><a href="/">foggy notions</a></h1>
           <div className="header-right">
             <span className="blog-author">by <a href="https://colin.day">colin daymond hanna</a></span>
-            <a href="https://foggynotions.day/subscribe" className="subscribe-link">subscribe</a>
           </div>
         </div>
       </header>
