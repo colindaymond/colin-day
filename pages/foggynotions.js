@@ -731,7 +731,7 @@ Things fall apart; the centre cannot hold
           margin-top: -0.3rem;
           line-height: 0.8;
           color: #696969;
-          scroll-margin-top: 7rem;
+          scroll-margin-top: 9rem;
         }
 
         .post-excerpt h2 a {
