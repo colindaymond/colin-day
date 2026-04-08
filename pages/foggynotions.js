@@ -28,7 +28,11 @@ class Post {
   }
 
   toHTML() {
-    return marked(this.content);
+    const html = marked(this.content);
+    return html.replace(
+      /<h2>([\s\S]*?)<\/h2>/,
+      `<h2 id="${this.getSlug()}"><a href="#${this.getSlug()}">$1</a></h2>`
+    );
   }
 }
 
@@ -669,11 +673,7 @@ Things fall apart; the centre cannot hold
         <div id="index" className="container">
           {posts
             .filter(post => post.isPublished)
-            .sort((a, b) => {
-              if (a.getSlug() === 'the-high-ground' && b.getSlug() !== 'the-high-ground') return -1;
-              if (b.getSlug() === 'the-high-ground' && a.getSlug() !== 'the-high-ground') return 1;
-              return new Date(b.date).getTime() - new Date(a.date).getTime();
-            })
+            .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
             .map((post, index) => (
               <article key={index} className="post no-image">
                 <div className="inner">
@@ -681,9 +681,6 @@ Things fall apart; the centre cannot hold
                     <span className="post-meta">
                       <time>{post.date}</time>
                     </span>
-                    <h2 className="post-title" id={post.getSlug()}>
-                      <a href={`#${post.getSlug()}`}>{post.getTitle()}</a>
-                    </h2>
                     <div className="clear"></div>
                   </header>
                   <section className="post-excerpt">
@@ -727,7 +724,7 @@ Things fall apart; the centre cannot hold
           font-size: 1.1rem;
         }
 
-        .post-title {
+        .post-excerpt h2 {
           font-size: 2rem;
           font-weight: 500;
           margin: 0;
@@ -737,12 +734,12 @@ Things fall apart; the centre cannot hold
           scroll-margin-top: 7rem;
         }
 
-        .post-title a {
+        .post-excerpt h2 a {
           color: inherit;
           text-decoration: none;
         }
 
-        .post-title a:hover::after {
+        .post-excerpt h2 a:hover::after {
           content: ' #';
           color: #ffc2f7;
         }
