@@ -748,7 +748,7 @@ Things fall apart; the centre cannot hold
           color: #ffc2f7;
           font-size: 0.9rem;
           display: block;
-          margin-bottom: 0.35rem;
+          margin-bottom: 0.65rem;
           line-height: 1;
         }
 
