@@ -15,6 +15,18 @@ class Post {
     });
   }
 
+  getTitle() {
+    return this.content.split('\n').find(line => line.trim().startsWith('##'))?.replace('##', '').trim() || 'Untitled';
+  }
+
+  getSlug() {
+    return this.getTitle()
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '')
+      .trim()
+      .replace(/\s+/g, '-');
+  }
+
   toHTML() {
     return marked(this.content);
   }
@@ -23,6 +35,36 @@ class Post {
 export default function Foggynotions() {
   
   const posts = [
+
+    new Post(`
+## On Partners, Mario, & Pi
+
+### Partners
+
+In the last chapter of my career, as a Partner at Balderton, I experienced something pretty special: a true Partnership. In this age of bravado and ego, true Partnerships are rare because bravado and ego are incompatible with them. I had the fortune of sitting in a room every Monday with a group of individuals who were highly intelligent, ambitious, and successful, and could each have easily been king or queen of their own domain. Instead, that group had collectively decided to form a team of equals. It meant decision-making through consensus (not to be confused with unanimity), rather than decree. It meant listening more than speaking. It meant allowing your own beliefs to be challenged, and improved, by those around you.
+
+That experience shaped me profoundly. It is no surprise then that Earendil began as a partnership between [Armin](https://lucumr.pocoo.org/) and me. I am grateful to have him as a Partner and to have [planted a tree](https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/) together. He makes me think more clearly. We listen to one another. He also reviews my pull requests!
+
+Today, Earendil is announcing that our tree has grown a little bit taller. Earendil has acquired Pi, which is no small thing. But even better, Mario has become a Partner to Armin and I.
+
+### Mario
+
+I first met [Mario](https://mariozechner.at/) in Vienna last August at an event focused on agentic engineering, or something like that. I'm not an engineer, but I've spent a lot of time over the past year in a terminal turning hare-brained product ideas into sloppy code. Mario was speaking at the event. It struck me immediately that Mario was someone with his gaze on the agentic clouds and his feet planted firmly on the ground. He was excitable and pragmatic, humble but sure-footed. Mario will tell you that the thing he built is total crap even when everyone else in the room knows it is both brilliant and simple. We spoke and connected in that wonderful and imprecise and chemical way that humans do. That is to say, we vibed.
+
+Fast forward seven months later. Why am I excited to call Mario a Partner and to have him join us at Earendil? Well, it's not just what Mario can do on his own. It's how he does it and the impact that has on the people around him. Mario is principled. He stands for transparency and fairness. He is patient and kind. He puts others before himself and takes time to teach those around him.  In the first week at Earendil Mario took some time out to do a code review with me. Not once was he exasperated with this former investor who thinks he can ship because he has access to a coding agent.
+
+Mario is someone you will learn from if you listen to, and who will challenge and improve your own beliefs. Anybody would be lucky to have Mario as a Partner. I know I am.
+
+### Pi
+
+A few months after we first met, it was no great surprise when Mario showed up at Earendil and showed us [Pi](https://github.com/badlogic/pi-mono). We had felt pretty early on we were going to need a strong model abstraction layer for [Lefos](http://www.lefos.com) and other projects we were working on. Armin has good taste for software and early on loved the simplicity and extensibility of Pi. We built it in.
+
+Fast forward a few months later, and not only is Pi at the center of the most popular [open source agentic software](https://github.com/openclaw/openclaw) in the world, but the entire team at Earendil, including me, uses Pi every single day.
+I am a product guy at heart. It is immensely exciting to announce that a product that I use and love is now part of Earendil. There is so much potential in every direction for Pi. What Pi represents is a capable, trustworthy, and open way of working with AI, controllable and extendable by end users. These are exactly the things Armin and I set out to build at Earendil. We are grateful to have Pi and Mario with us for the journey.
+`, {
+      customDate: 'Apr 8, 2026',
+      isPublished: true
+    }),
 
     new Post(`
 ## Armin and Earendil
@@ -627,6 +669,11 @@ Things fall apart; the centre cannot hold
         <div id="index" className="container">
           {posts
             .filter(post => post.isPublished)
+            .sort((a, b) => {
+              if (a.getSlug() === 'the-high-ground' && b.getSlug() !== 'the-high-ground') return -1;
+              if (b.getSlug() === 'the-high-ground' && a.getSlug() !== 'the-high-ground') return 1;
+              return new Date(b.date).getTime() - new Date(a.date).getTime();
+            })
             .map((post, index) => (
               <article key={index} className="post no-image">
                 <div className="inner">
@@ -634,7 +681,9 @@ Things fall apart; the centre cannot hold
                     <span className="post-meta">
                       <time>{post.date}</time>
                     </span>
-                    <h2 className="post-title">{post.content.split('\n')[0].replace('#', '').trim()}</h2>
+                    <h2 className="post-title" id={post.getSlug()}>
+                      <a href={`#${post.getSlug()}`}>{post.getTitle()}</a>
+                    </h2>
                     <div className="clear"></div>
                   </header>
                   <section className="post-excerpt">
@@ -685,6 +734,17 @@ Things fall apart; the centre cannot hold
           margin-top: -0.3rem;
           line-height: 0.8;
           color: #696969;
+          scroll-margin-top: 7rem;
+        }
+
+        .post-title a {
+          color: inherit;
+          text-decoration: none;
+        }
+
+        .post-title a:hover::after {
+          content: ' #';
+          color: #ffc2f7;
         }
 
         .post-meta {

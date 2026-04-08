@@ -1,6 +1,8 @@
 import { useState, useRef, useEffect } from 'react'
 import Head from 'next/head'
 
+const GOOGLE_SHEETS_SCRIPT_URL = process.env.NEXT_PUBLIC_GOOGLE_SHEETS_SCRIPT_URL
+
 export default function Subscribe() {
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState('idle') // idle, submitting, success, error
@@ -44,6 +46,26 @@ export default function Subscribe() {
     setMessage('storing')
 
     try {
+      if (GOOGLE_SHEETS_SCRIPT_URL) {
+        const res = await fetch(GOOGLE_SHEETS_SCRIPT_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+          body: JSON.stringify({
+            email,
+            source: 'foggynotions.day',
+            subscribedAt: new Date().toISOString()
+          })
+        })
+
+        if (!res.ok) {
+          throw new Error('failed to write to sheet')
+        }
+
+        setStatus('success')
+        setMessage('welcome aboard')
+        return
+      }
+
       const res = await fetch('/api/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
