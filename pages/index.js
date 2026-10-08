@@ -36,6 +36,10 @@ const Home = () => (
         <a href="https://earendil.com" target="_blank" rel="noopener noreferrer" className="card">
           <h2>earendil</h2>
         </a>
+
+        <a href="/porzellan" className="card">
+          <h2>porzellan</h2>
+        </a>
       </div>
     </main>
 
@@ -55,8 +59,8 @@ const Home = () => (
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        align-items: flex-end;
-        padding: 0 2rem 2rem 0;
+        align-items: stretch;
+        padding: 0 clamp(1.5rem, 6vw, 6rem) 2rem;
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
@@ -64,8 +68,9 @@ const Home = () => (
       .links {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         align-items: center;
-        gap: 2.5rem;
+        column-gap: 1.5rem;
       }
 
       .card {
@@ -82,15 +87,16 @@ const Home = () => (
 
       .card h2 {
         margin: 0;
-        font-size: 1.4rem;
+        font-size: clamp(0.95rem, 1.6vw, 1.4rem);
         font-weight: normal;
+        white-space: nowrap;
         letter-spacing: 0.06em;
         text-transform: uppercase;
         font-family: 'Porzellan', Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
 
-      @media (max-width: 600px) {
+      @media (max-width: 900px) {
         main {
           align-items: center;
           padding: 0 0 2rem 0;
@@ -98,7 +104,12 @@ const Home = () => (
 
         .links {
           flex-direction: column;
+          justify-content: flex-end;
           gap: 0.5rem;
+        }
+
+        .card h2 {
+          font-size: 1.4rem;
         }
       }
     `}</style>
