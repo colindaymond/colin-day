@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import { useState } from 'react'
 
-const UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-const LOWER = 'abcdefghijklmnopqrstuvwxyz'
+const UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZẞ'
+const LOWER = 'abcdefghijklmnopqrstuvwxyzß'
 const FIGURES = '0123456789'
-const EXTRAS = 'ÄÖÜẞäöüß'
+const EXTRAS = 'ÄÖÜäöü'
 const MARKS = '&?!@#$%€+−×÷=<>~_()«»‹›„“”‚‘’"\',.:;'
 
 const SETS = [
