@@ -118,7 +118,7 @@ export default function Porzellan() {
           spellCheck={false}
           style={{ fontSize: size }}
         >
-          slow walk, foggy notions
+          sipping a melange on the ringstraße
         </div>
       </section>
 
