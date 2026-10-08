@@ -4,6 +4,7 @@ const Home = () => (
   <div className="page-wrapper">
     <Head>
       <title>colin</title>
+      <link rel="preload" href="/fonts/Porzellan-v1.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
     </Head>
 
     <div className="background-text">
@@ -77,8 +78,10 @@ const Home = () => (
 
       .card h2 {
         margin: 0;
-        font-size: 1rem;
-        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+        font-size: 1.6rem;
+        font-weight: normal;
+        letter-spacing: 0.01em;
+        font-family: 'Porzellan', Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
 
@@ -96,6 +99,13 @@ const Home = () => (
     `}</style>
 
     <style jsx global>{`
+      @font-face {
+        font-family: 'Porzellan';
+        src: url('/fonts/Porzellan-v1.woff2') format('woff2'),
+          url('/fonts/Porzellan-v1.otf') format('opentype');
+        font-display: swap;
+      }
+
       * {
         margin: 0;
         padding: 0;
