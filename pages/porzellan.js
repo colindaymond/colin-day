@@ -39,17 +39,23 @@ export default function Porzellan() {
           property="og:description"
           content="A handcrafted typeface drawn by Colin Daymond Hanna in Vienna."
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,400&display=swap"
+        />
         <link rel="preload" href={FONT_WOFF2} as="font" type="font/woff2" crossOrigin="anonymous" />
       </Head>
 
-      <header className="top mono">
+      <header className="top serif">
         <a href="/">colin.day</a>
         <a href={FONT_OTF} download="Porzellan v1.otf">download ↓</a>
       </header>
 
       <section className="hero">
         <h1 className="p">Porzellan</h1>
-        <p className="mono sub">
+        <p className="serif sub">
           a handcrafted typeface drawn by colin daymond hanna in vienna
         </p>
       </section>
@@ -57,13 +63,13 @@ export default function Porzellan() {
       <section className="specimen">
         <div className="stage" aria-live="polite">
           <span className="p big">{glyph}</span>
-          <span className="mono meta">{codepoint(glyph)}</span>
+          <span className="serif meta">{codepoint(glyph)}</span>
         </div>
 
         <div className="sets">
           {SETS.map(([label, chars]) => (
             <div className="set" key={label}>
-              <div className="mono label">{label}</div>
+              <div className="serif label">{label}</div>
               <div className="grid">
                 {[...chars].map((ch) => (
                   <button
@@ -85,13 +91,13 @@ export default function Porzellan() {
       </section>
 
       <section className="pangrams">
-        <p className="p line xl">Wien, Ringstraße</p>
+        <p className="p line xl">Porzellangasse, 1090, Wien</p>
         <p className="p line l">Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter Deich</p>
         <p className="p line m">The quick brown fox jumps over the lazy dog — 0123456789</p>
       </section>
 
       <section className="tester">
-        <div className="mono label row">
+        <div className="serif label row">
           <span>try it</span>
           <label className="size">
             <input
@@ -120,7 +126,7 @@ export default function Porzellan() {
         <a className="p button" href={FONT_OTF} download="Porzellan v1.otf">
           Download
         </a>
-        <p className="mono small">
+        <p className="serif small">
           Porzellan v1 · OpenType (.otf) · 70 KB · free
           <br />
           <a href="https://github.com/colindaymond/porzellan" target="_blank" rel="noopener noreferrer">
@@ -129,7 +135,7 @@ export default function Porzellan() {
         </p>
       </section>
 
-      <footer className="mono small foot">drawn in vienna</footer>
+      <footer className="serif small foot">drawn in vienna</footer>
 
       <style jsx>{`
         .page {
@@ -137,7 +143,7 @@ export default function Porzellan() {
           --muted: #8a877f;
           --line: #e4e0d6;
           --paper: #f7f5ef;
-          --cobalt: #1f3a93;
+          --accent: #3a3a3a;
           min-height: 100vh;
           background: var(--paper);
           color: var(--ink);
@@ -149,10 +155,9 @@ export default function Porzellan() {
           font-weight: normal;
         }
 
-        .mono {
-          font-family: Menlo, Monaco, 'Lucida Console', 'Liberation Mono',
-            'DejaVu Sans Mono', 'Courier New', monospace;
-          letter-spacing: 0.02em;
+        .serif {
+          font-family: 'EB Garamond', Garamond, 'Times New Roman', serif;
+          letter-spacing: 0.01em;
         }
 
         a {
@@ -161,14 +166,14 @@ export default function Porzellan() {
         }
 
         a:hover {
-          color: var(--cobalt);
+          color: var(--accent);
         }
 
         .top {
           display: flex;
           justify-content: space-between;
           padding: 1.75rem 0;
-          font-size: 0.8rem;
+          font-size: 1.05rem;
           color: var(--muted);
         }
 
@@ -189,7 +194,8 @@ export default function Porzellan() {
 
         .sub {
           margin-top: 2rem;
-          font-size: 0.8rem;
+          font-size: 1.2rem;
+          font-style: italic;
           color: var(--muted);
         }
 
@@ -216,14 +222,14 @@ export default function Porzellan() {
         .big {
           font-size: clamp(10rem, 28vw, 26rem);
           line-height: 1;
-          color: var(--cobalt);
+          color: var(--accent);
         }
 
         .meta {
           position: absolute;
           left: 1rem;
-          bottom: 0.9rem;
-          font-size: 0.7rem;
+          bottom: 0.8rem;
+          font-size: 0.9rem;
           color: var(--muted);
         }
 
@@ -232,7 +238,8 @@ export default function Porzellan() {
         }
 
         .label {
-          font-size: 0.7rem;
+          font-size: 1rem;
+          font-style: italic;
           color: var(--muted);
           text-transform: lowercase;
           margin-bottom: 0.9rem;
@@ -263,7 +270,7 @@ export default function Porzellan() {
         .cell:hover,
         .cell:focus-visible,
         .cell.on {
-          background: var(--ink);
+          background: var(--accent);
           color: var(--paper);
           outline: none;
         }
@@ -283,7 +290,7 @@ export default function Porzellan() {
         }
 
         .xl {
-          font-size: clamp(3.5rem, 11vw, 10rem);
+          font-size: clamp(2.5rem, 6.2vw, 7rem);
         }
 
         .l {
@@ -328,7 +335,7 @@ export default function Porzellan() {
           outline: none;
           padding: 1rem 0;
           border-bottom: 1px solid var(--line);
-          caret-color: var(--cobalt);
+          caret-color: var(--accent);
           overflow-wrap: anywhere;
         }
 
@@ -357,9 +364,9 @@ export default function Porzellan() {
         }
 
         .small {
-          font-size: 0.75rem;
+          font-size: 1rem;
           color: var(--muted);
-          line-height: 1.9;
+          line-height: 1.7;
         }
 
         .foot {
@@ -413,7 +420,7 @@ export default function Porzellan() {
         }
 
         ::selection {
-          background: #1f3a93;
+          background: #3a3a3a;
           color: #f7f5ef;
         }
       `}</style>
