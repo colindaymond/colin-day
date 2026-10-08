@@ -118,7 +118,7 @@ export default function Porzellan() {
           spellCheck={false}
           style={{ fontSize: size }}
         >
-          sipping a melange on the ringstraße
+          A day spent sipping a melange on the Ringstraße
         </div>
       </section>
 
