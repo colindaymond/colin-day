@@ -23,7 +23,7 @@ const codepoint = (ch) =>
 
 export default function Porzellan() {
   const [glyph, setGlyph] = useState('Q')
-  const [size, setSize] = useState(72)
+  const [size, setSize] = useState(56)
 
   return (
     <div className="page">
@@ -124,7 +124,7 @@ export default function Porzellan() {
 
       <section className="download">
         <a className="p button" href={FONT_OTF} download="Porzellan v1.otf">
-          Download
+          DOWNLOAD
         </a>
         <p className="serif small">
           Porzellan v1 · OpenType (.otf) · 70 KB · free
