@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import { useState } from 'react'
 
-const UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZẞ'
-const LOWER = 'abcdefghijklmnopqrstuvwxyzß'
+const UPPER = 'ABCDEFGHIJKLMNOPQRSẞTUVWXYZ'
+const LOWER = 'abcdefghijklmnopqrsßtuvwxyz'
 const FIGURES = '0123456789'
 const EXTRAS = 'ÄÖÜäöü'
 const MARKS = '&?!@#$%€+−×÷=<>~_()«»‹›„“”‚‘’"\',.:;'
