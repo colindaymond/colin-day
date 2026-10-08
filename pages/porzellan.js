@@ -31,13 +31,13 @@ export default function Porzellan() {
         <title>Porzellan — a typeface by colin daymond hanna</title>
         <meta
           name="description"
-          content="Porzellan, a handcrafted typeface drawn by Colin Daymond Hanna in Vienna. Free to download."
+          content="Porzellan, a typeface inspired by the Secession, hand drawn by Colin Daymond Hanna in Vienna. Free to download."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="Porzellan" />
         <meta
           property="og:description"
-          content="A handcrafted typeface drawn by Colin Daymond Hanna in Vienna."
+          content="A typeface inspired by the Secession, hand drawn by Colin Daymond Hanna in Vienna."
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -56,7 +56,7 @@ export default function Porzellan() {
       <section className="hero">
         <h1 className="p">Porzellan</h1>
         <p className="serif sub">
-          a handcrafted typeface drawn by colin daymond hanna in vienna
+          a typeface inspired by the secession, hand drawn by colin daymond hanna in vienna
         </p>
       </section>
 
