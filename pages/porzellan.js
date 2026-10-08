@@ -353,12 +353,16 @@ export default function Porzellan() {
           padding: 0.35em 0.9em 0.45em;
           border: 1px solid var(--ink);
           border-radius: 999px;
+          background: var(--ink);
+          color: var(--paper);
           transition: background 0.2s ease, color 0.2s ease;
         }
 
-        .button:hover {
-          background: var(--ink);
-          color: var(--paper);
+        .button:hover,
+        .button:focus-visible {
+          background: transparent;
+          color: var(--ink);
+          outline: none;
         }
 
         .small {
