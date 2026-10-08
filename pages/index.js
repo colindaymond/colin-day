@@ -21,24 +21,24 @@ const Home = () => (
           <h2>photographs</h2>
         </a>
 
-        <a href="/verse" className="card">
-          <h2>verse</h2>
-        </a>
-
-        <a href="https://soundcloud.com/coldaymond/likes" target="_blank" className="card">
-          <h2>tunes</h2>
-        </a>
-
-        <a href="https://earendil.com" target="_blank" className="card">
-          <h2>grab bag</h2>
+        <a href="/porzellan" className="card">
+          <h2>porzellan</h2>
         </a>
 
         <a href="https://earendil.com" target="_blank" rel="noopener noreferrer" className="card">
           <h2>earendil</h2>
         </a>
 
-        <a href="/porzellan" className="card">
-          <h2>porzellan</h2>
+        <a href="https://soundcloud.com/coldaymond/likes" target="_blank" rel="noopener noreferrer" className="card">
+          <h2>tunes</h2>
+        </a>
+
+        <a href="/verse" className="card">
+          <h2>verse</h2>
+        </a>
+
+        <a href="https://www.veramolnar.com" target="_blank" rel="noopener noreferrer" className="card">
+          <h2>grab bag</h2>
         </a>
       </div>
     </main>
@@ -87,7 +87,7 @@ const Home = () => (
 
       .card h2 {
         margin: 0;
-        font-size: clamp(0.95rem, 1.6vw, 1.4rem);
+        font-size: clamp(calc(0.95rem + 2px), calc(1.6vw + 2px), calc(1.4rem + 2px));
         font-weight: normal;
         white-space: nowrap;
         letter-spacing: 0.06em;
@@ -96,7 +96,7 @@ const Home = () => (
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
 
-      @media (max-width: 900px) {
+      @media (max-width: 1040px) {
         main {
           align-items: center;
           padding: 0 0 2rem 0;
@@ -109,7 +109,7 @@ const Home = () => (
         }
 
         .card h2 {
-          font-size: 1.4rem;
+          font-size: calc(1.4rem + 2px);
         }
       }
     `}</style>
