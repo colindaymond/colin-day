@@ -70,7 +70,7 @@ const Home = () => (
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        column-gap: 1.5rem;
+        column-gap: 2.25rem;
       }
 
       .card {
@@ -87,7 +87,8 @@ const Home = () => (
 
       .card h2 {
         margin: 0;
-        font-size: clamp(calc(0.95rem + 2px), calc(1.6vw + 2px), calc(1.4rem + 2px));
+        /* shrinks fast enough that the 2.25rem gap between links holds down to the stacking breakpoint */
+        font-size: clamp(16px, calc(2.05vw - 5.5px), calc(1.4rem + 2px));
         font-weight: normal;
         white-space: nowrap;
         letter-spacing: 0.06em;
