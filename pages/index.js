@@ -32,6 +32,10 @@ const Home = () => (
         <a href="https://earendil.com" target="_blank" className="card">
           <h2>grab bag</h2>
         </a>
+
+        <a href="https://earendil.com" target="_blank" rel="noopener noreferrer" className="card">
+          <h2>earendil</h2>
+        </a>
       </div>
     </main>
 
