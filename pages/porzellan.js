@@ -43,7 +43,7 @@ export default function Porzellan() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,400&display=swap"
+          href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400&display=swap"
         />
         <link rel="preload" href={FONT_WOFF2} as="font" type="font/woff2" crossOrigin="anonymous" />
       </Head>
@@ -195,7 +195,6 @@ export default function Porzellan() {
         .sub {
           margin-top: 2rem;
           font-size: 1.2rem;
-          font-style: italic;
           color: var(--muted);
         }
 
@@ -239,7 +238,6 @@ export default function Porzellan() {
 
         .label {
           font-size: 1rem;
-          font-style: italic;
           color: var(--muted);
           text-transform: lowercase;
           margin-bottom: 0.9rem;
