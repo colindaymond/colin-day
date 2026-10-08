@@ -82,9 +82,10 @@ const Home = () => (
 
       .card h2 {
         margin: 0;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-weight: normal;
-        letter-spacing: 0.01em;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
         font-family: 'Porzellan', Menlo, Monaco, Lucida Console, Liberation Mono,
           DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
       }
