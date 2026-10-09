@@ -90,12 +90,6 @@ export default function Porzellan() {
         </div>
       </section>
 
-      <section className="pangrams">
-        <p className="p line xl">Porzellangasse, 1090, Wien</p>
-        <p className="p line l">Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter Deich</p>
-        <p className="p line m">The quick brown fox jumps over the lazy dog — 0123456789</p>
-      </section>
-
       <section className="tester">
         <div className="serif label row">
           <span>try it</span>
@@ -118,7 +112,7 @@ export default function Porzellan() {
           spellCheck={false}
           style={{ fontSize: size }}
         >
-          A day spent sipping a melange on the Ringstraße
+          A day spent sipping a melange on the Porzellangasse
         </div>
       </section>
 
@@ -271,33 +265,6 @@ export default function Porzellan() {
           background: var(--accent);
           color: var(--paper);
           outline: none;
-        }
-
-        .pangrams {
-          padding: 6rem 0;
-          border-top: 1px solid var(--line);
-        }
-
-        .line {
-          line-height: 1.1;
-          overflow-wrap: anywhere;
-        }
-
-        .line + .line {
-          margin-top: 2.5rem;
-        }
-
-        .xl {
-          font-size: clamp(2.5rem, 6.2vw, 7rem);
-        }
-
-        .l {
-          font-size: clamp(2rem, 5vw, 4.5rem);
-        }
-
-        .m {
-          font-size: clamp(1.4rem, 2.6vw, 2.2rem);
-          color: var(--muted);
         }
 
         .tester {
