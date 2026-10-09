@@ -37,7 +37,7 @@ const Home = () => (
           <h2>verse</h2>
         </a>
 
-        <a href="https://www.veramolnar.com" target="_blank" rel="noopener noreferrer" className="card">
+        <a href="http://www.veramolnar.com" target="_blank" rel="noopener noreferrer" className="card">
           <h2>grab bag</h2>
         </a>
       </div>
